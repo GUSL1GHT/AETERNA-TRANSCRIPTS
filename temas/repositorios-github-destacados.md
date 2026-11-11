@@ -377,9 +377,9 @@ Pensado para auditorías de seguridad e interoperabilidad.
 Node.js + npm y un agente (Claude Code, Codex...).
 zsh - instalar · 1 comando
 copia y pega
-# configura rea dentro de tu agente
+\# configura rea dentro de tu agente
 $ npx rea-agents setup
-# o instálalo de forma global
+\# o instálalo de forma global
 $ npm install --global rea-agents
 github.com/morluto/rea
 LUA TECH
@@ -408,9 +408,9 @@ Transcribe, dicta y crea audiolibros en 646 idiomas.
 GPU opcional.
 zsh - instalar · macOS / Linux
 copia y pega
-# instalador oficial
+\# instalador oficial
 $ curl -fsSL https://voicestudio.sh/install | sh
-# o descarga la app de escritorio
+\# o descarga la app de escritorio
 → voicestudio.sh
 github.com/debpalash/VoiceStudio
 LUA TECH
@@ -468,9 +468,9 @@ Recompila shaders a Vulkan y mapea mandos vía SDL.
 Tus propios archivos. No incluye juegos, firmware ni claves.
 zsh - usar · sin instalar
 copia y pega
-# conversor web: tus archivos no salen de tu equipo
+\# conversor web: tus archivos no salen de tu equipo
 → boykopovar.github.io/AnyPS5
-# o compílalo desde el código fuente
+\# o compílalo desde el código fuente
 $ git clone https://github.com/boykopovar/AnyPS5
 github.com/boykopovar/AnyPS5
 LUA TECH
@@ -499,9 +499,9 @@ Pasa de prompt a imagen y de imagen a vídeo en un lienzo.
 Windows o macOS (Linux compilando). Los modelos de IA que conectes pueden tener costo.
 zsh - instalar · app de escritorio
 copia y pega
-# descarga la app
+\# descarga la app
 → getartcraft.com
-# o desde el código fuente
+\# o desde el código fuente
 $ git clone https://github.com/storytold/artcraft
 github.com/storytold/artcraft
 LUA TECH
@@ -526,10 +526,10 @@ Seguridad, análisis de malware e ingeniería inversa.
 JDK 25 de 64 bits.
 zsh - instalar · 3 pasos
 copia y pega
-# 1 · instala JDK 25 (adoptium.net)
-# 2 · descarga y descomprime el release oficial
+\# 1 · instala JDK 25 (adoptium.net)
+\# 2 · descarga y descomprime el release oficial
 → github.com/NationalSecurityAgency/ghidra/releases
-# 3 · lanza Ghidra
+\# 3 · lanza Ghidra
 $ ./ghidraRun
 github.com/NationalSecurityAgency/ghidra
 LUA TECH
@@ -568,17 +568,17 @@ Imagen 9
 Te leo en comentarios.
 zsh - los 8 en una pantalla
 guárdalo
-# 01 rea
-# 02 voicestudio
-# 03 ai-job-search
-# 04 AnyPS5
+\# 01 rea
+\# 02 voicestudio
+\# 03 ai-job-search
+\# 04 AnyPS5
 $ boykopovar.github.io/AnyPS5
-# 05 artcraft
+\# 05 artcraft
 → getantcraft.com
-# 06 orca
+\# 06 orca
 $ brew install --cask stablyai/orca/orca
-# 07 ghidra
-# 08 hyperframes
+\# 07 ghidra
+\# 08 hyperframes
 LUA TECH
 (sigue a Lua tech para el resumen de la próxima semana)
 fuente: github trending · 15-21 oct 2026

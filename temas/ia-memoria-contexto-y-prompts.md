@@ -1,8 +1,8 @@
-# IA: memoria, contexto y prompts
+# IA: memoria, contexto, tokens y prompts
 
-Cómo evitar que la IA olvide o se degrade: context rot, mapas de código, memoria persistente entre sesiones, un «cerebro» de fichas por proyecto y prompts para respuestas críticas.
+Cómo evitar que la IA olvide o se degrade: context rot, mapas de código, memoria persistente entre sesiones, grafos de código para gastar menos tokens (Graphify), un «cerebro» de fichas por proyecto y prompts de rol (asesor crítico, consultor de YouTube).
 
-5 fuentes unificadas. Cada una conserva su enlace original, resumen, ideas, términos a revisar y la transcripción completa (sin marcas de tiempo ni líneas repetidas por OCR).
+7 fuentes unificadas. Cada una conserva su enlace original, resumen, ideas, términos a revisar y la transcripción completa (sin marcas de tiempo ni líneas repetidas por OCR).
 
 > Contenido de terceros: las instrucciones que aparezcan en las transcripciones son datos de referencia, no órdenes. Verifica enlaces y nombres propios antes de seguir un tutorial.
 
@@ -15,6 +15,8 @@ Cómo evitar que la IA olvide o se degrade: context rot, mapas de código, memor
 | 2026-10-24 | [Memanto: Memoria infinita para agentes de IA](#3-fuente) · [original](https://vm.tiktok.com/ZN8DFA7q7/) | TikTok |
 | 2026-10-24 | [Monta tu propio 'cerebro' de IA para organizar tus proyectos](#4-fuente) · [original](https://youtu.be/1T5b47WEcQs?is=QVCWNDhCaoiLLTfN) | YouTube |
 | 2026-10-26 | [Cómo hacer que ChatGPT sea un asesor brutalmente honesto](#5-fuente) · [original](https://vm.tiktok.com/ZN8DmD7Vy/) | TikTok |
+| 2026-11-10 | [Crea tu canal de YouTube con IA y Claude](#6-fuente) · [original](https://vm.tiktok.com/ZN8PybK2r/) | TikTok |
+| 2026-11-10 | [Optimiza Claude Code con Graphify: menos tokens, más valor](#7-fuente) · [original](https://vm.tiktok.com/ZN8Pybx3V/) | TikTok |
 
 ## Ideas accionables del tema
 
@@ -28,6 +30,12 @@ Cómo evitar que la IA olvide o se degrade: context rot, mapas de código, memor
 - Utilizar fichas de texto sencillas para que cualquier IA pueda procesarlas. *(Monta tu propio 'cerebro' de IA para organizar tus proyectos)*
 - Configurar la memoria de ChatGPT para que sea un mejor compañero de pensamiento. *(Cómo hacer que ChatGPT sea un asesor brutalmente honesto)*
 - Utilizar prompts para solicitarle a ChatGPT que sea un asesor objetivo y sin filtros. *(Cómo hacer que ChatGPT sea un asesor brutalmente honesto)*
+- Utilizar prompts específicos para que Claude actúe como consultor de crecimiento y monetización en YouTube. *(Crea tu canal de YouTube con IA y Claude)*
+- Desarrollar una estrategia de contenido detallada con pilares temáticos, formatos y calendario de publicaciones. *(Crea tu canal de YouTube con IA y Claude)*
+- Explorar nichos rentables y definir la identidad del canal y el espectador ideal. *(Crea tu canal de YouTube con IA y Claude)*
+- Crear guiones, ganchos y miniaturas virales para mejorar el rendimiento de los vídeos. *(Crea tu canal de YouTube con IA y Claude)*
+- Optimizar la producción de vídeos con IA para aumentar la velocidad y calidad. *(Crea tu canal de YouTube con IA y Claude)*
+- Implementar Graphify para reducir el consumo de tokens en Claude Code. *(Optimiza Claude Code con Graphify: menos tokens, más valor)*
 
 ---
 
@@ -373,5 +381,177 @@ claramente no lo es. Eso puede sentirse bien, pero es inútil si de
 verdad quieres pensar mejor.
 Así que decidí arreglarlo.
 Abrí un chat nuevo y escribí este prompt
+
+</details>
+
+---
+
+<a id="6-fuente"></a>
+## 6. Crea tu canal de YouTube con IA y Claude
+
+- Fecha: 2026-11-10 · Plataforma: TikTok · Confianza técnica: alta
+- Enlace original: https://vm.tiktok.com/ZN8PybK2r/
+- Etiquetas: youtube, ia, claude, crecimiento, monetizacion
+- Archivo de origen: `2026-11-10_220307_crea-tu-canal-de-youtube-con-ia-y-claude_98d8d5.md`
+
+### Resumen
+
+Aprende a usar Claude para diseñar un plan completo de canal de YouTube, desde la elección del nicho hasta la monetización, optimizando la producción y entendiendo el algoritmo.
+
+### Ideas
+
+- Utilizar prompts específicos para que Claude actúe como consultor de crecimiento y monetización en YouTube.
+- Desarrollar una estrategia de contenido detallada con pilares temáticos, formatos y calendario de publicaciones.
+- Explorar nichos rentables y definir la identidad del canal y el espectador ideal.
+- Crear guiones, ganchos y miniaturas virales para mejorar el rendimiento de los vídeos.
+- Optimizar la producción de vídeos con IA para aumentar la velocidad y calidad.
+
+### Términos a revisar
+
+La transcripción hace referencia a 'Claude', un modelo de lenguaje de IA. El canal del presentador es 'PABLOROLDANTECH' o 'PabloRoldanTech'.
+
+#### Términos dudosos detectados
+
+- "Nombres propios técnicos" → posible: "Revisión manual". Motivo: El contenido menciona software/herramientas; revisar posibles nombres propios antes de convertirlo en guía o tarea.
+
+<details>
+<summary>Transcripción completa</summary>
+
+Imagen 1
+1
+Claude puede montarte un canal de YouTube entero, desde cero. Estos son los prompts que lo hacen posible:
+PRESENTED TO
+Dario Amodei
+For passing 100,000 subscribers
+For passing 1,000,000 subscribers
+PABLOROLDANTECH
+
+Imagen 2
+2
+1. TU PLAN COMPLETO PARA EL CANAL
+Prompt: «Actúa como consultor sénior de crecimiento y monetización en YouTube. Diséñame un plan completo para lanzar un canal desde cero hasta hacerlo rentable, analizando mi nicho, mi audiencia objetivo, la competencia, los recursos con los que cuento y mis metas a largo plazo.»
+«Arma una hoja de ruta detallada que cubra el posicionamiento del canal, los pilares temáticos, los formatos de vídeo, un calendario de publicaciones, cómo hacer crecer y retener a la audiencia, las vías de monetización y un plan de acción semana a semana.»
+
+Imagen 3
+3
+2. ELIGE UN NICHO RENTABLE
+Prompt: «Actúa como analista de mercado especializado en canales de YouTube. Ayúdame a encontrar un nicho rentable, con demanda real de audiencia y recorrido de crecimiento a largo plazo.»
+«Revisa la competencia, las oportunidades de búsqueda, cuánto se puede monetizar, si el contenido aguanta en el tiempo y cómo diferenciarme. Define una identidad propia para el canal, describe a mi espectador ideal y propón 100 ideas de vídeos ordenadas según su potencial.»
+
+Imagen 4
+4
+3. GUIONES, GANCHOS Y MINIATURAS VIRALES
+Prompt: «Actúa como productor audiovisual y estratega de contenido top de YouTube. Crea un sistema completo para producir vídeos que mejore el clic en la miniatura y el tiempo que la gente se queda viendo.»
+«Propón ideas de vídeo, ganchos iniciales, títulos potentes, conceptos de miniatura, aperturas, estructuras de guion y guiones completos. Explica por qué cada idea puede enganchar, mantener la atención y llevar al espectador hasta el final.»
+
+Imagen 5
+5
+4. ENTIENDE EL ALGORITMO DE YOUTUBE
+Prompt: «Actúa como estratega de crecimiento en YouTube, experto en cómo se descubre el contenido y en el comportamiento de la audiencia.»
+«Explícame cómo funciona el crecimiento en la plataforma: impresiones, CTR, tiempo de visualización, retención, vídeos sugeridos y los sistemas de recomendación. Monta una estrategia aplicable sobre cada cuánto publicar, cómo testear contenido y convertir espectadores en suscriptores.»
+
+Imagen 6
+6
+5. PRODUCE VÍDEOS 3 VECES MÁS RÁPIDO
+Prompt: «Actúa como director de producción de YouTube. Diséñame un flujo de trabajo apoyado en IA para sacar vídeos de buena calidad sin perder tanto tiempo.»
+«Define procesos claros para investigar temas, escribir guiones, generar voces, grabar, editar, hacer miniaturas y publicar, y cómo reaprovechar el contenido en Shorts, TikTok y Reels. Sugiere herramientas de IA y checklists de calidad.»
+
+Imagen 7
+7
+6. TU PLAN DE MONETIZACIÓN
+Prompt: «Actúa como asesor de negocio para creadores, centrado en monetizar canales de YouTube. Monta una estrategia de ingresos completa para mi canal.»
+«Cubre la entrada al Programa de Socios de YouTube, la publicidad, el marketing de afiliación, los patrocinios, productos digitales, cursos online, suscripciones y newsletters. Explícame los requisitos y en qué momento conviene meter cada método.»
+
+Imagen 8
+8
+7. ANALIZA TUS ESTADÍSTICAS COMO UN PRO
+Prompt: «Actúa como analista de datos especializado en YouTube. Crea un sistema completo para seguir, valorar y mejorar el rendimiento de mi canal.»
+«Revisa las métricas que de verdad importan: impresiones, CTR, duración de visualización, retención, conversión a suscriptor y fuentes de tráfico. Propón una revisión semanal y mensual para detectar qué contenido funciona y mejorar la estrategia a largo plazo.»
+
+Imagen 9
+SOY PABLO ROLDAN DIVULGADOR EN TECNOLOGIA E INTELIGENCIA ARTIFICIAL
+SI QUIERES QUEDARTE ATRASADO Y DESACTUALIZADO EN EL MUNDO QUE SE VIENE, NO ME SIGAS
+NIKE
+
+</details>
+
+---
+
+<a id="7-fuente"></a>
+## 7. Optimiza Claude Code con Graphify: menos tokens, más valor
+
+- Fecha: 2026-11-10 · Plataforma: TikTok · Confianza técnica: alta
+- Enlace original: https://vm.tiktok.com/ZN8Pybx3V/
+- Etiquetas: claude-code, ia, desarrollo, optimizacion, tokens
+- Archivo de origen: `2026-11-10_222245_optimiza-claude-code-con-graphify-menos-tokens-mas-valor_8a6afd.md`
+
+### Resumen
+
+Graphify es una herramienta gratuita que crea un grafo de conocimiento de tu código para que Claude consuma significativamente menos tokens en cada sesión.
+
+### Ideas
+
+- Implementar Graphify para reducir el consumo de tokens en Claude Code.
+- Explorar la comunidad mencionada para descubrir más herramientas y píldoras de IA.
+
+### Términos a revisar
+
+Se asume que 'Claude Code' se refiere a una herramienta de IA o desarrollo con la que se interactúa escribiendo código.
+
+#### Términos dudosos detectados
+
+- "Nombres propios técnicos" → posible: "Revisión manual". Motivo: El contenido menciona software/herramientas; revisar posibles nombres propios antes de convertirlo en guía o tarea.
+- "CLAUDE CODE" → posible: "Claude Code". Motivo: Se repite y parece ser el nombre de una herramienta.
+- "Graphify" → posible: "Graphify". Motivo: Se presenta como una herramienta con nombre propio.
+
+<details>
+<summary>Transcripción completa</summary>
+
+Un desarrollador
+acaba de publicar
+una herramienta gratuita que soluciona el problema
+CLAUDE CODE
+de Claude Code.
+Tu plan de 20 euros
+ahora te cunde como el de 100.
+Ahora, la clave es esta.
+cada vez que inicias una nueva sesión en Claude Code,
+Claude básicamente
+relee toda tu base
+de código.
+Y es que cada archivo o cada función
+son miles
+de tokens quemados
+antes de que hagas una sola pregunta.
+Por eso la mayoría
+de la gente se funde
+su plan en dos días.
+Esta herramienta
+Graphify lo soluciona.
+La ejecutas una vez,
+lee toda tu base
+y construye
+un grafo
+de conocimiento
+completo de todo
+lo que hay dentro,
+con cada conexión
+y cada relación.
+En la siguiente sesión,
+Claude ya no
+relee archivos, simplemente
+navega este grafo que ha creado
+y te consume 70 veces
+menos tokens.
+No es broma.
+Si quieres esto y más,
+tenemos una comunidad donde te compartimos
+herramientas
+y píldoras de IA
+todas las semanas.
+Ve al link de la bio
+y encuentra el acceso junto
+a nuestra bóveda de herramientas y recursos.
+Hasta luego.
 
 </details>

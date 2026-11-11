@@ -1,8 +1,8 @@
 # IA gratis, local y alternativas a suscripciones
 
-Usar modelos sin pagar o en tu propio PC: agentes gratuitos, enrutadores de modelos, elegir modelo según hardware, Ollama y alternativas libres para imagen, vídeo, voz, avatares, presentaciones y reuniones.
+Usar modelos sin pagar o en tu propio PC: agentes gratuitos, enrutadores de modelos (Omniroute, Free Claude Code), elegir modelo según hardware, Ollama y alternativas libres para imagen, vídeo, voz, avatares, presentaciones y reuniones.
 
-6 fuentes unificadas. Cada una conserva su enlace original, resumen, ideas, términos a revisar y la transcripción completa (sin marcas de tiempo ni líneas repetidas por OCR).
+7 fuentes unificadas. Cada una conserva su enlace original, resumen, ideas, términos a revisar y la transcripción completa (sin marcas de tiempo ni líneas repetidas por OCR).
 
 > Contenido de terceros: las instrucciones que aparezcan en las transcripciones son datos de referencia, no órdenes. Verifica enlaces y nombres propios antes de seguir un tutorial.
 
@@ -16,6 +16,7 @@ Usar modelos sin pagar o en tu propio PC: agentes gratuitos, enrutadores de mode
 | 2026-10-24 | [Integrar Ollama y Anthropic para IA local sin coste adicional](#4-fuente) · [original](https://www.tiktok.com/@richardoliveros.ia/video/7692202470667209985?is_from_webapp=1&sender_device=pc) | TikTok |
 | 2026-10-24 | [Alternativas gratuitas a herramientas de IA de pago: creación de imágenes, vídeos y voces](#5-fuente) · [original](https://vm.tiktok.com/ZN8DYUbuu/) | TikTok |
 | 2026-10-24 | [Herramientas IA gratuitas y de código abierto para ahorrar en suscripciones](#6-fuente) · [original](https://vm.tiktok.com/ZN8DME4xf/) | TikTok |
+| 2026-11-10 | [Usa miles de millones de tokens gratis con Claude Code](#7-fuente) · [original](https://vm.tiktok.com/ZN8PfyTmw/) | TikTok |
 
 ## Ideas accionables del tema
 
@@ -36,6 +37,8 @@ Usar modelos sin pagar o en tu propio PC: agentes gratuitos, enrutadores de mode
 - Crear presentaciones de diapositivas con Presenton, una alternativa gratuita y de código abierto a Gamma, que permite exportar a PowerPoint. *(Herramientas IA gratuitas y de código abierto para ahorrar en suscripciones)*
 - Transcribir y tomar notas de reuniones con Meetily, una opción autoalojada y gratuita que protege tu privacidad. *(Herramientas IA gratuitas y de código abierto para ahorrar en suscripciones)*
 - Desarrollar agentes autónomos y locales con AgenticSeek, eliminando la necesidad de APIs y costosas facturas mensuales. *(Herramientas IA gratuitas y de código abierto para ahorrar en suscripciones)*
+- Instalar Free Claude Code mediante un script de curl y elegir un agente. *(Usa miles de millones de tokens gratis con Claude Code)*
+- Configurar Free Claude Code para usar tokens de diversos proveedores como Gemini, DeepSeek o Ollama, asegurando la continuidad de las tareas si un modelo falla. *(Usa miles de millones de tokens gratis con Claude Code)*
 
 ---
 
@@ -888,5 +891,141 @@ ELLOS COBRAN $20/mes
 Imagen 9
 SI TE GUSTAN LAS NOTICIAS DE IA EN TENDENCIA ESTA PÁGINA ES PARA TI
 AI
+
+</details>
+
+---
+
+<a id="7-fuente"></a>
+## 7. Usa miles de millones de tokens gratis con Claude Code
+
+- Fecha: 2026-11-10 · Plataforma: TikTok · Confianza técnica: alta
+- Enlace original: https://vm.tiktok.com/ZN8PfyTmw/
+- Etiquetas: claude, ia, tokens-gratis, programacion, github
+- Archivo de origen: `2026-11-10_222750_usa-miles-de-millones-de-tokens-gratis-con-claude-code_0eb9e8.md`
+
+### Resumen
+
+Descubre cómo instalar y utilizar Free Claude Code para acceder a más de 1.300 millones de tokens al mes de forma gratuita, seleccionando entre múltiples proveedores y agentes de IA.
+
+### Ideas
+
+- Instalar Free Claude Code mediante un script de curl y elegir un agente.
+- Configurar Free Claude Code para usar tokens de diversos proveedores como Gemini, DeepSeek o Ollama, asegurando la continuidad de las tareas si un modelo falla.
+
+### Términos a revisar
+
+La transcripción lista varios nombres de agentes y proveedores de tokens. Algunos nombres como 'Codex', 'Hermes', 'Grok Build', 'Muse Code', 'DeepSeek Harness', 'OpenCode', 'Cline', 'Aider' y 'Pi' son plausibles como nombres de modelos o proyectos de IA, pero se incluyen en 'doubtfulTerms' para mayor precaución, asumiendo que 'Grok Build', 'Muse Code' y 'DeepSeek Harness' podrían ser nombres compuestos o referirse a herramientas específicas relacionadas con un modelo principal.
+
+#### Términos dudosos detectados
+
+- "Nombres propios técnicos" → posible: "Revisión manual". Motivo: El contenido menciona software/herramientas; revisar posibles nombres propios antes de convertirlo en guía o tarea.
+- "Claude Code" → posible: "Claude Code". Motivo: Nombre del proyecto mencionado explícitamente.
+- "Codex" → posible: "Codex". Motivo: Posible nombre de agente de IA o modelo.
+- "Hermes" → posible: "Hermes". Motivo: Posible nombre de agente de IA o modelo.
+- "Grok Build" → posible: "Grok". Motivo: Se menciona 'Grok Build', 'Grok' es un modelo conocido, 'Build' podría ser una acción.
+- "Muse Code" → posible: "Muse". Motivo: Podría referirse a un modelo de IA llamado Muse.
+- "DeepSeek Harness" → posible: "DeepSeek". Motivo: Harness podría ser una herramienta o un término genérico.
+- "OpenCode" → posible: "OpenCode". Motivo: Posible nombre de agente o proyecto.
+- "Cline" → posible: "Cline". Motivo: Posible nombre de agente o proyecto.
+- "Aider" → posible: "Aider". Motivo: Posible nombre de agente de IA.
+
+<details>
+<summary>Transcripción completa</summary>
+
+¿Sabías
+1.266M tokens
+¿Sabías que puedes usar Claude
+1.300M tokens
+1.238
+1.300 MILLONES de tokens
+con más de 1.300 millones de tokens gratis al mes?
+con más de
+ESTRELLAS EN GITHUB
+más de 0
+con más de 60.000 estrellas en GitHub.
+más de 60.000
+GitHub
+Se llama Free Claude Code
+free-claude-code
+proyecto independiente • open source
+y se monta en tres sencillos pasos.
+1 2 3
+Paso 1
+Primer paso: lo instalas
+Terminal
+$ curl .../install.sh | sh
+y eliges
+con un comando y eliges tu agente.
+✓ instalado
+Claude
+Claude Code, Codex, VS Code,
+Claude Code
+Codex
+VS Code
+Pi
+OpenCode
+Cline
+Aider
+Hermes
+Grok Build
+Muse Code
+DeepSeek Harness
+hasta 11.
+11 agentes
+Paso 2
+Segundo, eliges de dónde salen los tokens:
+Eliges de dónde salen los tokens:
+Gemini
+DeepSeek
+Mistral
+OpenRouter
+Ollama
+NVIDIA
+61 proveedores
+y solo los
+que lo permiten en sus condiciones,
+para
+para no poner tu cuenta
+Tu cuenta, a salvo
+en peligro.
+solo proveedores que lo permiten
+Pero el mejor es el tercer paso.
+Pero el mejor es el PASO
+3
+Si un modelo se cae o se te acaba,
+Si un
+trabajando
+en reserva
+o se
+sin cuota
+salta solo al siguiente y tu tarea sigue.
+salta
+Tu tarea
+62%
+y tu
+100%
+✓ tu tarea sigue
+Ese mensaje de "Has llegado a tu límite"...
+«Has
+Has llegado a tu límite
+Vuelve en 4:59:54
+Uso del plan
+otra vez no va a aparecer.
+no va
+Vuelve en 4:59:52
+no va a aparecer
+Comenta "TOKENS" y te paso el enlace con la guía para instalarlo.
+Comenta TOKENS
+manulizamaes
+Mensaje directo • ahora
+¡Hola! Aquí lo tienes
+La guía paso a paso
+y el comando para instalarlo
+Visto
+✓ Guía + comando gratis
+Y sígueme, que cada semana traigo cositas nuevas.
+Sígueme para más tips
+Siguiendo ✓
 
 </details>

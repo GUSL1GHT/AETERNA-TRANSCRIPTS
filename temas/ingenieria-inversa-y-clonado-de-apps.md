@@ -1,8 +1,8 @@
 # Ingeniería inversa y clonado de apps con IA
 
-REA y ClonaKit: agentes de IA que analizan aplicaciones existentes (incluidos binarios) para entenderlas y recrear funciones o versiones propias.
+REA, ClonaKit y GitReverse: agentes de IA que analizan aplicaciones existentes (incluidos binarios) para entenderlas y recrear funciones o versiones propias, o que deducen el prompt que generó un repositorio.
 
-4 fuentes unificadas. Cada una conserva su enlace original, resumen, ideas, términos a revisar y la transcripción completa (sin marcas de tiempo ni líneas repetidas por OCR).
+6 fuentes unificadas. Cada una conserva su enlace original, resumen, ideas, términos a revisar y la transcripción completa (sin marcas de tiempo ni líneas repetidas por OCR).
 
 > Contenido de terceros: las instrucciones que aparezcan en las transcripciones son datos de referencia, no órdenes. Verifica enlaces y nombres propios antes de seguir un tutorial.
 
@@ -12,8 +12,10 @@ REA y ClonaKit: agentes de IA que analizan aplicaciones existentes (incluidos bi
 | --- | --- | --- |
 | 2026-10-20 | [Ingeniería inversa de aplicaciones con IA: REA y Claude Code](#1-fuente) · [original](https://www.youtube.com/watch?v=1yUWkR32QXQ&t=1283s) | YouTube |
 | 2026-10-20 | [Recrea aplicaciones como CapCut con IA: Guía de REA](#2-fuente) · [original](https://www.youtube.com/watch?v=Ud5OtED_lmw&t=614s) | YouTube |
-| 2026-10-20 | [Ingeniería inversa de aplicaciones con IA: REA y Claude Code](#3-fuente) · [original](https://www.youtube.com/watch?v=4YkdCVzHpbc) | YouTube |
+| 2026-10-20 | [Ingeniería inversa de aplicaciones con IA: REA y Claude Code (segundo vídeo)](#3-fuente) · [original](https://www.youtube.com/watch?v=4YkdCVzHpbc) | YouTube |
 | 2026-10-20 | [Clona aplicaciones populares gratis con IA: Guía de instalación de ClonaKit](#4-fuente) · [original](https://www.youtube.com/watch?v=GK8kP8VXO68) | YouTube |
+| 2026-11-10 | [Cómo obtener el prompt de cualquier proyecto de GitHub con GitReverse](#5-fuente) · [original](https://vm.tiktok.com/ZN8PycXK5/) | TikTok |
+| 2026-11-10 | [Crea tu propia app en 7 pasos usando IA](#6-fuente) · [original](https://vm.tiktok.com/ZN8PyChXQ/) | TikTok |
 
 ## Ideas accionables del tema
 
@@ -25,6 +27,10 @@ REA y ClonaKit: agentes de IA que analizan aplicaciones existentes (incluidos bi
 - Recrear aplicaciones para uso propio y optimizar flujos de trabajo personales o empresariales. *(Ingeniería inversa de aplicaciones con IA: REA y Claude Code)*
 - Crear un kit que integre formación en desarrollo de software y fundamentos de ingeniería inversa. *(Clona aplicaciones populares gratis con IA: Guía de instalación de ClonaKit)*
 - Ofrecer aplicaciones populares ya clonadas y listas para usar, facilitando la adopción por parte de usuarios no técnicos. *(Clona aplicaciones populares gratis con IA: Guía de instalación de ClonaKit)*
+- Analizar proyectos open source para entender su lógica de desarrollo. *(Cómo obtener el prompt de cualquier proyecto de GitHub con GitReverse)*
+- Replicar la funcionalidad de proyectos existentes para aprender o mejorar. *(Cómo obtener el prompt de cualquier proyecto de GitHub con GitReverse)*
+- Utilizar herramientas de IA para entender el funcionamiento de aplicaciones existentes. *(Crea tu propia app en 7 pasos usando IA)*
+- Replicar funcionalidades específicas de apps de pago utilizando código generado por IA. *(Crea tu propia app en 7 pasos usando IA)*
 
 ---
 
@@ -111,7 +117,7 @@ Ahora puedes clonar cualquier aplicación. Mejor dicho, recrearlos. Y todo graci
 ---
 
 <a id="3-fuente"></a>
-## 3. Ingeniería inversa de aplicaciones con IA: REA y Claude Code
+## 3. Ingeniería inversa de aplicaciones con IA: REA y Claude Code (segundo vídeo)
 
 - Fecha: 2026-10-20 · Plataforma: YouTube · Confianza técnica: alta
 - Enlace original: https://www.youtube.com/watch?v=4YkdCVzHpbc
@@ -188,5 +194,225 @@ Muy bien, comencemos entendiendo qué es lo que he hecho y cómo lo puedes utili
 Para descargar el kit, lo único que vas a hacer es irte al enlace que vas a encontrar en la descripción de este vídeo o en el primer comentario fijado, nos vamos aquí y este es el acceso también de manera simultánea a la lista de espera de la Tribu Divisual, que si estás viendo mi canal de YouTube, entiendo que ya sabes qué es la Tribu Divisual. Mientras esperas paciente tu lugar a que se vuelvan a abrir las plazas, yo voy regalando estos kits, por lo que simplemente te unes a la lista de espera, es completamente gratis, nombre, email y te va a llevar a este grupo de WhatsApp que estás viendo ahora mismo en pantalla. En este grupo de WhatsApp vas a ir a la descripción y en la descripción encontrarás recursos YouTube. Vas a entrar al Google Drive de recursos YouTube y aquí encontrarás ClonaKit. Justo aquí aparece. Lo abres directamente y dentro encontramos el ZIP. Clic derecho, descargar, lo guardamos en nuestro ordenador y ahora vamos a abrirlo con Claude Code.
 
 Una vez abierto Visual Studio Code, que recuerda que es el IDE que vamos a utilizar junto con la extensión de Claude Code para abrir este kit, si es la primera vez que escuchas el nombre Visual Studio Code o no lo controlas muy bien, no te preocupes porque Visual Studio Code y Claude Code eh, lo he estado utilizando durante muchísimos años últimamente y he creado un curso completo y gratuito que tienes en mi canal de YouTube, te lo voy a estar dejando justo por aquí arriba, dura una horita y pico más o menos, te recomiendo muchísimo que vayas a verlo si todavía no dominas al 100% Claude Code dentro de un entorno profesional como Visual Studio Code. Una vez que estemos en Visual Studio Code, nos venimos a archivo, Open Folder y en este caso en mi escritorio ya tengo ClonaKit aquí descomprimido, que le he dado clic derecho descomprimir el punto ZIP que he descargado y vamos a ir donde dice abrir. Una vez que lo hayamos abierto, vemos que el proyecto está 100% completo. Lo único que tengo que hacer es abrir mi Claude Code dentro de Visual Studio Code y decirle hola. Simplemente diciéndole hola una vez dentro del proyecto, automáticamente va a instalar el kit, ya el wizard de instalación ya lo he hecho eh, todo y se va a comportar Claude Code como tu tutor, te va a empezar a formar. Fíjate, aquí aprendes a crear tu propia versión de las funciones de una app que te guste, de forma legal y a publicarla en internet. No hace falta saber programar. Para adaptarme a ti, una pregunta rápida, ¿qué experiencia tienes en programación? ¿Ves? Te va a ir haciendo preguntas y tú también le vas dando pues todas las respuestas a Claude Code para de esta manera no solamente tener la capacidad de clonar aplicaciones, sino realmente de eh, hacerlo bien, que es lo que la mayoría de gente no hace porque le falta toda la información que tiene ya integrada este kit que he creado para regalárselo en este caso a todos mis suscriptores de YouTube, que te recuerdo, por cierto, si todo este contenido te gusta, si has podido descargar el kit, si ya estás dentro del grupo de WhatsApp, si has llegado hasta aquí, recuerda suscribirte a este canal de YouTube porque próximamente voy a estar regalando también más recursos y cosas muy interesantes para que puedas seguir clonando aplicaciones y básicamente monetizar la inteligencia artificial, que recuerda que en este canal de YouTube todo el contenido, el material sobre tecnología de alto nivel e inteligencia artificial tiene un enfoque de negocio y todo el canal y todo el contenido está enfocado en formarte, en que realmente aprendas estas herramientas, casos de uso y monetización. Por lo que si no lo has hecho todavía, dale al botoncito de suscribirte y activa la campanita para que te avise del próximo vídeo porque va a ser una completa locura. Bien, y aquí ya iríamos hablando y te animo a que hables con tu tutor, pero fíjate qué interesante, le voy a decir, quiero que me abras las diapositivas que tienes listas para entender sobre desarrollo de software. Bien, vamos a empezar diciéndole esto, aunque ya te digo, a ti te te guío, te animo a que eh, vayas siguiendo, ¿vale? Todo el roadmap que él te va diciendo, pero yo como he sido el creador de este kit, me voy a salir un poquito del guion y le voy a ir pidiendo cosas para verlas en este vídeo. Fíjate lo que me acaba de abrir, que es un unas diapositivas que se pueden mover con las flechitas y mira, clona aplicaciones de manera legal, crea tu propia versión de las herramientas que usas. Clonar no es igual a copiar, te da la diferencia entre copiar y clonar. Libre con dueño, qué es de todos y qué tiene dueño, esto es importante. El método sala limpia, también te lo he explicado aquí, las cinco fases basados en dos comandos, si tú le das slash clonar y slash desplegar aquí directamente hablando con Claude Code, le pones slash clonar, se va a activar el clonador y te va a decir, vale, ¿qué aplicación quieres clonar? Y cuando le des slash desplegar, desplegar, así tal cual, vas a poder desplegar la aplicación para hacerla totalmente funcional. Aunque ahora te diré que ya tiene algunas recetas preconfiguradas de las aplicaciones más utilizadas a día de hoy, que ahora también le vamos a preguntar para que veas cómo me comporto yo con este kit. Bueno, para ti y tu equipo, para venderla, pues hay que llevar cuidado, el semáforo, sí, con cuidado o nunca. Y estas son las recetas listas para clonar. ¿Qué tenemos? La aplicación Trazo, que es como Excalidraw. Esto automáticamente ya lo tienes todo preconfigurado y le dices, hey, hazme eh, desarróllame Trazo y esto ya lo tiene el kit, te va a hacer un Excalidraw para dibujar tus diagramas de flujo. Corrillo, también la receta que esto es como un Slack, esto lo tienes incluido en el kit. Embudo, como ActiveCampaign. Celda, como Airtable. Celda es el eh, esto que aparece en negritas es el nombre que tienen las aplicaciones que yo he preconfigurado previamente y metido en el kit para que tú las puedas utilizar de manera completamente gratuita. MiniEstudio, como un OBS, un eh, programa para grabar la pantalla de tu ordenador, cámaras y demás. Taller, como Google Antigravity. Fíjate qué locura, eh, está clonado Antigravity dentro del kit. Columnas, como Trello, es un gestor de proyectos para organizar tus tareas, por ejemplo. MiEnlace, como Linktree, el típico enlace que pones en la descripción de lo de Instagram, por ejemplo, y te y tienes ahí un montón de enlaces, pues eso también lo tienes ya gratis dentro de este kit. Pregunta, como Typeform, si quieres eh, generar formularios para que pues tus leads te respondan y tener pues la información y tal, dentro de un proceso de ventas. Toda esta información es la que tiene el kit. Ahí está lo potente, que este kit no es solamente de desarrollo, mezcla desarrollo con negocio y ahí es donde marca la diferencia. Bien, ¿qué más cosas tiene? Le vamos a decir, crea eh, Trazo, ¿vale? Crea Trazo y ábrelo para ver el primer MVP. Aquí nos va a generar de manera automática el eh, software de, bueno, inspirado en Excalidraw para dibujar, hacer diagramas y literalmente cualquier cosa de manera completamente gratuita, que esto es la clave. No solamente lo gratis, no quiero que te quedes solo con que ahora ya vas a poder utilizar todos los software gratis, que es así, o sea, eso ya ha llegado, es tal cual, es una realidad, el software de pago está llegando a su fin y cada vez de una manera más acelerada, pero más allá de eso es que ahora puedes adaptar esos software que antes eran de pago y ahora los vas a utilizar de manera completamente gratuita, los puedes aplicar, los puedes adaptar a tu forma de trabajar, porque a todos nos ha pasado y a mi equipo de trabajo en Divisual Project le ha pasado un montón de veces de estoy utilizando X herramienta por la que pagamos un pastón, porque cuando vas creando y añadiendo más usuarios a las herramientas, pues las herramientas se disparan de precios y luego también te hacen pues, bueno, estrategias de retención no muy éticas bajo mi punto de vista, cuando vas escalando, empiezas a pagar auténticas barbaridades porque se aprovechan de que no te podías ir a la competencia, por ejemplo, pero ahora ya es que lo puedes crear la tuya propia, pero independientemente de eso es que ahora ya lo puedes adaptar a tu forma de trabajar, que ya te digo que a nosotros nos ha pasado, utilizamos una herramienta supercara pero no se nos terminaba de adaptar a nuestra forma de trabajo y teníamos que adaptar nuestra forma de trabajo a las a los software y eso ya se ha terminado y estas son bajo mi punto de vista las dos grandes ventajas de la era que estamos viviendo. Fíjate, dice, construimos Trazo tal cual viene la receta o prefieres personalizarlo antes, le vamos a decir que tal cual. Nos está diciendo, vale, Trazo, que es la el clon de Excalidraw, ¿quieres que lo haga eh, marca blanca o quieres que lo personalice con tu marca? Porque aquí está lo potente, todo esto lo puedes personalizar con tu marca. Checklist de sala limpia, la ficha disponible, confirmas que la marcamos, sí, la marco y vamos a esperar a que este kit termine de desarrollar Trazo. Muy bien, y ya tenemos por aquí el resultado final, que he estado probándolo un poquito también, a ver si funciona y la realidad es que funciona muy bien, pero no obviamente no lleva la marca de Excalidraw ni nada parecido, simplemente el concepto de Excalidraw es lo que ha es lo que ha agarrado y en base al concepto pues ha ido generando la aplicación que como ves funciona muy muy muy bien y esto pues por supuesto ya lo podemos adaptar a nuestro flujo de trabajo y no solamente Excalidraw o estos programas de diagramas de flujo es lo que podemos clonar, como ya sabes, puedes clonar absolutamente cualquier cosa. Este kit es todo lo que necesitas para crear software de manera completamente gratuita y comenzar a utilizarlos y a implementarlos a tu flujo de trabajo o tus propias creaciones, valga la redundancia, basándote en la idea de la aplicación original, también la puedes llegar a monetizar de una manera legal y honesta. Recuerda que todos los domingos estoy dando mentorías gratuitas, enseñando el paso a paso para aplicar todo este conocimiento a un mundo cambiante como es el de la tecnología y que puedas aprender a generar ingresos con la inteligencia artificial, que creo que es donde está la gracia de todo esto. Aprender, aprender, aprender para nada, pues no tiene mucho sentido. Ahora, si aprendes y luego aprendes también a cómo aplicarlo, implementarlo y sacarle rendimiento económico al conocimiento que obtienes en este caso en mi canal de YouTube, pues ahí es donde está la gracia para mí. Por lo que nos vemos este domingo en la mentoría gratuita. Muchas gracias por ver el vídeo y recuerda, soy Juanpe Navarro, CEO y fundador de Divisual Project y ha sido un placer aportar mi granito de arena a tu conocimiento. Chao, chao.
+
+</details>
+
+---
+
+<a id="5-fuente"></a>
+## 5. Cómo obtener el prompt de cualquier proyecto de GitHub con GitReverse
+
+- Fecha: 2026-11-10 · Plataforma: TikTok · Confianza técnica: alta
+- Enlace original: https://vm.tiktok.com/ZN8PycXK5/
+- Etiquetas: github, prompt, ia, desarrollo, codigo
+- Archivo de origen: `2026-11-10_214317_como-obtener-el-prompt-de-cualquier-proyecto-de-github-con-gitreverse_fcf123.md`
+
+### Resumen
+
+Descubre cómo usar GitReverse para obtener el prompt que generó un proyecto de GitHub o una web, y úsalo en herramientas como Cursor o Claude para replicarlo.
+
+### Ideas
+
+- Analizar proyectos open source para entender su lógica de desarrollo.
+- Replicar la funcionalidad de proyectos existentes para aprender o mejorar.
+
+### Términos a revisar
+
+El término 'reverse' se utiliza consistentemente como parte de la herramienta GitReverse, y la pronunciación o transcripción es clara. Las herramientas de IA mencionadas (Cursor, Claude) parecen ser aplicaciones estándar en el ámbito de desarrollo con IA.
+
+#### Términos dudosos detectados
+
+- "Nombres propios técnicos" → posible: "Revisión manual". Motivo: El contenido menciona software/herramientas; revisar posibles nombres propios antes de convertirlo en guía o tarea.
+- "Cursor" → posible: "Cursor (IDE)". Motivo: Mencionado como una herramienta para pegar prompts y construir código.
+- "Claude" → posible: "Claude (chatbot de IA)". Motivo: Mencionado como una herramienta para pegar prompts y construir código.
+- "Codex" → posible: "Codex (modelo de IA de OpenAI)". Motivo: Mencionado brevemente, pero su rol exacto en el flujo no queda del todo claro en la transcripción.
+
+<details>
+<summary>Transcripción completa</summary>
+
+Hacemos un trato.
+Un trato
+Yo te enseño cómo sacarle cualquier repo de GitHub el prompt que lo construyó gratis y cambiando una palabra.
+Cambiando una palabra
+A cambio, me das like y me sigues.
+Like + sígueme
+Paso número uno.
+Coges la URL de cualquier repositorio de GitHub y en la barra del navegador cambias hub por reverse.
+https://github.com/vercel/next.js
+Coges la URL de cualquier repositorio
+del navegador cambias hub por reverse.
+https://gitrevers.com/vercel/next.js
+GitHub.com se convierte en gitreverse.com.
+GitHub.com se convierte en gitreverse.com
+Le das a Enter y ya lo tienes, sin instalar ni tocar el terminal.
+gitreverse.com
+Reverse into a prompt
+Reverse engineer any codebase or website into a prompt.
+Codebase Website
+https://github.com/?
+Get Prompt
+To reverse engineer, you can provide a GitHub URL.
+Examples:
+Next.js
+TailwindCSS
+React
+SvelteKit
+Linux
+Vercel
+This service does not store any GitHub URLs.
+Sin instalar nada
+Y en unos segundos te escupe el prompt que alguien había utilizado para crear eso.
+gitreverse.com/vercel/next.js
+Reverse engineered prompt
+I want to create a framework for building websites and web apps with React. The goal is to make it easy for developers to build full-stack applications, where they can write both the frontend user interface and the backend server code in the same project.
+Performance is the most important thing. It should be blazing fast for developers, with near-instant build times and hot reloading. This could probably use something low-level like Rust for the JavaScript tooling to make this happen. For end-users, the sites it produces should be incredibly fast. It should also be flexible enough to handle different kinds of pages - for developers create static, pre-rendered pages for things like blogs and marketing sites, but also have dynamic, server-rendered pages for user dashboards or e-commerce.
+Make it production-ready and scalable enough for major companies to use.
+Copy
+Are you gonna build this?
+Make sure you review the code using codemod.
+Try Now
+captura real de gitreverse.com
+Así que como el paso uno ha sido muy fácil, vamos con el paso número dos.
+2
+Pero antes ya sabes, dale a like, sígueme.
+Aquí viene lo bueno.
+Ese prompt lo llevas a Cursor, a Claude, se lo pegas tal cual y te construye tu versión desde cero.
+PEGAS EL PROMPT EN
+Cursor
+Claude
+Codex
+Ya no tienes que leerte 40 archivos para entender cómo está montado.
+Sin leerte 40 archivos
+Fijaos en este ejemplo, le he montado el repo entero de Next.js.
+Lo que acabáis de ver ha tardado menos que en abrir el Redmi.
+Inciso, no lee todo el código.
+Ojo: no lee todo el código
+Lee el README y partes del código y a partir de ahí te genera un prompt.
+DE DÓNDE SACA EL PROMPT
+→ el README
+→ el árbol de archivos
+✕ el código entero, no
+Y esto no va solo con los repos.
+gitreverse.com - codebase / website
+a prompt
+También le puedes meter una URL y te devuelve el prompt para construirla.
+Incluso tiene una librería con prompts que ya ha sacado otra gente para cotillear.
+Y si entras con tu cuenta, te guarda un historial.
+El proyecto es open source y ya tiene 1800 estrellas en GitHub.
+github.com/filiksyos/gitreverse
+filiksyos / gitreverse
+Code Issues Pull requests Actions Projects Security Insights
+main
+138 commits
+1 branch
+0 packages
+1800 stars
+288 forks
+Go to file
+filiksyos Merge pull request #130 from filiksyos/game
+2 months ago
+.github
+.vscode
+app
+assets
+commands
+config
+components
+db
+public
+scripts
+utils
+.env.example
+.gitignore
+AGENTS.md
+CLAUDE.md
+README.md
+game
+Merge prompt integration (v1.0)
+Fix local link and social security integrations
+Fix github domain ownership verification file
+Remove a gitreverse-reverse and persist chat from Chatllama.
+Initial commit from Create Next App.
+4 days ago
+Por supuesto, lo puedes montar en tu propio servidor.
+Y un consejo, antes de lanzarlo, pide a tu agente que adapte el prompt a tu stack.
+...
+> adapta este prompt
+a mi stack
+Y ya tienes el plano de cualquier repositorio de GitHub.
+El plano de cualquier repo
+A partir de ahí, a copiar con cabeza.
+Sígueme para más.
+Sígueme para más
+
+</details>
+
+---
+
+<a id="6-fuente"></a>
+## 6. Crea tu propia app en 7 pasos usando IA
+
+- Fecha: 2026-11-10 · Plataforma: TikTok · Confianza técnica: media
+- Enlace original: https://vm.tiktok.com/ZN8PyChXQ/
+- Etiquetas: desarrollo-de-apps, inteligencia-artificial, programacion, tutorial
+- Archivo de origen: `2026-11-10_222022_crea-tu-propia-app-en-7-pasos-usando-ia_a1a840.md`
+
+### Resumen
+
+Guía práctica para replicar funcionalidades de apps existentes utilizando inteligencia artificial y código.
+
+### Ideas
+
+- Utilizar herramientas de IA para entender el funcionamiento de aplicaciones existentes.
+- Replicar funcionalidades específicas de apps de pago utilizando código generado por IA.
+
+### Términos a revisar
+
+Los términos 'Claude Code' y 'REA' parecen ser nombres inventados o mal transcritos de herramientas de IA o frameworks de desarrollo.
+
+#### Términos dudosos detectados
+
+- "Nombres propios técnicos" → posible: "Revisión manual". Motivo: El contenido menciona software/herramientas; revisar posibles nombres propios antes de convertirlo en guía o tarea.
+- "Claude Code" → posible: "Claude.ai (o similar IA conversacional)". Motivo: Claude Code no es un término técnico conocido para un editor de código o herramienta de desarrollo.
+- "REA" → posible: "React Native (o similar framework)". Motivo: REA no es un término técnico comúnmente asociado a una herramienta de desarrollo de aplicaciones o librería.
+
+<details>
+<summary>Transcripción completa</summary>
+
+Hazte tu propia versión de cualquier app este fin de semana en 7 pasos.
+PASO 1 Elige la app
+Paso uno, elige la app.
+Comenta APPS
+Esa de notas o de fotos que pagas cada mes.
+PASO 2 Abre Claude Code
+Paso dos, abre Claude Code en una carpeta nueva.
+PASO 3 Instala REA
+Paso tres, instala REA.
+Un solo comando, gratis y con más de 400.000 estrellas en GitHub.
+PASO 4 Pídele que la estudie
+Paso cuatro, pídele que la estudie.
+Entiende cómo funciona esta app sin tener su código.
+PASO 5 Mira las pruebas
+Paso cinco, mira las pruebas.
+Guarda las notas en local
+Sincroniza cada 30 segundos
+Busca con un índice propio
+Te enseña lo que ha encontrado y cómo funciona cada parte.
+PASO 6 Di qué quieres
+Paso seis, dile qué quieres.
+Notas
+Buscador
+Plantillas premium
+Equipos
+¡IA de pago
+Solo las funciones que usas tú.
+PASO 7 Que la construya
+Paso siete, que la construya.
+Y pruébala hasta que vaya como quieres.
+El lunes
+Y el lunes, esa suscripción ya la puedes cancelar.
+Comenta APPS y te mando la guía paso a paso
+Si quieres la guía con el paso a paso, comenta APPS y te la mando.
+Sígueme para más.
 
 </details>
