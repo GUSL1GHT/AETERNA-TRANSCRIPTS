@@ -7,9 +7,9 @@ Biblioteca de transcripciones y fuentes creadas con [AETERNA](https://gusl1ght.g
 | Tema | Fuentes | Contenido |
 | --- | --- | --- |
 | [IA: skills, plugins y programación con Claude Code](temas/ia-skills-plugins-y-programacion.md) | 14 | Skills (SKILL.md), find-skills, Agent Skills, skill-creator y /watch, catálogos de skills y plugins (anti-«slop», Ponytail, SkillSpector), React Doctor, prompts de diseño y curso de Claude Code. |
-| [IA: memoria, contexto, tokens y prompts](temas/ia-memoria-contexto-y-prompts.md) | 7 | Context rot, Codebase Memory, Graphify, Memanto, «cerebro» de proyectos y prompts de rol (asesor crítico, canal de YouTube). |
+| [IA: memoria, contexto, tokens y prompts](temas/ia-memoria-contexto-y-prompts.md) | 9 | Context rot, Codebase Memory, Graphify, Memanto, skill «enrutador» de modelos, registro de decisiones, «cerebro» de proyectos y prompts de rol (asesor crítico, canal de YouTube). |
 | [IA gratis, local y alternativas](temas/ia-gratis-local-y-alternativas.md) | 7 | Agentes gratuitos, Omniroute, Free Claude Code, LLMfit, Ollama y alternativas libres para imagen, vídeo, voz y presentaciones. |
-| [Asistentes personales tipo Jarvis](temas/asistentes-tipo-jarvis.md) | 6 | Jarvis 3.1 y 4.0, asistente con Gemini y Python, agente 24/7 y EVIE. |
+| [Asistentes personales tipo Jarvis](temas/asistentes-tipo-jarvis.md) | 7 | Jarvis 3.1 y 4.0, asistente con Gemini y Python, agente 24/7, EVIE y Jarvis con Claude Code + Obsidian en 9 pasos. |
 | [Ingeniería inversa y clonado de apps](temas/ingenieria-inversa-y-clonado-de-apps.md) | 6 | REA con Claude Code, ClonaKit y GitReverse (prompt a partir de un repositorio). |
 | [Repositorios de GitHub destacados](temas/repositorios-github-destacados.md) | 6 | Recopilatorios open source (claude-mem, VERT, CLI-Anything, Firecrawl, Browser Use…) y dominios gratis con Freedoman. |
 | [Vídeo y apps web con IA](temas/video-y-apps-web-con-ia.md) | 3 | Remotion, Hyperframes y AppDeploy. |

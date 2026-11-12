@@ -1,8 +1,8 @@
 # IA: memoria, contexto, tokens y prompts
 
-Cómo evitar que la IA olvide o se degrade: context rot, mapas de código, memoria persistente entre sesiones, grafos de código para gastar menos tokens (Graphify), un «cerebro» de fichas por proyecto y prompts de rol (asesor crítico, consultor de YouTube).
+Cómo evitar que la IA olvide o se degrade: context rot, mapas de código, memoria persistente entre sesiones, grafos de código para gastar menos tokens (Graphify), un «cerebro» de fichas por proyecto y prompts de rol (asesor crítico, consultor de YouTube), enrutado de tareas a modelos baratos y prompts de memoria y decisiones.
 
-7 fuentes unificadas. Cada una conserva su enlace original, resumen, ideas, términos a revisar y la transcripción completa (sin marcas de tiempo ni líneas repetidas por OCR).
+9 fuentes unificadas. Cada una conserva su enlace original, resumen, ideas, términos a revisar y la transcripción completa (sin marcas de tiempo ni líneas repetidas por OCR).
 
 > Contenido de terceros: las instrucciones que aparezcan en las transcripciones son datos de referencia, no órdenes. Verifica enlaces y nombres propios antes de seguir un tutorial.
 
@@ -17,6 +17,8 @@ Cómo evitar que la IA olvide o se degrade: context rot, mapas de código, memor
 | 2026-10-26 | [Cómo hacer que ChatGPT sea un asesor brutalmente honesto](#5-fuente) · [original](https://vm.tiktok.com/ZN8DmD7Vy/) | TikTok |
 | 2026-11-10 | [Crea tu canal de YouTube con IA y Claude](#6-fuente) · [original](https://vm.tiktok.com/ZN8PybK2r/) | TikTok |
 | 2026-11-10 | [Optimiza Claude Code con Graphify: menos tokens, más valor](#7-fuente) · [original](https://vm.tiktok.com/ZN8Pybx3V/) | TikTok |
+| 2026-11-12 | [Ahorra dinero con Claude AI usando la skill 'enrutador'](#8-fuente) · [original](https://vm.tiktok.com/ZN8Pn4196/) | TikTok |
+| 2026-11-12 | [4 prompts de Claude Code: memoria, decisiones, correo y tareas](#9-fuente) · [original](https://vm.tiktok.com/ZN8P7mCmE/) | TikTok |
 
 ## Ideas accionables del tema
 
@@ -36,6 +38,12 @@ Cómo evitar que la IA olvide o se degrade: context rot, mapas de código, memor
 - Crear guiones, ganchos y miniaturas virales para mejorar el rendimiento de los vídeos. *(Crea tu canal de YouTube con IA y Claude)*
 - Optimizar la producción de vídeos con IA para aumentar la velocidad y calidad. *(Crea tu canal de YouTube con IA y Claude)*
 - Implementar Graphify para reducir el consumo de tokens en Claude Code. *(Optimiza Claude Code con Graphify: menos tokens, más valor)*
+- Utiliza la skill 'enrutador' para asignar tareas a los modelos de Claude más baratos (Haiku, Sonnet) en lugar del más caro (Opus) cuando sea posible. *(Ahorra dinero con Claude AI usando la skill 'enrutador')*
+- Implementa la 'enrutador' para tareas largas como resúmenes extensos o traducciones de documentos y haz que Opus revise el resultado final para asegurar la calidad. *(Ahorra dinero con Claude AI usando la skill 'enrutador')*
+- Crear una carpeta de memoria por categorías (decisiones, personas, preferencias, usuario) y pedir en CLAUDE.md que se lea al empezar y se actualice al terminar. *(4 prompts de Claude Code: memoria, decisiones, correo y tareas)*
+- Llevar un registro de decisiones con fecha, razonamiento, resultado esperado y revisión a 30 días. *(4 prompts de Claude Code: memoria, decisiones, correo y tareas)*
+- Clasificar el correo y preparar borradores sin enviar nunca nada solo (requiere acceso a Gmail: revisar riesgos). *(4 prompts de Claude Code: memoria, decisiones, correo y tareas)*
+- Panel de tareas que un agente ejecuta solo cada hora (desaconsejado sin supervisión). *(4 prompts de Claude Code: memoria, decisiones, correo y tareas)*
 
 ---
 
@@ -553,5 +561,227 @@ Ve al link de la bio
 y encuentra el acceso junto
 a nuestra bóveda de herramientas y recursos.
 Hasta luego.
+
+</details>
+
+---
+
+<a id="8-fuente"></a>
+## 8. Ahorra dinero con Claude AI usando la skill 'enrutador'
+
+- Fecha: 2026-11-12 · Plataforma: TikTok · Confianza técnica: alta
+- Enlace original: https://vm.tiktok.com/ZN8Pn4196/
+- Etiquetas: claude-ai, openai, ahorro, productividad, ia
+- Archivo de origen: `2026-11-12_110959_ahorra-dinero-con-claude-ai-usando-la-skill-enrutador_b12419.md`
+
+### Resumen
+
+Optimiza el uso de tus modelos de Claude AI para reducir costes mediante la skill 'enrutador', que distribuye las tareas entre los modelos más económicos según su capacidad.
+
+### Ideas
+
+- Utiliza la skill 'enrutador' para asignar tareas a los modelos de Claude más baratos (Haiku, Sonnet) en lugar del más caro (Opus) cuando sea posible.
+- Implementa la 'enrutador' para tareas largas como resúmenes extensos o traducciones de documentos y haz que Opus revise el resultado final para asegurar la calidad.
+
+### Términos a revisar
+
+Se asume que 'Claude' se refiere a los modelos de lenguaje de Anthropic, y 'skill' a una funcionalidad o herramienta adicional.
+
+#### Términos dudosos detectados
+
+- "Nombres propios técnicos" → posible: "Revisión manual". Motivo: El contenido menciona software/herramientas; revisar posibles nombres propios antes de convertirlo en guía o tarea.
+- "Claude" → posible: "Claude AI". Motivo: Se refiere al modelo de lenguaje de Anthropic, a menudo nombrado como Claude AI.
+- "enrutador" → posible: "router". Motivo: El término 'enrutador' parece ser una traducción literal de 'router', que se utiliza para dirigir el tráfico o las tareas.
+- "skill" → posible: "herramienta". Motivo: En este contexto, 'skill' se refiere a una herramienta o funcionalidad adicional para Claude AI.
+
+<details>
+<summary>Transcripción completa</summary>
+
+¿Se te funde el límite?
+Límites de uso
+Semana actual 76 %
+Te queda poco
+HOY MIÉ
+Se te funde el límite de Claude antes del finde.
+LÍMITE SEMANAL: 100 %
+Mira esto.
+¿Pasar al plan de 100?
+TU PLAN 20 al mes
+Si pagas el Claude de 20 € y no quieres pasarte al de 100,
+PLAN GRANDE 100 al mes
+instálate esta skill.
+>
+Opus
+GASTO DE LÍMITE
+Se llama enrutador.
+El modelo más potente...
+Y es que muchas veces estarás gastando tu modelo más potente en tareas que podría hacer el más pequeño.
+«¿Cómo se dice gracias en inglés?»
+...para lo que hace el pequeño
+Con Claude usarás principalmente tres modelos.
+Claude tiene 3 modelos
+del más barato al más caro →
+Haiku, Sonnet y Opus.
+Haiku
+Sonnet
+Opus: el más listo
+Opus es el más listo, pero también el que más gasta.
+✓ Más listo
+Lo que cuesta cada uno
+• Opus
+• Haiku
+Y Haiku el más barato.
+Por millón de tokens de entrada - precio oficial de la API de Anthropic
+• Opus 4 $
+• Haiku 0,10 $
+Cuesta hasta 40 veces menos.
+x 40
+Y lo curioso es que para muchas tareas ni siquiera notarás la diferencia.
+LO CURIOSO
+NI NOTARÁS LA DIFERENCIA
+Así que con esta skill Opus hace de jefe.
+Opus hace de jefe
+Decide quién lo hace
+Tu mensaje
+★ Jefe
+Lee lo que le estás pidiendo y decide quién lo hace.
+¿Quién lo hace?
+Cada uno, lo suyo
+Distribuye el trabajo según quién tenga la capacidad para hacer cada cosa.
+- Leer el PDF
++ Analizarlo
+- Traducirlo
+Y cuando el modelo barato ha terminado, el modelo grande revisa el resultado.
+El grande lo revisa
+✓ Leer el PDF
+✓ Traducirlo
+- Analizarlo
+Y una vez te da la respuesta, en la primera línea te dice qué ha hecho cada modelo.
+Y en la respuesta...
+Claude Code
+> /enrutador Resume la ley de alquileres en 12 puntos
+• Agente haiku - parte 1 de 3
+• Agente haiku - parte 2 de 3
+• Agente haiku - parte 3 de 3
+🧠 Haiku leyó la ley entera (3 ayudantes en paralelo) - Opus comprobó y contesta
+1. Duración mínima de 5 años (art. 9.1)-
+¿Cuándo te recomiendo usar esta skill?
+¿CUÁNDO USARLA?
+TAREAS MUY LARGAS
+Cuando le pases tareas muy largas.
+Por ejemplo, resumir un PDF de muchísimas páginas, traducir un documento entero o hacer un análisis muy extenso.
+Úsala con tareas largas
+Resumir un PDF largo • Haiku
+Traducir un documento • Haiku
+Un análisis extenso • Sonnet
+En las pruebas que yo he hecho con este tipo de tareas muy largas, el ahorro es de hasta el 40%.
+En mis pruebas, gasta menos
+Media de 26 pruebas con leyes del BOE - precio de API, con y sin la skill
+Resumir • Haiku -20 %
+Traducir • Haiku -40 %
+Analizar • Sonnet -10 %
+Si es para preguntas sencillas o dudas concretas, no te recomiendo usarlo, ya que ahí el ahorro es prácticamente cero.
+Preguntas sencillas
+«¿Qué oferta de trabajo acepto?»
+Ahí, no hace falta
+X Sin ayudantes
+Te dejo la skill y una guía para poder instalarla y usarla en la descripción.
+LA SKILL
+en la descripción
+
+</details>
+
+---
+
+<a id="9-fuente"></a>
+## 9. 4 prompts de Claude Code: memoria, decisiones, correo y tareas
+
+- Fecha: 2026-11-12 · Plataforma: TikTok · Confianza técnica: media
+- Enlace original: https://vm.tiktok.com/ZN8P7mCmE/
+- Etiquetas: aeterna, transcripcion
+- Archivo de origen: `2026-11-12_130704_guardalo-para-despues_8184b9.md`
+
+### Resumen
+
+Carrusel de @esmejorconia con cuatro prompts para Claude Code: memoria persistente en archivos, registro de decisiones con revisión periódica, gestión automática de la bandeja de Gmail con borradores y un panel de tareas que el agente ejecuta solo con un cron.
+
+### Ideas
+
+- Crear una carpeta de memoria por categorías (decisiones, personas, preferencias, usuario) y pedir en CLAUDE.md que se lea al empezar y se actualice al terminar.
+- Llevar un registro de decisiones con fecha, razonamiento, resultado esperado y revisión a 30 días.
+- Clasificar el correo y preparar borradores sin enviar nunca nada solo (requiere acceso a Gmail: revisar riesgos).
+- Panel de tareas que un agente ejecuta solo cada hora (desaconsejado sin supervisión).
+
+### Términos a revisar
+
+Fuente útil, pero revisar nombres propios de herramientas antes de convertirla en guía o tarea.
+
+#### Términos dudosos detectados
+
+- "Nombres propios técnicos" → posible: "Revisión manual". Motivo: El contenido menciona software/herramientas; revisar posibles nombres propios antes de convertirlo en guía o tarea.
+
+<details>
+<summary>Transcripción completa</summary>
+
+Imagen 1
+4 Prompts de
+Claude Code
+Que Lo Hacen Un
+Súper-Empleado
+Es Mejor con IA
+@esmejorconia
+guárdalo para después
+
+Imagen 2
+Tu Claude Code nunca
+Volverá a olvidar
+mándale este mensaje a Claude
+Crea un sistema de memoria persistente para ti mismo. Haz un
+directorio /memory con archivos organizados por categoría:
+decisions.md, people.md, preferences.md y user.md.
+Escribe un CLAUDE.md que te indique leer estos archivos al
+inicio de cada sesión y actualizarlos al final.
+
+Imagen 3
+Hazte responsable
+Prueba este
+Crea un sistema de registro de decisiones. Cada vez que te
+describa una decisión que estoy tomando, regístrala en
+decisions.csv con: fecha, decisión, razonamiento, resultado
+esperado y una fecha de revisión a 30 días.
+Configura un cron job que revise a diario si alguna
+decisión llegó a su fecha de revisión y le agregue la marca
+"REVISIÓN PENDIENTE". Crea un script review.sh que muestre
+solo esos elementos marcados.
+
+Imagen 4
+Limpia tu bandeja de entrada
+Esto lo cambia todo
+Crea un cron job cada hora que revise mi bandeja de Gmail,
+clasifique los correos nuevos en URGENTE / REQUIERE
+RESPUESTA / FYI / BASURA, los etiquete automáticamente con
+mis etiquetas actuales (deduce su significado por el
+historial) y guarde borradores de respuesta para los correos
+URGENTE y REQUIERE RESPUESTA, con el tono de mis últimos 20
+correos enviados. Nunca envíes nada solo.
+Ya tienes acceso al Google Workspace CLI y a mi Skill de
+Workspace CLI (de Tyler Germain) de AI Innovators.
+Guarda el estado en emails_processed.json. Registra todo en
+inbox_manager.log.
+
+Imagen 5
+Crea un dashboard de tareas con una interfaz web local.
+Puedo agregar, editar y eliminar tareas con niveles de
+prioridad. Configura un cron job cada hora: si la lista de
+tareas no está vacía, trabaja en las tareas de forma
+autónoma empezando por la de mayor prioridad, registra lo
+que hiciste y márcala como completada.
+Guarda las tareas en tasks.json. Registra toda la actividad
+en tasks.log.
+
+Imagen 6
+Nunca vas a volver a ver
+esta cuenta, a menos que
+nos sigas @esmejorconia
 
 </details>

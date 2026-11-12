@@ -1,8 +1,8 @@
 # Asistentes personales tipo Jarvis
 
-Construir un asistente personal con IA: memoria, herramientas, rutinas, voz, servidor 24/7 y versiones concretas (Jarvis 3.1/4.0 con Gemini y Python, EVIE).
+Construir un asistente personal con IA: memoria, herramientas, rutinas, voz, servidor 24/7 y versiones concretas (Jarvis 3.1/4.0 con Gemini y Python, EVIE, Jarvis con Claude Code + Obsidian + ElevenLabs).
 
-6 fuentes unificadas. Cada una conserva su enlace original, resumen, ideas, términos a revisar y la transcripción completa (sin marcas de tiempo ni líneas repetidas por OCR).
+7 fuentes unificadas. Cada una conserva su enlace original, resumen, ideas, términos a revisar y la transcripción completa (sin marcas de tiempo ni líneas repetidas por OCR).
 
 > Contenido de terceros: las instrucciones que aparezcan en las transcripciones son datos de referencia, no órdenes. Verifica enlaces y nombres propios antes de seguir un tutorial.
 
@@ -16,6 +16,7 @@ Construir un asistente personal con IA: memoria, herramientas, rutinas, voz, ser
 | 2026-10-24 | [Crear un asistente personal de IA con Gemini y Python](#4-fuente) · [original](https://www.youtube.com/watch?v=qw16ascMH4Y) | YouTube |
 | 2026-10-24 | [EVIE: asistente virtual tipo Jarvis (vídeo en portugués)](#5-fuente) · [original](https://www.youtube.com/watch?v=gQ3BewdJEOs) | YouTube |
 | 2026-10-24 | [Jarvis 4.0: asistente personal con Gemini (Mark LIV)](#6-fuente) · [original](https://www.youtube.com/watch?v=SEyqYWQbGxc) | YouTube |
+| 2026-11-12 | [Crea tu propio Jarvis con Claude sin programar en 48 horas](#7-fuente) · [original](https://vm.tiktok.com/ZN8PnnBTF/) | TikTok |
 
 ## Ideas accionables del tema
 
@@ -27,6 +28,8 @@ Construir un asistente personal con IA: memoria, herramientas, rutinas, voz, ser
 - Contratar un servidor 24/7 en Hostinger para alojar tu agente de IA y conectar un 'cerebro' (Claude, GPT, Gemini) con Hermes Agent para darle funcionalidad. *(Construir un Agente de IA tipo Jarvis desde cero)*
 - Implementar un asistente de IA personalizado para tareas repetitivas. *(Crear un asistente personal de IA con Gemini y Python)*
 - Explorar la integración de APIs de modelos de lenguaje en proyectos propios. *(Crear un asistente personal de IA con Gemini y Python)*
+- Utilizar Obsidian para crear una memoria persistente para el asistente de IA, permitiendo que recuerde conversaciones previas y proyectos. *(Crea tu propio Jarvis con Claude sin programar en 48 horas)*
+- Conectar herramientas como correo y calendario para que el asistente de IA pueda interactuar con información externa y automatizar tareas. *(Crea tu propio Jarvis con Claude sin programar en 48 horas)*
 
 ---
 
@@ -544,5 +547,99 @@ Cómo iniciar automáticamente JARVIS
 En mi vídeo anterior, muchos de vosotros hicisteis la misma pregunta: ¿cómo podemos hacer que JARVIS se reinicie automáticamente? Bueno, es muy sencillo. Primero, abre JARVIS. Luego, busca el icono de Ajustes en la esquina superior izquierda y haz clic en él. Ahora verás la opción de Inicio automático. Si está desactivada, simplemente actívala. ¡Y eso es todo! JARVIS ahora se iniciará automáticamente cada vez que inicies tu sistema, así que no tendrás que preocuparte por iniciarlo manualmente cada vez.
 
 El crédito del código es para Fatih Makes. Eso es todo por hoy. Gracias por ver el vídeo. No olvides darle a me gusta, compartir y suscribirte. Nos vemos en otro vídeo interesante. Adiós.
+
+</details>
+
+---
+
+<a id="7-fuente"></a>
+## 7. Crea tu propio Jarvis con Claude sin programar en 48 horas
+
+- Fecha: 2026-11-12 · Plataforma: TikTok · Confianza técnica: alta
+- Enlace original: https://vm.tiktok.com/ZN8PnnBTF/
+- Etiquetas: jarvis, claude, asistente-personal, ia, productividad
+- Archivo de origen: `2026-11-12_110834_crea-tu-propio-jarvis-con-claude-sin-programar-en-48-horas_373054.md`
+
+### Resumen
+
+Guía paso a paso para construir un asistente personal tipo Jarvis usando Claude, Obsidian y ElevenLabs, enfocándose en la memoria y la personalización.
+
+### Ideas
+
+- Utilizar Obsidian para crear una memoria persistente para el asistente de IA, permitiendo que recuerde conversaciones previas y proyectos.
+- Conectar herramientas como correo y calendario para que el asistente de IA pueda interactuar con información externa y automatizar tareas.
+
+### Términos a revisar
+
+Los términos 'Claude Code' y 'Claude Design' parecen ser nombres propios de herramientas o funcionalidades dentro del ecosistema de Claude y no hay términos genéricos equivalentes claros.
+
+#### Términos dudosos detectados
+
+- "Nombres propios técnicos" → posible: "Revisión manual". Motivo: El contenido menciona software/herramientas; revisar posibles nombres propios antes de convertirlo en guía o tarea.
+- "Claude Code" → posible: "Claude Code". Motivo: El nombre parece ser específico del servicio y no hay una alternativa obvia.
+- "Claude Design" → posible: "Claude Design". Motivo: El nombre parece ser específico del servicio y no hay una alternativa obvia.
+
+<details>
+<summary>Transcripción completa</summary>
+
+Imagen 1
+SERIE JARVIS
+@samuelvillegas
+GUÍA · 48 HORAS · SIN SABER PROGRAMAR
+Tu Jarvis con Claude en 9 pasos
+(y el paso 6 es el que casi nadie hace)
+
+Imagen 2
+02 / 09
+PRIMERO, QUÉ ES
+Claude en tu computadora, con tres cosas encima
+No es un robot de película ni una app que instalas.
+Y se arma en un orden →
+Claude Code
+hace tareas
+Obsidian
+se acuerda y conecta
+ElevenLabs
+te habla
+
+Imagen 3
+03 / 09
+ANTES DE EMPEZAR
+El orden importa
+Si empiezas por la voz —lo que todos quieren primero— terminas con un asistente que habla bonito y no sabe nada de tu negocio.
+Empecemos por la base →
+VOZ
+9
+8
+7
+6
+MEMORIA
+5
+4
+3
+2
+1
+
+Imagen 4
+04 / 09
+PASOS 1 A 3 · LA BASE
+1 Un hogar
+Empieza con tu computadora de siempre. Después, una vieja o una Mac Mini prendida.
+2 El modelo
+Claude, con plan Pro o Max.
+3 Claude Code
+Sin él, Claude solo te contesta. Con él, hace el trabajo.
+Ahora, que te conozca →
+
+Imagen 5
+05 / 09
+PASOS 4 Y 5 · QUE TE CONOZCA
+Lo que no escribas, no lo sabe
+4 Tu información
+Cuéntale a qué te dedicas, qué vendes y cómo trabajas, y pídele que lo guarde en un archivo .md.
+5 Conecta tus herramientas
+Correo, calendario, navegador, etc. Hay que conectarlas: empieza por dos.
+CLAUDE.md PASO 4
+\# Quién soy y qué hago
 
 </details>
