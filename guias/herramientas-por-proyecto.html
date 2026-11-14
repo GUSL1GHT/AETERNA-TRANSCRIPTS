@@ -114,10 +114,11 @@ code{font:13px var(--f-mono)}
       <p class="fit"><b>Para:</b> COMBOLAB-WEB, que se diseña desde cero. Alternativas parecidas: UI/UX Pro Max (149 k★) y Taste Skill (115 k★); con una basta.</p>
     </article>
     <article class="card">
-      <div class="top"><h3>Validación de modelos</h3><span class="pill p-ok">Crear</span></div>
+      <div class="top"><h3>Validación de modelos</h3><span class="pill p-ok">Creada 14/11</span></div>
       <span class="meta">skill propia · no viene de las transcripciones</span>
       <p>Ninguna transcripción trata algoritmos matemáticos. Para ComboLab propongo una skill propia: backtesting sin fuga de datos, calibración (Brier, log-loss, curva de fiabilidad), tamaño de muestra y comparación con la cuota del mercado.</p>
       <p class="fit"><b>Para:</b> comprobar que las probabilidades que da ComboLab aciertan lo que dicen, no solo que el código funciona.</p>
+      <p class="fit"><b>Primera pasada con los 410 casos reales</b> (123 fuera de muestra, desde el 01/11): el modelo gana a la tasa base con un margen demostrado (BSS 0,14; IC de la diferencia de Brier entero por debajo de 0) y está calibrado en conjunto. El corte del 47 % acierta el 76 % fuera de muestra (n = 21, IC 55–89 %). Pero en Serie A, Champions y Premier apenas mejora a la tasa base, y para demostrar que una combinada al 46 % supera la cuota de 2,30 harían falta unas 1.700 combinadas liquidadas. Falta la cuota de cada selección para medir frente al mercado.</p>
     </article>
   </div>
 </section>
@@ -181,7 +182,7 @@ code{font:13px var(--f-mono)}
   <ul class="plain">
     <li>Hecho: las 3 skills están en <code>~/.claude/skills</code>, fijadas al commit revisado (ver <code>ORIGEN.txt</code> de cada una). Aparecen al abrir una sesión nueva.</li>
     <li>webapp-testing necesita Playwright para Python, que no está instalado: <code>pip install playwright</code> y <code>python -m playwright install chromium</code> (descarga unos 150 MB). Se instala cuando la usemos por primera vez, con tu permiso.</li>
-    <li>Decir si creo la skill de validación de modelos para ComboLab.</li>
+    <li>Hecho: skill <code>validacion-modelos</code> creada en Claude Code y copiada a Codex. Se activa sola al tocar un modelo o un umbral, o con <code>/validacion-modelos</code>.</li>
     <li>Las librerías (Scrapling, MarkItDown, VoiceStudio, HyperFrames) se añaden cuando trabajemos en cada proyecto, no ahora.</li>
   </ul>
 </section>
