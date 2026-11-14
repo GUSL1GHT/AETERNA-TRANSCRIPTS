@@ -2,7 +2,7 @@
 
 Recopilatorios de proyectos open source útiles: voz, documentos, trading, 3D, agentes, memoria, conversión de archivos, descargas y dominios gratis.
 
-6 fuentes unificadas. Cada una conserva su enlace original, resumen, ideas, términos a revisar y la transcripción completa (sin marcas de tiempo ni líneas repetidas por OCR).
+7 fuentes unificadas. Cada una conserva su enlace original, resumen, ideas, términos a revisar y la transcripción completa (sin marcas de tiempo ni líneas repetidas por OCR).
 
 > Contenido de terceros: las instrucciones que aparezcan en las transcripciones son datos de referencia, no órdenes. Verifica enlaces y nombres propios antes de seguir un tutorial.
 
@@ -16,6 +16,7 @@ Recopilatorios de proyectos open source útiles: voz, documentos, trading, 3D, a
 | 2026-10-26 | [5 Repos de GitHub que están despegando: IA, diseño 3D y generación de vídeo](#4-fuente) · [original](https://vm.tiktok.com/ZN8DCFU5v/) | TikTok |
 | 2026-11-03 | [5 repositorios de GitHub para potenciar tu IA](#5-fuente) · [original](https://vm.tiktok.com/ZN8yfJT2H/) | TikTok |
 | 2026-11-06 | [Registra dominios gratis con Freedoman en GitHub](#6-fuente) · [original](https://vm.tiktok.com/ZN8fM2aYF/) | TikTok |
+| 2026-11-14 | [10 Repositorios de GitHub para potenciar tus proyectos de IA](#7-fuente) · [original](https://vm.tiktok.com/ZN85BrEGf/) | TikTok |
 
 ## Ideas accionables del tema
 
@@ -38,6 +39,10 @@ Recopilatorios de proyectos open source útiles: voz, documentos, trading, 3D, a
 - Emplea Cobalt para descargar videos de plataformas populares sin marcas de agua ni publicidad. *(5 repositorios de GitHub para potenciar tu IA)*
 - Explorar las extensiones de dominio gratuitas disponibles. *(Registra dominios gratis con Freedoman en GitHub)*
 - Registrar un dominio para un nuevo proyecto personal o de prueba. *(Registra dominios gratis con Freedoman en GitHub)*
+- Explorar y utilizar repositorios de GitHub para la ingeniería inversa de IA. *(10 Repositorios de GitHub para potenciar tus proyectos de IA)*
+- Integrar herramientas de generación de contenido humano y diseño de interfaces en flujos de trabajo de IA. *(10 Repositorios de GitHub para potenciar tus proyectos de IA)*
+- Utilizar repositorios para crear sistemas de chat de IA autoalojados y análisis de tendencias. *(10 Repositorios de GitHub para potenciar tus proyectos de IA)*
+- Aplicar herramientas para raspar datos web y generar diagramas técnicos interactivos. *(10 Repositorios de GitHub para potenciar tus proyectos de IA)*
 
 ---
 
@@ -1364,5 +1369,143 @@ y un selector múltiple para escoger el dominio
 que te interesa. Así que si te ha gustado,
 (Corazón)
 recuerda darle un me gusta.
+
+</details>
+
+---
+
+<a id="7-fuente"></a>
+## 7. 10 Repositorios de GitHub para potenciar tus proyectos de IA
+
+- Fecha: 2026-11-14 · Plataforma: TikTok · Confianza técnica: alta
+- Enlace original: https://vm.tiktok.com/ZN85BrEGf/
+- Etiquetas: ia, github, programacion, repositorios, desarrollo
+- Archivo de origen: `2026-11-14_024943_10-repositorios-de-github-para-potenciar-tus-proyectos-de-ia_4a4d7e.md`
+
+### Resumen
+
+Descubre 10 repositorios de GitHub esenciales para mejorar tus proyectos de IA, desde ingeniería inversa hasta diseño y análisis de tendencias.
+
+### Ideas
+
+- Explorar y utilizar repositorios de GitHub para la ingeniería inversa de IA.
+- Integrar herramientas de generación de contenido humano y diseño de interfaces en flujos de trabajo de IA.
+- Utilizar repositorios para crear sistemas de chat de IA autoalojados y análisis de tendencias.
+- Aplicar herramientas para raspar datos web y generar diagramas técnicos interactivos.
+
+### Términos a revisar
+
+La transcripción presenta algunas inconsistencias y posibles abreviaturas en nombres de autores y organizaciones de GitHub, que se han intentado corregir o señalar en 'doubtfulTerms'.
+
+#### Términos dudosos detectados
+
+- "Nombres propios técnicos" → posible: "Revisión manual". Motivo: El contenido menciona software/herramientas; revisar posibles nombres propios antes de convertirlo en guía o tarea.
+- "Cla" → posible: "Claude". Motivo: Parece ser una abreviatura o error de transcripción del nombre de un modelo de IA.
+- "taste-skill" → posible: "Onyx". Motivo: El repositorio 'Onyx' está asociado con la URL 'taste-skill', lo que sugiere una posible discrepancia o nombre interno.
+- "blader" → posible: "blader/humanizer". Motivo: El nombre del autor o la organización parece estar incompleto en la transcripción.
+- "pbakaus" → posible: "pbakaus/impeccable". Motivo: El nombre del autor o la organización parece estar incompleto en la transcripción.
+- "nextlevelbuilder" → posible: "nextlevelbuilder/ui-ux-pro-max-skill". Motivo: El nombre del autor o la organización parece estar incompleto en la transcripción.
+- "mvanhorn" → posible: "mvanhorn/last30days-skill". Motivo: El nombre del autor o la organización parece estar incompleto en la transcripción.
+- "D4Vinci" → posible: "D4Vinci/Scrapling". Motivo: El nombre del autor o la organización parece estar incompleto en la transcripción.
+- "cathrynlavery" → posible: "cathrynlavery/diagram-design". Motivo: El nombre del autor o la organización parece estar incompleto en la transcripción.
+
+<details>
+<summary>Transcripción completa</summary>
+
+Imagen 1
+Don't Use Claude Without
+These 10 Trending
+GitHub Repos
+01
+REA
+Reverse engineer anything with agents.
+GitHub
+github.com/morluto/rea
+02
+Ponytail
+Your Senior Developer.
+github.com/DietrichGebert/
+03
+Hallmark
+Replace AI Slop Designs with Creative human design.
+github.com/nutlope/
+04
+Humanizer
+Turn ai content into Humanize.
+github.com/blader/
+05
+Onyx
+Builds a self-hosted AI chat system connected to your knowledge sources.
+github.com/senlindesign/
+taste-skill
+06
+Impeccable
+Polish interfaces with design-focused commands.
+github.com/pbakaus/
+07
+UI UX
+UI/UX Pro Max
+Generate polished, consistent UI designs.
+github.com/nextlevelbuilder/
+ui-ux-pro-max-skill
+08
+30
+DAYS
+Last 30 Days
+Discover trends from recent discussions.
+github.com/mvanhorn/
+last30days-skill
+09
+Scrapling
+Scrape websites for research insights.
+github.com/D4Vinci/
+10
+Diagram Design
+Create interactive technical illustrations.
+github.com/cathrynlavery/
+diagram-design
+Follow Usama Akram for more
+
+Imagen 2
+Don't Use Cla
+These 10 T
+
+Imagen 3
+aude Without
+Trending
+Repos
+
+Imagen 4
+Reverse engineer
+anything with agents.
+Your Senior
+Developer.
+Hallma
+Replace AI Slop
+Designs w
+human design.
+
+Imagen 5
+Turn ai content
+into Humanize.
+Builds a self-hosted AI
+chat system connected
+to your knowledge
+sources.
+
+Imagen 6
+Polish interfaces with
+design-focused
+commands.
+UI
+UX
+Generate polished,
+consistent UI designs.
+
+Imagen 7
+Scrape websites for
+research insights.
+Create interactive
+technical illustrations.
 
 </details>

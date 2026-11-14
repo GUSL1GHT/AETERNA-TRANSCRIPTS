@@ -23,6 +23,8 @@ Evaluación de las herramientas que aparecen en las transcripciones de `temas/` 
 | SkillSpector | [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) · ~25 k★ | Apache-2.0 | Analiza skills en busca de patrones maliciosos antes de instalarlas. | **Recomendado** antes de instalar skills de terceros que incluyan scripts o hooks. |
 | Stop Slop | [hardikpandya/stop-slop](https://github.com/hardikpandya/stop-slop) · ~19 k★ | MIT | Skill para quitar muletillas de IA en textos. | Calidad de redacción, no ahorro. Opcional. |
 | Enrutador (skill propia) | Basada en el vídeo «Ahorra dinero con Claude usando la skill enrutador»; el original no está publicado en GitHub. | — | Reparte tareas largas (resumir, traducir, extraer) entre subagentes Haiku/Sonnet y deja al modelo principal la revisión. El autor declara −10 % a −40 % en tareas largas. | **Usar** solo con material largo; en preguntas cortas gasta más por el coste fijo de cada subagente. |
+| security-audit (Cloudflare) | [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) · ~72 k★ | MIT | Auditoría de seguridad por fases: varios agentes buscan fallos y otros los verifican para descartar falsas alarmas. Sus scripts `.cjs` solo validan JSON (sin red ni procesos). | **Recomendada antes de publicar una app.** No ahorra tokens: una auditoría completa gasta mucho; úsala en modo completo solo antes de publicar y repítela 2-3 veces, como aconseja Cloudflare. |
+| MCP de Playwright, Firecrawl y Perplexity | [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp) · ~40 k★ · [firecrawl/firecrawl-mcp-server](https://github.com/firecrawl/firecrawl-mcp-server) · ~8 k★ | Apache-2.0 / MIT | Navegador automatizado, extracción de webs e investigación. | **No añadir.** Claude Code ya tiene navegador integrado, Claude en Chrome, búsqueda y lectura web; cada MCP extra carga sus herramientas en todas las sesiones. Firecrawl y Perplexity además necesitan clave de pago. |
 | GitReverse | [filiksyos/gitreverse](https://github.com/filiksyos/gitreverse) · ~2 k★ | MIT | Deduce un prompt a partir del README y el árbol de un repositorio. | Útil para estudiar un repositorio sin leerlo entero; no lee el código completo. |
 
 ## Hábitos que ahorran más que cualquier herramienta
@@ -45,4 +47,5 @@ Evaluación de las herramientas que aparecen en las transcripciones de `temas/` 
 | Free Claude Code, OmniRoute | [IA gratis, local y alternativas · 2 y 7](../temas/ia-gratis-local-y-alternativas.md#7-fuente) |
 | claude-mem | [Repositorios de GitHub destacados](../temas/repositorios-github-destacados.md) |
 | Enrutador | [Memoria, contexto, tokens y prompts · 8](../temas/ia-memoria-contexto-y-prompts.md#8-fuente) |
+| security-audit, MCP | [Skills, plugins y Claude Code · 15 a 17](../temas/ia-skills-plugins-y-programacion.md#15-fuente) |
 | GitReverse | [Ingeniería inversa y clonado de apps · 5](../temas/ingenieria-inversa-y-clonado-de-apps.md#5-fuente) |

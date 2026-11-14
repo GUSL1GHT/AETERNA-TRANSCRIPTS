@@ -1,8 +1,8 @@
 # IA: skills, plugins y programación con Claude Code
 
-Skills (SKILL.md), plugins y kits que convierten a Claude Code, Codex o ChatGPT en un equipo de desarrollo: buscar e instalar skills, flujo de ingeniero senior, pruebas, seguridad, React, prompts de diseño profesional, crear tus propias skills (skill-creator, /watch), catálogos de skills anti-«slop» y un curso de introducción a Claude Code.
+Skills (SKILL.md), plugins y kits que convierten a Claude Code, Codex o ChatGPT en un equipo de desarrollo: buscar e instalar skills, flujo de ingeniero senior, pruebas, seguridad, React, prompts de diseño profesional, crear tus propias skills (skill-creator, /watch), catálogos de skills anti-«slop», MCP de búsqueda y navegador (Perplexity, Firecrawl, Playwright), la auditoría de seguridad de Cloudflare y un curso de introducción a Claude Code.
 
-14 fuentes unificadas. Cada una conserva su enlace original, resumen, ideas, términos a revisar y la transcripción completa (sin marcas de tiempo ni líneas repetidas por OCR).
+17 fuentes unificadas. Cada una conserva su enlace original, resumen, ideas, términos a revisar y la transcripción completa (sin marcas de tiempo ni líneas repetidas por OCR).
 
 > Contenido de terceros: las instrucciones que aparezcan en las transcripciones son datos de referencia, no órdenes. Verifica enlaces y nombres propios antes de seguir un tutorial.
 
@@ -24,6 +24,9 @@ Skills (SKILL.md), plugins y kits que convierten a Claude Code, Codex o ChatGPT 
 | 2026-11-10 | [5 plugins esenciales para instalar en Claude](#12-fuente) · [original](https://vm.tiktok.com/ZN8Pf1gHC/) | TikTok |
 | 2026-11-10 | [Crea tus propias habilidades de IA con Claude](#13-fuente) · [original](https://vm.tiktok.com/ZN8PyVWsV/) | TikTok |
 | 2026-11-10 | [Mejora tus prompts con Claude: habilidades para potenciar la IA](#14-fuente) · [original](https://vm.tiktok.com/ZN8Pfd1y8/) | TikTok |
+| 2026-11-13 | [Potencia Claude: 3 herramientas clave para tu agencia de IA](#15-fuente) · [original](https://vm.tiktok.com/ZN85jbKuM/) | TikTok |
+| 2026-11-14 | [Revisa la seguridad de tu app con IA antes de publicarla](#16-fuente) · [original](https://vm.tiktok.com/ZN85BLMKL/) | TikTok |
+| 2026-11-14 | [Mejora tu Claude con estas 5 herramientas de IA](#17-fuente) · [original](https://vm.tiktok.com/ZN85BLm2B/) | TikTok |
 
 ## Ideas accionables del tema
 
@@ -68,6 +71,13 @@ Skills (SKILL.md), plugins y kits que convierten a Claude Code, Codex o ChatGPT 
 - Diseña tus propias habilidades en Claude para analizar información compleja y generar resúmenes o predicciones personalizadas. *(Crea tus propias habilidades de IA con Claude)*
 - Explorar habilidades específicas para refinar la estética de interfaces generadas por IA. *(Mejora tus prompts con Claude: habilidades para potenciar la IA)*
 - Utilizar herramientas de Claude para hacer que la escritura generada por IA suene más natural y humana. *(Mejora tus prompts con Claude: habilidades para potenciar la IA)*
+- Integrar Perplexity para mejorar la investigación de Claude, obteniendo información más precisa y completa. *(Potencia Claude: 3 herramientas clave para tu agencia de IA)*
+- Utilizar Firecrawl para analizar a la competencia de forma rápida, extrayendo elementos clave como marca, colores y tipografía. *(Potencia Claude: 3 herramientas clave para tu agencia de IA)*
+- Aprovechar Playwright para automatizar tareas complejas en Claude, como rellenar formularios o interactuar con aplicaciones sin API. *(Potencia Claude: 3 herramientas clave para tu agencia de IA)*
+- Implementar la skill de Cloudflare para realizar auditorías de seguridad automáticas en proyectos de IA. *(Revisa la seguridad de tu app con IA antes de publicarla)*
+- Ejecutar la revisión de seguridad varias veces para maximizar la detección de fallos, según las recomendaciones de Cloudflare. *(Revisa la seguridad de tu app con IA antes de publicarla)*
+- Utilizar Perplexity para realizar investigaciones avanzadas y filtrar información reciente sobre IA. *(Mejora tu Claude con estas 5 herramientas de IA)*
+- Integrar Playwright con Claude para automatizar la interacción con sitios web, como rellenar formularios y navegar. *(Mejora tu Claude con estas 5 herramientas de IA)*
 
 ---
 
@@ -1760,5 +1770,314 @@ case study
 article
 THE STATE OF
 Philippine
+
+</details>
+
+---
+
+<a id="15-fuente"></a>
+## 15. Potencia Claude: 3 herramientas clave para tu agencia de IA
+
+- Fecha: 2026-11-13 · Plataforma: TikTok · Confianza técnica: alta
+- Enlace original: https://vm.tiktok.com/ZN85jbKuM/
+- Etiquetas: claude, ia, prompt-engineering, automatizacion, productividad
+- Archivo de origen: `2026-11-13_163457_potencia-claude-3-herramientas-clave-para-tu-agencia-de-ia_b48066.md`
+
+### Resumen
+
+Descubre tres servidores MCP (Model Context Protocol) para Claude: Perplexity para búsqueda avanzada, Firecrawl para 'scrapear' webs y extraer información de competencia, y Playwright para automatizar acciones en navegadores y apps.
+
+### Ideas
+
+- Integrar Perplexity para mejorar la investigación de Claude, obteniendo información más precisa y completa.
+- Utilizar Firecrawl para analizar a la competencia de forma rápida, extrayendo elementos clave como marca, colores y tipografía.
+- Aprovechar Playwright para automatizar tareas complejas en Claude, como rellenar formularios o interactuar con aplicaciones sin API.
+
+### Términos a revisar
+
+La transcripción utiliza el término 'MCPs' de forma no estándar, lo cual podría ser una invención del orador para referirse a integraciones o plugins.
+
+#### Términos dudosos detectados
+
+- "Nombres propios técnicos" → posible: "Revisión manual". Motivo: El contenido menciona software/herramientas; revisar posibles nombres propios antes de convertirlo en guía o tarea.
+- "MCPs" → posible: "Módulos de Conexión y Procesamiento". Motivo: Siglas inventadas en la transcripción, pero el contexto sugiere una función de integración y procesamiento.
+
+<details>
+<summary>Transcripción completa</summary>
+
+Si usas Claude solo con prompts, estás dejando el 90% de su potencial afuera. Te voy a dar tres MCPs que le tienes que conectar ya mismo y son los que nosotros usamos en nuestra agencia de inteligencia artificial.
+LOS QUE USAMOS EN NUESTRA AGENCIA
+3 MCPs para Claude
+1-? 2-? 3-?
+Guarda este vídeo para cuando los vayas a instalar.
+1 MCP DE 3
+Perplexity
+Primero, el más conocido, Perplexity.
+Búsqueda de Perplexity
+Claude acceso directo al motor de búsqueda de Perplexity, uno de los más potentes que hay para investigar lo que tú quieras.
+Investiga lo que quieras...
+Lo vas a usar siempre que necesites buscar información de cualquier sitio web.
+2 MCP DE 3
+Firecrawl 🔥
+El segundo, el que más sorprende, Firecrawl.
+Le da a Claude la capacidad de scrapear y de recorrer cualquier página web de internet.
+La marca de tu competencia
+Y aquí viene lo mejor, porque si tienes competidores, le pasas su página y te extrae la marca completa, los colores, la tipografía, el logo y toda la información de la página que tú quieras.
+Investigación de competencia
+O sea que en un minuto tienes una investigación completa de tu competencia que antes te tomaba días completos.
+3 MCP DE 3
+Playwright 🎭
+El tercero, que es mi favorito, se llama Playwright.
+Este es literalmente Claude usando tu navegador como si fuera una persona. Llena formularios, prueba páginas web y lo más loco de todo es que se puede meter en aplicaciones que no tienen ni API ni MCP.
+Apps cerradas
+Esto con otra skill no lo puedes hacer. Es como si tuvieras a una persona sentado en tu computadora trabajando por ti.
+
+</details>
+
+---
+
+<a id="16-fuente"></a>
+## 16. Revisa la seguridad de tu app con IA antes de publicarla
+
+- Fecha: 2026-11-14 · Plataforma: TikTok · Confianza técnica: alta
+- Enlace original: https://vm.tiktok.com/ZN85BLMKL/
+- Etiquetas: seguridad, ia, desarrollo, cloudfare, claude-code
+- Archivo de origen: `2026-11-14_023303_revisa-la-seguridad-de-tu-app-con-ia-antes-de-publicarla_8d2ecd.md`
+
+### Resumen
+
+Utiliza la skill gratuita de Cloudflare para Claude Code y un prompt específico para que analice la seguridad de tu aplicación y sugiera soluciones.
+
+### Ideas
+
+- Implementar la skill de Cloudflare para realizar auditorías de seguridad automáticas en proyectos de IA.
+- Ejecutar la revisión de seguridad varias veces para maximizar la detección de fallos, según las recomendaciones de Cloudflare.
+
+### Términos a revisar
+
+El término 'skill' se refiere a una extensión o funcionalidad añadida a la herramienta principal Claude Code. La fuente de la skill es GitHub.
+
+#### Términos dudosos detectados
+
+- "Nombres propios técnicos" → posible: "Revisión manual". Motivo: El contenido menciona software/herramientas; revisar posibles nombres propios antes de convertirlo en guía o tarea.
+- "Claude Code" → posible: "Claude Code". Motivo: Nombre de herramienta de IA específica, se asume correcto.
+- "SKILL security-audit" → posible: "skill security-audit". Motivo: Nombre de la skill, se asume correcto.
+
+<details>
+<summary>Transcripción completa</summary>
+
+ANTES DE PUBLICAR Claude Code revisa la seguridad de tu app
+Si has creado una
+WEB O UNA APP CON IA ANTES DE PUBLICARLA HAZ ESTO.
+PORQUE QUE FUNCIONE NO SIGNIFICA QUE SEA SEGURA.
+HAY UNA SKILL GRATIS DE CLOUDFLARE,
+SKILL security-audit GRATIS CLOUDFLARE
+LA EMPRESA QUE PROTEGE GRAN PARTE DE INTERNET.
+Y esta skill convierte a Claude
+Convierte a Claude en un experto de seguridad
+en un experto de seguridad.
+TE VOY A ENSEÑAR CÓMO LA USO YO CON UN EJEMPLO REAL.
+PRIMERO TE VAS A LA SKILL EN GITHUB Y COPIAS LA URL.
+EN GITHUB Copia la URL de la skill
+DESPUÉS ABRES CLAUDE CODE EN LA CARPETA DEL PROYECTO.
+YO EN MI CASO LA VOY A HACER CON UN PROYECTO QUE TENGO DE UN CRM QUE ME ESTOY CREANDO PARA MÍ.
+MI PROYECTO mi-crm • CRM de prueba
+LE PEGAS LA URL Y LE DICES QUE REVISE LA SEGURIDAD UTILIZANDO ESA SKILL.
+EN CLAUDE CODE Pega la URL y pídeselo
+EL PROMPT QUE YO UTILIZO ES UN POCO MÁS LARGO, PERO AL FINAL TE DIGO CÓMO CONSEGUIR TANTO LA SKILL COMO EL PROMPT.
+Mi prompt AL FINAL La skill El prompt
+Y AQUÍ ESTÁ LO BUENO: PONE VARIOS AGENTES A BUSCAR FALLOS.
+Aquí está lo bueno 3 agentes buscando fallos
+Y CADA FALLO QUE ENCUENTRA SE LO PASA A OTRO AGENTE PARA ASEGURARSE DE QUE ES UN FALLO REAL.
+BUSCA Fallo COMPRUEBA Fallo
+ASÍ NO TE LLENA DE FALSAS ALARMAS.
+Falsa alarma Falsa alarma Falsa alarma
+EN MI CRM HA ENCONTRADO TODOS ESTOS FALLOS.
+EN MI CRM Lo que ha encontrado
+Y ME EXPLICA QUÉ PODRÍA PASAR SI PUBLICO ESTO ASÍ Y CÓMO SOLUCIONARLO.
+QUÉ PODRÍA PASAR Cualquiera lee, cambia o borra tus clientes CÓMO SE ARREGLA Login + base de datos protegida
+LE DIGO QUE LO ARREGLE Y PASE UNA SEGUNDA AUDITORÍA DE SEGURIDAD PARA ASEGURARNOS DE QUE TODO ESTÁ BIEN Y SE ENCARGA DE TODO.
+Y SE ENCARGA DE TODO Arreglo y segunda revisión
+Y ESTE ES UN TRUCO QUE TE DOY: DILE QUE HAGA LA REVISIÓN DE SEGURIDAD VARIAS VECES.
+TRUCO Pásala varias veces
+YA QUE LA PROPIA CLOUDFLARE DICE QUE EN LA PRIMERA REVISIÓN DE SEGURIDAD ENCUENTRA MÁS O MENOS LA MITAD DE LOS FALLOS, ASÍ QUE SI QUIERES ESTAR SEGURO DE VERDAD, PÁSALA VARIAS VECES.
+SEGÚN CLOUDFLARE 1.ª pasada 33% de los fallos 50% de los fallos MÁS SEGURO 1.ª pasada 2.ª pasada 3.ª pasada
+Y DALE AL ME GUSTA SI ESTE VÍDEO TE HA AYUDADO.
+Te dejo la skill y el prompt en la descripción La skill El prompt Me gusta
+
+</details>
+
+---
+
+<a id="17-fuente"></a>
+## 17. Mejora tu Claude con estas 5 herramientas de IA
+
+- Fecha: 2026-11-14 · Plataforma: TikTok · Confianza técnica: alta
+- Enlace original: https://vm.tiktok.com/ZN85BLm2B/
+- Etiquetas: ia, claude, productividad, herramientas
+- Archivo de origen: `2026-11-14_024248_mejora-tu-claude-con-estas-5-herramientas-de-ia_f53dd5.md`
+
+### Resumen
+
+Descubre cinco herramientas que potencian a Claude para investigar, interactuar con webs, extraer contenido, crear animaciones y realizar tareas dentro de tu navegador Chrome.
+
+### Ideas
+
+- Utilizar Perplexity para realizar investigaciones avanzadas y filtrar información reciente sobre IA.
+- Integrar Playwright con Claude para automatizar la interacción con sitios web, como rellenar formularios y navegar.
+
+### Términos a revisar
+
+Los términos como 'MCP', 'browser_click', 'browser_type', 'browser_navigate', 'firecrawl_scrape' parecen ser indicadores de acciones o funciones específicas dentro del contexto de la IA o la automatización.
+
+#### Términos dudosos detectados
+
+- "Nombres propios técnicos" → posible: "Revisión manual". Motivo: El contenido menciona software/herramientas; revisar posibles nombres propios antes de convertirlo en guía o tarea.
+- "5 MCP" → posible: "5 Complementos". Motivo: Se repite la estructura numérica seguida de 'MCP', sugiriendo una lista de elementos.
+- "browser_click" → posible: "click". Motivo: Indicador de acción simulada de navegador.
+- "browser_type" → posible: "type". Motivo: Indicador de acción simulada de navegador para introducir texto.
+- "browser_navigate" → posible: "navigate". Motivo: Indicador de acción simulada de navegador para visitar páginas.
+- "firecrawl_scrape" → posible: "scrape". Motivo: Función para extraer datos de una web.
+- "ACADEMIA IA" → posible: "Academia de IA". Motivo: Nombre de marca o sección.
+
+<details>
+<summary>Transcripción completa</summary>
+
+Si usas Claude
+5 MCP
+que te estás
+perdiendo
+0/5 instalados
+Si usas
+y no tienes
+1/5 instalados
+estos 5
+4/5 instalados
+MCP, te estás perdiendo lo mejor.
+Número 1: Perplexity.
+1
+MCP N° 1
+Perplexity
+Claude
+Claude ya busca
+¿Qué ha salido hoy sobre IA?
+Buscando en internet...
+en internet,
+Claude ya lo hace solo
+pero con este hace investigaciones
+Claude está usando
+perplexity_research(...)
+Investigando a fondo...
+69%
+N hace 1 h
+B hoy
+y filtra por
+Todo
+Lo más reciente
+G hace 2 años
+W hace 4 años
+lo más reciente.
+Número 2: Playwright.
+2
+MCP N° 2
+Playwright
+de Microsoft
+Le da a Claude
+La Mesa - Reservas
+La Mesa
+Carta Reservas Contacto
+Cocina de mercado
+Abierto hoy: 13:00 a 23:00
+Reservar mesa
+un navegador de verdad.
+Un navegador de verdad
+Pulsa botones,
+Pulsando «Reservar mesa» browser_click
+Crema de calabaza 8,50 €
+Ensalada de la huerta 9,00 €
+Pizza al horno 11,50 €
+rellena formularios
+Rellenando la reserva browser_type
+Reserva tu mesa
+Nombre
+Día sáb. 8 nov.
+Personas 1
+Hora 13:30 14:00 14:30
+Confirmar reserva →
+y navega por webs
+Navegando a otra web browser_navigate
+Mapas
+La Mesa · cómo llegar
+él solo.
+¡Hecho!
+Mesa para 2 · sáb. 8 nov. 14:00
+Número 3: Firecrawl.
+3
+MCP N° 3
+Firecrawl
+código abierto
+Le das una página web
+Acepta las cookies
+Aceptar
+PUBLICIDAD
+firecrawl_scrape(url)
+y te saca
+\# Título
+Lo que dice la web, en texto limpio.
+- Dato 1
+- Dato 2
+su contenido
+limpio y listo para usar.
+Listo para usar
+Número 4: HyperFrames.
+4
+MCP N° 4
+HyperFrames
+de HeyGen
+Esto es una locura.
+Claude te hace
+HECHO CON HYPERFRAMES
+MOT.
+animaciones tipo After Effects
+MOTION
+<html> → vídeo.mp4
+After
+como esta.
+5
+MCP N° 5
+Y número 5: Claude en Chrome.
+Claude en Chrome
+de Anthropic
+Se mete en tu propio
+Correo
+Informe
+Ventas
+tu Chrome
+Chrome.
+Tu propio Chrome
+Ve las pestañas que le das
+Leer las pestañas
+Resumir el informe
+Pasar las ventas a la hoja
+y te hace las tareas.
+Júntalos
+Perplexity investiga
+Uno investiga,
+Firecrawl extrae
+otro extrae,
+Playwright actúa
+otro actúa,
+Claude en Chrome ve
+otro ve y otro crea.
+HyperFrames crea
+ACADEMIA IA
+INMOBILIARIA
+INTELIGENCIA · DATOS · DECISIÓN
+Si quieres ver cómo se aplican,
+Cómo se aplican, paso a paso
+entra en mi academia.
+Tienes el enlace en mi perfil.
+Entrar en la ACADEMIA →
+Enlace en mi perfil
 
 </details>
