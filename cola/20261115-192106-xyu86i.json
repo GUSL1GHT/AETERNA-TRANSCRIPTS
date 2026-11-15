@@ -1,10 +1,16 @@
 {
   "id": "20261115-192106-xyu86i",
   "url": "https://vm.tiktok.com/ZN854e7GP/",
-  "status": "pendiente",
+  "status": "hecho",
   "createdAt": "2026-11-15T18:21:07.764Z",
-  "updatedAt": "2026-11-15T18:21:07.764Z",
-  "attempts": 0,
+  "updatedAt": "2026-11-15T18:21:31.255Z",
+  "attempts": 1,
   "error": null,
-  "result": null
+  "result": {
+    "path": "Skills y Claude Code/2026-11-15 · Top 10 Claude Code Skills para mejorar tu flujo de trabajo.md",
+    "url": "https://github.com/GUSL1GHT/AETERNA-TRANSCRIPTS/blob/main/Skills%20y%20Claude%20Code/2026-11-15%20%C2%B7%20Top%2010%20Claude%20Code%20Skills%20para%20mejorar%20tu%20flujo%20de%20trabajo.md",
+    "title": "Top 10 Claude Code Skills para mejorar tu flujo de trabajo",
+    "topic": "Skills y Claude Code",
+    "review": false
+  }
 }

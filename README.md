@@ -1,6 +1,6 @@
 # AETERNA TRANSCRIPTS
 
-Biblioteca de vídeos transcritos con [AETERNA](https://gusl1ght.github.io/AETERNA-PRO/), organizada por temas: 81 vídeos.
+Biblioteca de vídeos transcritos con [AETERNA](https://gusl1ght.github.io/AETERNA-PRO/), organizada por temas: 82 vídeos.
 
 Cada tema es una carpeta. Dentro hay un **Índice** y un archivo por vídeo, con nombre «fecha · título». Cada archivo tiene:
 
@@ -14,7 +14,7 @@ Cada tema es una carpeta. Dentro hay un **Índice** y un archivo por vídeo, con
 
 | Tema | Vídeos | Contenido |
 | --- | --- | --- |
-| [Skills y Claude Code](Skills%20y%20Claude%20Code/%C3%8Dndice.md) | 30 | Skills (SKILL.md), plugins y kits que convierten a Claude Code, Codex o ChatGPT en un equipo de desarrollo: buscar e instalar skills, flujo de ingeniero senior, pruebas, seguridad, React, prompts de diseño profesional, crear tus propias skills (skill-creator, /watch), catálogos de skills anti-«slop», MCP de búsqueda y navegador (Perplexity, Firecrawl, Playwright), la auditoría de seguridad de Cloudflare y un curso de introducción a Claude Code. |
+| [Skills y Claude Code](Skills%20y%20Claude%20Code/%C3%8Dndice.md) | 31 | Skills (SKILL.md), plugins y kits que convierten a Claude Code, Codex o ChatGPT en un equipo de desarrollo: buscar e instalar skills, flujo de ingeniero senior, pruebas, seguridad, React, prompts de diseño profesional, crear tus propias skills (skill-creator, /watch), catálogos de skills anti-«slop», MCP de búsqueda y navegador (Perplexity, Firecrawl, Playwright), la auditoría de seguridad de Cloudflare y un curso de introducción a Claude Code. |
 | [Memoria, contexto y prompts](Memoria%2C%20contexto%20y%20prompts/%C3%8Dndice.md) | 13 | Cómo evitar que la IA olvide o se degrade: context rot, mapas de código, memoria persistente entre sesiones, grafos de código para gastar menos tokens (Graphify), un «cerebro» de fichas por proyecto y prompts de rol (asesor crítico, consultor de YouTube), enrutado de tareas a modelos baratos y prompts de memoria y decisiones. |
 | [IA gratis y alternativas](IA%20gratis%20y%20alternativas/%C3%8Dndice.md) | 9 | Usar modelos sin pagar o en tu propio PC: agentes gratuitos, enrutadores de modelos (Omniroute, Free Claude Code), elegir modelo según hardware, Ollama y alternativas libres para imagen, vídeo, voz, avatares, presentaciones y reuniones. |
 | [Asistentes tipo Jarvis](Asistentes%20tipo%20Jarvis/%C3%8Dndice.md) | 7 | Construir un asistente personal con IA: memoria, herramientas, rutinas, voz, servidor 24/7 y versiones concretas (Jarvis 3.1/4.0 con Gemini y Python, EVIE, Jarvis con Claude Code + Obsidian + ElevenLabs). |
