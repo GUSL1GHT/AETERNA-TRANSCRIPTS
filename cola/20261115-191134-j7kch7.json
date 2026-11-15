@@ -1,10 +1,16 @@
 {
   "id": "20261115-191134-j7kch7",
   "url": "https://vm.tiktok.com/ZN85b5eRL/",
-  "status": "pendiente",
+  "status": "hecho",
   "createdAt": "2026-11-15T18:11:35.429Z",
-  "updatedAt": "2026-11-15T18:11:35.429Z",
-  "attempts": 0,
+  "updatedAt": "2026-11-15T18:13:53.201Z",
+  "attempts": 1,
   "error": null,
-  "result": null
+  "result": {
+    "path": "Skills y Claude Code/2026-11-15 · Mejora Claude Opus 5.5 con Fable 5.1 en Claude Code.md",
+    "url": "https://github.com/GUSL1GHT/AETERNA-TRANSCRIPTS/blob/main/Skills%20y%20Claude%20Code/2026-11-15%20%C2%B7%20Mejora%20Claude%20Opus%205.5%20con%20Fable%205.1%20en%20Claude%20Code.md",
+    "title": "Mejora Claude Opus 5.5 con Fable 5.1 en Claude Code",
+    "topic": "Skills y Claude Code",
+    "review": false
+  }
 }
