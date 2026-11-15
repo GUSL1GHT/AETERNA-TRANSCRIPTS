@@ -1,10 +1,16 @@
 {
   "id": "20261115-191643-ubhtfn",
   "url": "https://vm.tiktok.com/ZN85bSBA3/",
-  "status": "pendiente",
+  "status": "hecho",
   "createdAt": "2026-11-15T18:16:44.606Z",
-  "updatedAt": "2026-11-15T18:16:44.606Z",
-  "attempts": 0,
+  "updatedAt": "2026-11-15T18:17:30.758Z",
+  "attempts": 1,
   "error": null,
-  "result": null
+  "result": {
+    "path": "transcripts/2026/11/2026-11-15 · Claude Code sin límite diario con FreeLLMAPI.md",
+    "url": "https://github.com/GUSL1GHT/AETERNA-TRANSCRIPTS/blob/main/transcripts/2026/11/2026-11-15%20%C2%B7%20Claude%20Code%20sin%20l%C3%ADmite%20diario%20con%20FreeLLMAPI.md",
+    "title": "Claude Code sin límite diario con FreeLLMAPI",
+    "topic": null,
+    "review": true
+  }
 }
