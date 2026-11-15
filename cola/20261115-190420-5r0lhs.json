@@ -1,10 +1,16 @@
 {
   "id": "20261115-190420-5r0lhs",
   "url": "https://vm.tiktok.com/ZN85b4d6K/",
-  "status": "pendiente",
+  "status": "hecho",
   "createdAt": "2026-11-15T18:04:43.611Z",
-  "updatedAt": "2026-11-15T18:04:43.611Z",
-  "attempts": 0,
+  "updatedAt": "2026-11-15T18:05:29.148Z",
+  "attempts": 1,
   "error": null,
-  "result": null
+  "result": {
+    "path": "Memoria, contexto y prompts/2026-11-15 · Optimiza tus prompts de Claude con el comando prompt-audit.md",
+    "url": "https://github.com/GUSL1GHT/AETERNA-TRANSCRIPTS/blob/main/Memoria%2C%20contexto%20y%20prompts/2026-11-15%20%C2%B7%20Optimiza%20tus%20prompts%20de%20Claude%20con%20el%20comando%20prompt-audit.md",
+    "title": "Optimiza tus prompts de Claude con el comando prompt-audit",
+    "topic": "Memoria, contexto y prompts",
+    "review": false
+  }
 }
