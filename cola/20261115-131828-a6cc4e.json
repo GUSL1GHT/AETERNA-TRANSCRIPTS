@@ -1,10 +1,16 @@
 {
   "id": "20261115-131828-a6cc4e",
   "url": "https://vm.tiktok.com/ZN854e7GP/",
-  "status": "pendiente",
+  "status": "hecho",
   "createdAt": "2026-11-15T12:19:00.048Z",
-  "updatedAt": "2026-11-15T12:19:00.048Z",
-  "attempts": 0,
+  "updatedAt": "2026-11-15T12:19:21.908Z",
+  "attempts": 1,
   "error": null,
-  "result": null
+  "result": {
+    "path": "transcripts/2026/11/2026-11-15 · Idea o tutorial relacionado con GitHub.md",
+    "url": "https://github.com/GUSL1GHT/AETERNA-TRANSCRIPTS/blob/main/transcripts/2026/11/2026-11-15%20%C2%B7%20Idea%20o%20tutorial%20relacionado%20con%20GitHub.md",
+    "title": "Idea o tutorial relacionado con GitHub",
+    "topic": null,
+    "review": true
+  }
 }
