@@ -1,10 +1,16 @@
 {
   "id": "20261115-230545-hjdloo",
   "url": "https://vm.tiktok.com/ZN85pxSVv/",
-  "status": "pendiente",
+  "status": "hecho",
   "createdAt": "2026-11-15T22:06:07.729Z",
-  "updatedAt": "2026-11-15T22:06:07.729Z",
-  "attempts": 0,
+  "updatedAt": "2026-11-15T22:06:59.358Z",
+  "attempts": 1,
   "error": null,
-  "result": null
+  "result": {
+    "path": "Skills y Claude Code/2026-11-15 · Cinco complementos esenciales para potenciar Claude Code.md",
+    "url": "https://github.com/GUSL1GHT/AETERNA-TRANSCRIPTS/blob/main/Skills%20y%20Claude%20Code/2026-11-15%20%C2%B7%20Cinco%20complementos%20esenciales%20para%20potenciar%20Claude%20Code.md",
+    "title": "Cinco complementos esenciales para potenciar Claude Code",
+    "topic": "Skills y Claude Code",
+    "review": false
+  }
 }
