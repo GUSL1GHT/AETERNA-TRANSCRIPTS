@@ -1,10 +1,16 @@
 {
   "id": "20261115-124207-vf280r",
   "url": "https://vm.tiktok.com/ZN85Xgoo1/",
-  "status": "pendiente",
+  "status": "hecho",
   "createdAt": "2026-11-15T11:42:08.540Z",
-  "updatedAt": "2026-11-15T11:42:08.540Z",
-  "attempts": 0,
+  "updatedAt": "2026-11-15T11:42:42.661Z",
+  "attempts": 1,
   "error": null,
-  "result": null
+  "result": {
+    "path": "transcripts/2026/11/2026-11-15 · Vídeo sin título.md",
+    "url": "https://github.com/GUSL1GHT/AETERNA-TRANSCRIPTS/blob/main/transcripts/2026/11/2026-11-15%20%C2%B7%20V%C3%ADdeo%20sin%20t%C3%ADtulo.md",
+    "title": "Vídeo sin título",
+    "topic": null,
+    "review": true
+  }
 }
