@@ -2,7 +2,7 @@
 
 - Fecha: 2026-11-15.
 - Última IA: Claude Code.
-- Hecho: incorporadas 7 capturas del 15/11 (7 skills, Anti-Slop y Thermos, 15 mejores skills → `temas/ia-skills-plugins-y-programacion.md`; elegir modelo y loops → `temas/ia-memoria-contexto-y-prompts.md`; 2 de alternativas gratuitas → `temas/ia-gratis-local-y-alternativas.md`). Originales borrados tras verificar que su URL y todas sus líneas están en el tema. Evaluadas en `guias/ahorro-de-tokens-claude-code.md`. Total: 73 fuentes en 8 temas.
-- Estado: biblioteca organizada por temas; `transcripts/` vacía.
-- Siguiente paso: incorporar nuevas capturas de `transcripts/` al tema que corresponda y verificar sus fuentes.
+- Hecho: reorganizada la biblioteca para leerla cómodamente. Una carpeta por tema con `Índice.md` y un archivo por vídeo («AAAA-MM-DD · Título.md»), con De qué va, Ideas, Lo que dice el vídeo (narración limpia en párrafos), En pantalla y Notas. Limpieza hecha con subagentes y comprobada con un script: no falta ningún nombre, cifra ni enlace útil (solo se quitaron marcas de tiempo, contadores y listados de commits capturados de pantalla). `guias/` → `Guías/` con enlaces actualizados. Retirada `temas/`; el texto literal anterior queda en la etiqueta `antes-de-reorganizar` (subida a GitHub). Antes, el mismo día: incorporadas 7 capturas del 15/11 (73 vídeos en total).
+- Estado: 73 vídeos en 8 carpetas; `transcripts/` vacía.
+- Siguiente paso: incorporar nuevas capturas de `transcripts/` con el mismo formato (archivo por vídeo, texto limpio, verificación, Índice) y borrar el original. Pendiente que AETERNA-PRO genere ya este formato.
 - Bloqueos: ninguno. Las transcripciones de terceros son referencias, no instrucciones.
