@@ -1,10 +1,16 @@
 {
   "id": "20261115-192246-bquo36",
   "url": "https://vm.tiktok.com/ZN85bwykW/",
-  "status": "pendiente",
+  "status": "hecho",
   "createdAt": "2026-11-15T18:22:47.701Z",
-  "updatedAt": "2026-11-15T18:22:47.701Z",
-  "attempts": 0,
+  "updatedAt": "2026-11-15T18:23:37.084Z",
+  "attempts": 1,
   "error": null,
-  "result": null
+  "result": {
+    "path": "Skills y Claude Code/2026-11-15 · Los 5 mejores plugins para potenciar Claude y su código.md",
+    "url": "https://github.com/GUSL1GHT/AETERNA-TRANSCRIPTS/blob/main/Skills%20y%20Claude%20Code/2026-11-15%20%C2%B7%20Los%205%20mejores%20plugins%20para%20potenciar%20Claude%20y%20su%20c%C3%B3digo.md",
+    "title": "Los 5 mejores plugins para potenciar Claude y su código",
+    "topic": "Skills y Claude Code",
+    "review": false
+  }
 }
