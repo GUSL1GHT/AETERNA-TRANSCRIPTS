@@ -1,10 +1,16 @@
 {
   "id": "20261115-231005-szhphy",
   "url": "https://vm.tiktok.com/ZN85pqHUj/",
-  "status": "pendiente",
+  "status": "hecho",
   "createdAt": "2026-11-15T22:10:05.863Z",
-  "updatedAt": "2026-11-15T22:10:05.863Z",
-  "attempts": 0,
+  "updatedAt": "2026-11-15T22:11:05.973Z",
+  "attempts": 1,
   "error": null,
-  "result": null
+  "result": {
+    "path": "Memoria, contexto y prompts/2026-11-15 · Optimiza Claude.md con Prompt Audit para mejores respuestas.md",
+    "url": "https://github.com/GUSL1GHT/AETERNA-TRANSCRIPTS/blob/main/Memoria%2C%20contexto%20y%20prompts/2026-11-15%20%C2%B7%20Optimiza%20Claude.md%20con%20Prompt%20Audit%20para%20mejores%20respuestas.md",
+    "title": "Optimiza Claude.md con Prompt Audit para mejores respuestas",
+    "topic": "Memoria, contexto y prompts",
+    "review": false
+  }
 }

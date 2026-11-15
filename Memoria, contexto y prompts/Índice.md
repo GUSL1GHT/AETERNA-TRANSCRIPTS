@@ -2,10 +2,11 @@
 
 Cómo evitar que la IA olvide o se degrade: context rot, mapas de código, memoria persistente entre sesiones, grafos de código para gastar menos tokens (Graphify), un «cerebro» de fichas por proyecto y prompts de rol (asesor crítico, consultor de YouTube), enrutado de tareas a modelos baratos y prompts de memoria y decisiones.
 
-13 vídeos, del más reciente al más antiguo.
+14 vídeos, del más reciente al más antiguo.
 
 | Fecha | Vídeo | Plataforma |
 | --- | --- | --- |
+| 15/11/2026 | [Optimiza Claude.md con Prompt Audit para mejores respuestas](2026-11-15%20%C2%B7%20Optimiza%20Claude.md%20con%20Prompt%20Audit%20para%20mejores%20respuestas.md) | TikTok |
 | 15/11/2026 | [Optimiza tus prompts de Claude con el comando prompt-audit](2026-11-15%20%C2%B7%20Optimiza%20tus%20prompts%20de%20Claude%20con%20el%20comando%20prompt-audit.md) | TikTok |
 | 15/11/2026 | [El futuro de la IA: De Prompts a Loops para tareas complejas](2026-11-15%20%C2%B7%20El%20futuro%20de%20la%20IA%20De%20Prompts%20a%20Loops%20para%20tareas%20complejas.md) | TikTok |
 | 15/11/2026 | [Cómo elegir el modelo de Claude adecuado para cada tarea](2026-11-15%20%C2%B7%20C%C3%B3mo%20elegir%20el%20modelo%20de%20Claude%20adecuado%20para%20cada%20tarea.md) | TikTok |
