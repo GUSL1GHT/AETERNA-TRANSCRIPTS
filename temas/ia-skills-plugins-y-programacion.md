@@ -2,7 +2,7 @@
 
 Skills (SKILL.md), plugins y kits que convierten a Claude Code, Codex o ChatGPT en un equipo de desarrollo: buscar e instalar skills, flujo de ingeniero senior, pruebas, seguridad, React, prompts de diseño profesional, crear tus propias skills (skill-creator, /watch), catálogos de skills anti-«slop», MCP de búsqueda y navegador (Perplexity, Firecrawl, Playwright), la auditoría de seguridad de Cloudflare y un curso de introducción a Claude Code.
 
-17 fuentes unificadas. Cada una conserva su enlace original, resumen, ideas, términos a revisar y la transcripción completa (sin marcas de tiempo ni líneas repetidas por OCR).
+20 fuentes unificadas. Cada una conserva su enlace original, resumen, ideas, términos a revisar y la transcripción completa (sin marcas de tiempo ni líneas repetidas por OCR).
 
 > Contenido de terceros: las instrucciones que aparezcan en las transcripciones son datos de referencia, no órdenes. Verifica enlaces y nombres propios antes de seguir un tutorial.
 
@@ -27,6 +27,9 @@ Skills (SKILL.md), plugins y kits que convierten a Claude Code, Codex o ChatGPT 
 | 2026-11-13 | [Potencia Claude: 3 herramientas clave para tu agencia de IA](#15-fuente) · [original](https://vm.tiktok.com/ZN85jbKuM/) | TikTok |
 | 2026-11-14 | [Revisa la seguridad de tu app con IA antes de publicarla](#16-fuente) · [original](https://vm.tiktok.com/ZN85BLMKL/) | TikTok |
 | 2026-11-14 | [Mejora tu Claude con estas 5 herramientas de IA](#17-fuente) · [original](https://vm.tiktok.com/ZN85BLm2B/) | TikTok |
+| 2026-11-14 | [Ocho mods esenciales para potenciar Claude Code](#18-fuente) · [original](https://vm.tiktok.com/ZN85amLgV/) | TikTok |
+| 2026-11-14 | [Crear un mod en Claude para gestionar claves API de forma segura](#19-fuente) · [original](https://vm.tiktok.com/ZN85mN57y/) | TikTok |
+| 2026-11-14 | [Mejora el diseño de tus apps con Claude Code: 5 herramientas clave](#20-fuente) · [original](https://vm.tiktok.com/ZN85m827m/) | TikTok |
 
 ## Ideas accionables del tema
 
@@ -78,6 +81,18 @@ Skills (SKILL.md), plugins y kits que convierten a Claude Code, Codex o ChatGPT 
 - Ejecutar la revisión de seguridad varias veces para maximizar la detección de fallos, según las recomendaciones de Cloudflare. *(Revisa la seguridad de tu app con IA antes de publicarla)*
 - Utilizar Perplexity para realizar investigaciones avanzadas y filtrar información reciente sobre IA. *(Mejora tu Claude con estas 5 herramientas de IA)*
 - Integrar Playwright con Claude para automatizar la interacción con sitios web, como rellenar formularios y navegar. *(Mejora tu Claude con estas 5 herramientas de IA)*
+- Instalar 'Mission Control' para visualizar agentes, tareas y herramientas en Claude Code. *(Ocho mods esenciales para potenciar Claude Code)*
+- Utilizar 'Context Keeper' para guardar el progreso de la sesión, decisiones clave y archivos modificados. *(Ocho mods esenciales para potenciar Claude Code)*
+- Implementar 'Usage Meter' para monitorizar el consumo de tiempo y los límites de Claude Code. *(Ocho mods esenciales para potenciar Claude Code)*
+- Probar 'Blast Radius' para detectar y prevenir acciones potencialmente peligrosas en archivos. *(Ocho mods esenciales para potenciar Claude Code)*
+- Guardar correcciones frecuentes como reglas permanentes con 'Reflect'. *(Ocho mods esenciales para potenciar Claude Code)*
+- Desarrollar plugins o extensiones para asistentes de IA para tareas específicas. *(Crear un mod en Claude para gestionar claves API de forma segura)*
+- Implementar un sistema de gestión de secretos para evitar la exposición de información sensible. *(Crear un mod en Claude para gestionar claves API de forma segura)*
+- Integrar Taste Skill para mejorar la estética de las interfaces generadas por Claude. *(Mejora el diseño de tus apps con Claude Code: 5 herramientas clave)*
+- Utilizar guías de diseño web para auditar y corregir interfaces antes del lanzamiento. *(Mejora el diseño de tus apps con Claude Code: 5 herramientas clave)*
+- Emplear Awesome Design para definir estilos y componentes de diseño de forma eficiente. *(Mejora el diseño de tus apps con Claude Code: 5 herramientas clave)*
+- Convertir diseños de imágenes en código con Image to Code para agilizar la creación de interfaces. *(Mejora el diseño de tus apps con Claude Code: 5 herramientas clave)*
+- Usar Playwright CLI para la automatización de pruebas visuales y de interacción en la web. *(Mejora el diseño de tus apps con Claude Code: 5 herramientas clave)*
 
 ---
 
@@ -2079,5 +2094,218 @@ entra en mi academia.
 Tienes el enlace en mi perfil.
 Entrar en la ACADEMIA →
 Enlace en mi perfil
+
+</details>
+
+---
+
+<a id="18-fuente"></a>
+## 18. Ocho mods esenciales para potenciar Claude Code
+
+- Fecha: 2026-11-14 · Plataforma: TikTok · Confianza técnica: alta
+- Enlace original: https://vm.tiktok.com/ZN85amLgV/
+- Etiquetas: claude-code, mods, productividad, inteligencia-artificial, herramientas
+- Archivo de origen: `2026-11-14_170630_ocho-mods-esenciales-para-potenciar-claude-code_6f932c.md`
+
+### Resumen
+
+Descubre ocho modificaciones que mejoran la experiencia de usuario y la eficiencia al trabajar con Claude Code, incluyendo control de agentes, gestión de contexto y seguridad.
+
+### Ideas
+
+- Instalar 'Mission Control' para visualizar agentes, tareas y herramientas en Claude Code.
+- Utilizar 'Context Keeper' para guardar el progreso de la sesión, decisiones clave y archivos modificados.
+- Implementar 'Usage Meter' para monitorizar el consumo de tiempo y los límites de Claude Code.
+- Probar 'Blast Radius' para detectar y prevenir acciones potencialmente peligrosas en archivos.
+- Guardar correcciones frecuentes como reglas permanentes con 'Reflect'.
+
+### Términos a revisar
+
+Los nombres de los mods parecen ser correctos y específicos de la herramienta mencionada.
+
+#### Términos dudosos detectados
+
+- No se han detectado dudas técnicas evidentes automáticamente.
+
+<details>
+<summary>Transcripción completa</summary>
+
+Desde que Claude Code ha lanzado los mods, han empezado a aparecer un montón
+de modificaciones
+de modificaciones para solucionar algunas de las limitaciones
+más habituales
+más habituales cuando trabajamos con Claude durante horas. Y estos son ocho que realmente merece la pena probar.
+1/8
+Mission Control
+El primero es Mission Control, que añade
+un panel donde podemos ver
+un panel donde podemos ver el agente que está trabajando, los subagentes, las tareas que está haciendo cada uno y las diferentes herramientas o comandos que van ejecutando.
+2/8
+Context Keeper
+El segundo es Context Keeper, que nos permite
+crear checkpoints donde
+crear checkpoints donde se guarda el objetivo de la sesión, las decisiones importantes, los archivos que estamos modificando y las tareas que todavía quedan pendientes.
+3/8
+Usage Meter
+El tercero es Usage Meter, que añade
+directamente dentro de Claude Code
+directamente dentro de Claude Code cuánto hemos consumido de nuestro límite de 5 horas y del límite semanal, además de mostrarnos cuánto margen nos queda y, por supuesto, cuándo se reinicia.
+4/8
+Blast Radius
+El cuarto es Blast Radius, que
+detecta potencialmente peligrosas
+detecta acciones potencialmente peligrosas y antes de ejecutarlas nos enseña qué archivos podrían verse afectados para decidir si queremos continuar o cancelar.
+5/8
+Reflect
+El quinto es Reflect, que detecta correcciones
+que hacemos constantemente a Claude
+que hacemos constantemente a Claude y nos permite guardarlas como reglas permanentes para que se tengan en cuenta en futuras sesiones.
+6/8
+Replay Theater
+El sexto es Replay Theater, que nos permite
+reproducir uno por uno
+reproducir uno por uno todos los cambios que Claude ha realizado durante una tarea concreta y revisar en todo momento qué archivos ha modificado y qué ha cambiado dentro de ellos.
+7/8
+Next Steps
+El séptimo es Next Steps, que analiza
+dónde nos encontramos después de terminar una tarea
+dónde nos encontramos después de terminar una tarea y automáticamente nos propone una serie de próximas acciones que tendría sentido realizar para seguir avanzando con el proyecto.
+8/8
+Token Weather
+Y el octavo es Token Weather, que añade un pequeño
+indicador visual
+indicador visual para mostrarnos qué porcentaje de la ventana de contexto estamos utilizando y cuánto nos queda para que se empiece a llenar demasiado.
+Los Ocho
+Y aunque los ocho pueden ser extremadamente
+útiles
+útiles, si solamente pudiera quedarme con tres,
+1/3
+elegiría Mission Control,
+Context Keeper y Blast Radius.
+Controlar los Agentes
+para controlar mejor los agentes,
+Conservar el Contexto
+conservar el contexto y añadir una capa extra
+Capa Extra de Seguridad
+de seguridad. Por cierto, si quieres montar este sistema tú mismo,
+Guía Paso a Paso
+te he preparado una guía paso a paso para
+8 Mods de Claude Code
+Los 8 Mods del vídeo, con sus enlaces, cómo instalar cada uno y cómo sacarle partido.
+para que lo puedas configurar igual que yo.
+Totalmente Gratis
+La tienes totalmente gratis
+En Mi Comunidad
+Enlace de Mi Perfil
+en mi comunidad, en el enlace de mi perfil.
+
+</details>
+
+---
+
+<a id="19-fuente"></a>
+## 19. Crear un mod en Claude para gestionar claves API de forma segura
+
+- Fecha: 2026-11-14 · Plataforma: TikTok · Confianza técnica: media
+- Enlace original: https://vm.tiktok.com/ZN85mN57y/
+- Etiquetas: claude, api, seguridad, programacion, mods
+- Archivo de origen: `2026-11-14_175819_crear-un-mod-en-claude-para-gestionar-claves-api-de-forma-segura_12a435.md`
+
+### Resumen
+
+Se explica cómo crear un mod personalizado en Claude para introducir claves API de forma segura y sin exponerlas en el chat.
+
+### Ideas
+
+- Desarrollar plugins o extensiones para asistentes de IA para tareas específicas.
+- Implementar un sistema de gestión de secretos para evitar la exposición de información sensible.
+
+### Términos a revisar
+
+Se refiere a 'mods de Claude Code' como funcionalidades o extensiones que se pueden crear para Claude, no a modificaciones del código fuente del propio Claude.
+
+#### Términos dudosos detectados
+
+- "Nombres propios técnicos" → posible: "Revisión manual". Motivo: El contenido menciona software/herramientas; revisar posibles nombres propios antes de convertirlo en guía o tarea.
+- "Claude Code" → posible: "Claude". Motivo: Claude es el asistente de IA mencionado. 'Code' podría ser una referencia a su capacidad de codificación.
+- "mod" → posible: "módulo/extensión". Motivo: El término 'mod' se utiliza aquí en el contexto de añadir funcionalidad a Claude, similar a un módulo o extensión.
+
+<details>
+<summary>Transcripción completa</summary>
+
+Si no eres técnico, tu clave no va al chat.
+Yo no soy técnico.
+Y yo necesito pegar una clave API, eh, y no sé ni que existe
+el archivo .env.
+Pero ahora que escucho el podcast de estos dos, digo, vale, pues yo no voy a pegar
+una clave API en el chat.
+Entonces le pregunto a Claude, oye,
+¿cuál es la manera más segura de pegártelo en el chat?
+Te dirá, te abro la terminal.
+Tú le dices, no voy a hacer esto
+cada vez que yo necesite pegar una clave.
+Entonces le voy a decir a Claude, vale,
+necesito que me crees un mod
+Mods de Claude Code
+terminal · app de escritorio · VS Code
+para que te vaya a pegar las claves, o sea, para que siempre que necesites una clave API,
+actives ese mod
+y me saques un panel específico
+Pega aquí tu clave
+para que yo te la pegue directamente ahí
+y la guardes correctamente
+Un mod corre con tus permisos y puede leer tus claves. Solo mods tuyos o de confianza. El .env, fuera de git.
+en tu proyecto.
+Entonces se abre un mod para eso,
+para esa tarea concreta.
+O sea, una funcionalidad que tú puedes crear dentro de Claude para que te haga X.
+En este caso, pues para guardar una clave de una API, por ejemplo.
+Claro.
+MAS ALLA DEL PROMPT
+El minuto exacto, en YouTube
+Episodio 7 · min 23:29
+
+</details>
+
+---
+
+<a id="20-fuente"></a>
+## 20. Mejora el diseño de tus apps con Claude Code: 5 herramientas clave
+
+- Fecha: 2026-11-14 · Plataforma: TikTok · Confianza técnica: alta
+- Enlace original: https://vm.tiktok.com/ZN85m827m/
+- Etiquetas: claude-code, diseno-web, herramientas, desarrollo-de-apps, interfaces
+- Archivo de origen: `2026-11-14_180217_mejora-el-diseno-de-tus-apps-con-claude-code-5-herramientas-clave_0b1e69.md`
+
+### Resumen
+
+Descubre cinco herramientas esenciales para que tus aplicaciones creadas con Claude Code tengan un diseño moderno y profesional, superando las limitaciones de estilos anticuados.
+
+### Ideas
+
+- Integrar Taste Skill para mejorar la estética de las interfaces generadas por Claude.
+- Utilizar guías de diseño web para auditar y corregir interfaces antes del lanzamiento.
+- Emplear Awesome Design para definir estilos y componentes de diseño de forma eficiente.
+- Convertir diseños de imágenes en código con Image to Code para agilizar la creación de interfaces.
+- Usar Playwright CLI para la automatización de pruebas visuales y de interacción en la web.
+
+### Términos a revisar
+
+Claude Code parece referirse a una herramienta de generación de código asistida por IA, posiblemente un modelo de lenguaje grande enfocado en programación.
+
+#### Términos dudosos detectados
+
+- "Nombres propios técnicos" → posible: "Revisión manual". Motivo: El contenido menciona software/herramientas; revisar posibles nombres propios antes de convertirlo en guía o tarea.
+
+<details>
+<summary>Transcripción completa</summary>
+
+¿Tu app de Claude Code parece de 2006?
+¿Por qué las apps que hace todo el mundo con Claude Code parecen costar 10,000 € y la tuya parece construida en 2006? Porque te faltan cinco herramientas clave. Y ahora te las digo.
+La primera es Taste Skill. Ayuda a Claude a desarrollar criterios estéticos de verdad para que por fin entienda qué significa que algo se vea pre. Porque si veo otra vez un degradado morado con más de tres tarjetas redondeadas, eh, llamo a la policía.
+La segunda son las guías de diseño web. Y esta es distinta, porque revisa lo que Claude ya ha construido en vez de quedarte mirando la pantalla pensando que algo falla, pero sin saber el qué. Audita la interfaz contra unas guías reales de diseño y eso te ahorra lanzamientos vergonzosos.
+La tercera es Awesome Design. Y le da a tu agente referencias y sistemas de diseño de los que tira tipografía, colores, espaciado, componentes, estructuras. Así que así se acaba pasarte 45 minutos eligiendo entre dos tonos de azul.
+La cuarta es Image to Code. Encuentras un diseño que te gusta, le haces una captura, se la das a Claude y él te lo recrea. Sí, eso convierte Pinterest en una herramienta de desarrollo. Peligroso, pero funciona.
+Y la quinta es Playwright CLI. Esta parece que no pinta nada en diseño, pero lo cambia todo. Claude abre el navegador, interactúa con tu web, hace capturas y comprueba lo que ha construido. Lo construye, lo abre y lo mira.
 
 </details>

@@ -166,6 +166,30 @@ code{font:13px var(--f-mono)}
 </section>
 
 <section>
+  <h2>Crear nuestras (vídeos del 14/11)</h2>
+  <div class="cards">
+    <article class="card">
+      <div class="top"><h3>Mod de claves API</h3><span class="pill p-ok">Propuesta</span></div>
+      <span class="meta">mod propio · idea del podcast «Más allá del prompt»</span>
+      <p>Un panel donde pegas la clave; se guarda en el <code>.env</code> del proyecto sin pasar por el chat ni quedar en el historial. Comprueba que <code>.env</code> está en <code>.gitignore</code> y nunca muestra la clave.</p>
+      <p class="fit"><b>Para:</b> ComboLab (clave de Gemini), AETERNA-PRO, NORA y HOME-HUB. Cumple tu regla de no tocar secretos.</p>
+    </article>
+    <article class="card">
+      <div class="top"><h3>Mejora del sistema</h3><span class="pill p-ok">Propuesta</span></div>
+      <span class="meta">skill propia · inspirada en «Improve System»</span>
+      <p>Lee en local el historial de conversaciones (<code>~/.claude/projects/*.jsonl</code>) y propone: correcciones que repites → reglas o memoria; tareas que repites → skills o scripts.</p>
+      <p class="fit"><b>Para:</b> todos los proyectos. Ningún dato sale del PC; las propuestas se aplican solo si las apruebas.</p>
+    </article>
+    <article class="card">
+      <div class="top"><h3>Barra de estado y aviso de riesgo</h3><span class="pill p-ok">Propuesta</span></div>
+      <span class="meta">equivale a Usage Meter, Token Weather y Blast Radius</span>
+      <p>Barra con % de contexto y modelo, y un aviso antes de comandos destructivos (<code>reset --hard</code>, <code>clean</code>, borrados masivos, <code>push --force</code>) que enseña qué afectaría.</p>
+      <p class="fit"><b>Para:</b> todos los proyectos. Los 8 mods del vídeo no están publicados y un mod de origen desconocido corre con tus permisos: mejor hacer los nuestros.</p>
+    </article>
+  </div>
+</section>
+
+<section>
   <h2>Descartadas y por qué</h2>
   <ul class="plain">
     <li><b>MCP de Playwright, Firecrawl y Perplexity:</b> el navegador integrado, Claude en Chrome y la búsqueda web ya lo cubren; cada MCP extra carga herramientas en todas las sesiones y dos piden clave de pago.</li>
@@ -173,6 +197,8 @@ code{font:13px var(--f-mono)}
     <li><b>Free Claude Code, FreeLLMAPI, OmniRoute:</b> tu código y tus claves pasarían por terceros.</li>
     <li><b>Graphify, Memanto, claude-mem:</b> duplican Codebase Memory o tu memoria en archivos.</li>
     <li><b>Agent Reach, last30days, Humanizer, Stop Slop, Lemo Opuscar, CLI-Anything:</b> no encajan con ninguno de tus proyectos actuales.</li>
+    <li><b>Taste Skill, Screenshot to Code, Playwright CLI:</b> Impeccable, la lectura de capturas de Claude y webapp-testing ya cubren lo mismo. Awesome Design MD sirve solo como consulta para el DESIGN.md de COMBOLAB-WEB.</li>
+    <li><b>Los otros mods del vídeo «8 mods»</b> (Mission Control, Context Keeper, Reflect, Replay Theater, Next Steps): ya los tienes con la lista de tareas de la app, ESTADO_ACTUAL y «Guarda X», la memoria y el panel de cambios.</li>
     <li><b>/watch (vídeos de YouTube):</b> necesita una clave de Gemini; AETERNA ya transcribe vídeos.</li>
   </ul>
 </section>
@@ -183,6 +209,7 @@ code{font:13px var(--f-mono)}
     <li>Hecho: las 3 skills están en <code>~/.claude/skills</code>, fijadas al commit revisado (ver <code>ORIGEN.txt</code> de cada una). Aparecen al abrir una sesión nueva.</li>
     <li>webapp-testing necesita Playwright para Python, que no está instalado: <code>pip install playwright</code> y <code>python -m playwright install chromium</code> (descarga unos 150 MB). Se instala cuando la usemos por primera vez, con tu permiso.</li>
     <li>Hecho: skill <code>validacion-modelos</code> creada en Claude Code y copiada a Codex. Se activa sola al tocar un modelo o un umbral, o con <code>/validacion-modelos</code>.</li>
+    <li>Decir cuáles de las tres piezas nuevas creo: mod de claves API, skill de mejora del sistema, barra de estado y aviso de riesgo.</li>
     <li>Las librerías (Scrapling, MarkItDown, VoiceStudio, HyperFrames) se añaden cuando trabajemos en cada proyecto, no ahora.</li>
   </ul>
 </section>

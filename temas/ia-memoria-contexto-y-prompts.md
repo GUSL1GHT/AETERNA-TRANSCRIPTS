@@ -2,7 +2,7 @@
 
 Cómo evitar que la IA olvide o se degrade: context rot, mapas de código, memoria persistente entre sesiones, grafos de código para gastar menos tokens (Graphify), un «cerebro» de fichas por proyecto y prompts de rol (asesor crítico, consultor de YouTube), enrutado de tareas a modelos baratos y prompts de memoria y decisiones.
 
-9 fuentes unificadas. Cada una conserva su enlace original, resumen, ideas, términos a revisar y la transcripción completa (sin marcas de tiempo ni líneas repetidas por OCR).
+10 fuentes unificadas. Cada una conserva su enlace original, resumen, ideas, términos a revisar y la transcripción completa (sin marcas de tiempo ni líneas repetidas por OCR).
 
 > Contenido de terceros: las instrucciones que aparezcan en las transcripciones son datos de referencia, no órdenes. Verifica enlaces y nombres propios antes de seguir un tutorial.
 
@@ -19,6 +19,7 @@ Cómo evitar que la IA olvide o se degrade: context rot, mapas de código, memor
 | 2026-11-10 | [Optimiza Claude Code con Graphify: menos tokens, más valor](#7-fuente) · [original](https://vm.tiktok.com/ZN8Pybx3V/) | TikTok |
 | 2026-11-12 | [Ahorra dinero con Claude AI usando la skill 'enrutador'](#8-fuente) · [original](https://vm.tiktok.com/ZN8Pn4196/) | TikTok |
 | 2026-11-12 | [4 prompts de Claude Code: memoria, decisiones, correo y tareas](#9-fuente) · [original](https://vm.tiktok.com/ZN8P7mCmE/) | TikTok |
+| 2026-11-14 | [Mejora Claude con el historial de conversaciones](#10-fuente) · [original](https://vm.tiktok.com/ZN85aGKGs/) | TikTok |
 
 ## Ideas accionables del tema
 
@@ -44,6 +45,8 @@ Cómo evitar que la IA olvide o se degrade: context rot, mapas de código, memor
 - Llevar un registro de decisiones con fecha, razonamiento, resultado esperado y revisión a 30 días. *(4 prompts de Claude Code: memoria, decisiones, correo y tareas)*
 - Clasificar el correo y preparar borradores sin enviar nunca nada solo (requiere acceso a Gmail: revisar riesgos). *(4 prompts de Claude Code: memoria, decisiones, correo y tareas)*
 - Panel de tareas que un agente ejecuta solo cada hora (desaconsejado sin supervisión). *(4 prompts de Claude Code: memoria, decisiones, correo y tareas)*
+- Utilizar el historial de conversaciones de Claude para identificar patrones de error y áreas de mejora en la IA. *(Mejora Claude con el historial de conversaciones)*
+- Implementar un sistema para que Claude sugiera la automatización de tareas repetitivas detectadas en las conversaciones. *(Mejora Claude con el historial de conversaciones)*
 
 ---
 
@@ -783,5 +786,90 @@ Imagen 6
 Nunca vas a volver a ver
 esta cuenta, a menos que
 nos sigas @esmejorconia
+
+</details>
+
+---
+
+<a id="10-fuente"></a>
+## 10. Mejora Claude con el historial de conversaciones
+
+- Fecha: 2026-11-14 · Plataforma: TikTok · Confianza técnica: alta
+- Enlace original: https://vm.tiktok.com/ZN85aGKGs/
+- Etiquetas: claude, ia, productividad, automatizacion, historial
+- Archivo de origen: `2026-11-14_180815_mejora-claude-con-el-historial-de-conversaciones_53b0db.md`
+
+### Resumen
+
+Automatiza tareas diarias y detecta errores de Claude mediante el análisis de su historial de conversaciones guardado.
+
+### Ideas
+
+- Utilizar el historial de conversaciones de Claude para identificar patrones de error y áreas de mejora en la IA.
+- Implementar un sistema para que Claude sugiera la automatización de tareas repetitivas detectadas en las conversaciones.
+
+### Términos a revisar
+
+El nombre 'Claude' se usa consistentemente para referirse a la IA. 'Improve System' y 'skill' son términos técnicos que se interpretan en el contexto de la funcionalidad de la IA.
+
+#### Términos dudosos detectados
+
+- "Nombres propios técnicos" → posible: "Revisión manual". Motivo: El contenido menciona software/herramientas; revisar posibles nombres propios antes de convertirlo en guía o tarea.
+- "claude" → posible: "Claude (IA)". Motivo: Se refiere a la IA de Anthropic, Claude.
+- "Improve System" → posible: "Improve System". Motivo: Podría ser un nombre de función o habilidad específica dentro de Claude. La transcripción no proporciona suficiente contexto para confirmarlo.
+- "skill" → posible: "habilidad". Motivo: En este contexto, 'skill' se refiere a una capacidad o función de la IA.
+
+<details>
+<summary>Transcripción completa</summary>
+
+Así se convierte
+Claude en
+que se mejora
+Cada conversación
+que tienes
+queda guardada.
+seguidores
+también está
+en un archivo
+puedes acceder.
+~/ .claude/projects/<session-uuid>.jsonl
+importa esto?
+historial de
+es una mina
+Ahí está
+Claude hizo mal
+y sobre todo,
+cómo trabajas tú
+de verdad,
+está explotando.
+Por eso yo, dos veces por semana,
+ejecuto una skill
+Improve System,
+y me dice qué
+mal y qué skills
+debería crearme.
+mi parte favorita
+es otra.
+Detecta las cosas que hago
+todos los días
+y me llevan horas
+y me propone
+automatizarlas
+en minutos.
+que ya no
+a pensar que
+construir,
+la encuentra en mis
+y me la escribe.
+Para activarlo
+instalas el plugin dentro de Claude y
+ejecutas
+el comando.
+Listo, ya está.
+El plugin
+y el paso a paso
+en nuestra
+la bio
+el acceso.
 
 </details>
