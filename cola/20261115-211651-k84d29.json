@@ -1,10 +1,16 @@
 {
   "id": "20261115-211651-k84d29",
   "url": "https://vm.tiktok.com/ZN85gtMaL/",
-  "status": "pendiente",
+  "status": "hecho",
   "createdAt": "2026-11-15T20:17:12.965Z",
-  "updatedAt": "2026-11-15T20:17:12.965Z",
-  "attempts": 0,
+  "updatedAt": "2026-11-15T20:17:55.247Z",
+  "attempts": 1,
   "error": null,
-  "result": null
+  "result": {
+    "path": "Skills y Claude Code/2026-11-15 · Optimiza Claude Code Ajustes Clave para Respuestas Directas y Eficientes.md",
+    "url": "https://github.com/GUSL1GHT/AETERNA-TRANSCRIPTS/blob/main/Skills%20y%20Claude%20Code/2026-11-15%20%C2%B7%20Optimiza%20Claude%20Code%20Ajustes%20Clave%20para%20Respuestas%20Directas%20y%20Eficientes.md",
+    "title": "Optimiza Claude Code Ajustes Clave para Respuestas Directas y Eficientes",
+    "topic": "Skills y Claude Code",
+    "review": false
+  }
 }
