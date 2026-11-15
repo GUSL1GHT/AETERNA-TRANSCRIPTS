@@ -1,10 +1,16 @@
 {
   "id": "20261115-141715-1ach3k",
   "url": "https://www.tiktok.com/@avidoos/video/7704319360638209313?is_from_webapp=1&sender_device=pc",
-  "status": "pendiente",
+  "status": "hecho",
   "createdAt": "2026-11-15T13:17:15.633Z",
-  "updatedAt": "2026-11-15T13:17:15.633Z",
-  "attempts": 0,
+  "updatedAt": "2026-11-15T13:21:42.060Z",
+  "attempts": 1,
   "error": null,
-  "result": null
+  "result": {
+    "path": "Skills y Claude Code/2026-11-15 · Descubre los 6 mods que revolucionan Claude Code.md",
+    "url": "https://github.com/GUSL1GHT/AETERNA-TRANSCRIPTS/blob/main/Skills%20y%20Claude%20Code/2026-11-15%20%C2%B7%20Descubre%20los%206%20mods%20que%20revolucionan%20Claude%20Code.md",
+    "title": "Descubre los 6 mods que revolucionan Claude Code",
+    "topic": "Skills y Claude Code",
+    "review": false
+  }
 }
