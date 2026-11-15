@@ -1,10 +1,16 @@
 {
   "id": "20261115-193335-a99zfy",
   "url": "https://vm.tiktok.com/ZN85bVaEX/",
-  "status": "pendiente",
+  "status": "hecho",
   "createdAt": "2026-11-15T18:33:36.559Z",
-  "updatedAt": "2026-11-15T18:33:36.559Z",
-  "attempts": 0,
+  "updatedAt": "2026-11-15T18:34:32.773Z",
+  "attempts": 1,
   "error": null,
-  "result": null
+  "result": {
+    "path": "Skills y Claude Code/2026-11-15 · Claude Security el plugin oficial de Anthropic para auditar tu código.md",
+    "url": "https://github.com/GUSL1GHT/AETERNA-TRANSCRIPTS/blob/main/Skills%20y%20Claude%20Code/2026-11-15%20%C2%B7%20Claude%20Security%20el%20plugin%20oficial%20de%20Anthropic%20para%20auditar%20tu%20c%C3%B3digo.md",
+    "title": "Claude Security el plugin oficial de Anthropic para auditar tu código",
+    "topic": "Skills y Claude Code",
+    "review": false
+  }
 }
