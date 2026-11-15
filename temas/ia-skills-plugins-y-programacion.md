@@ -2,7 +2,7 @@
 
 Skills (SKILL.md), plugins y kits que convierten a Claude Code, Codex o ChatGPT en un equipo de desarrollo: buscar e instalar skills, flujo de ingeniero senior, pruebas, seguridad, React, prompts de diseño profesional, crear tus propias skills (skill-creator, /watch), catálogos de skills anti-«slop», MCP de búsqueda y navegador (Perplexity, Firecrawl, Playwright), la auditoría de seguridad de Cloudflare y un curso de introducción a Claude Code.
 
-20 fuentes unificadas. Cada una conserva su enlace original, resumen, ideas, términos a revisar y la transcripción completa (sin marcas de tiempo ni líneas repetidas por OCR).
+23 fuentes unificadas. Cada una conserva su enlace original, resumen, ideas, términos a revisar y la transcripción completa (sin marcas de tiempo ni líneas repetidas por OCR).
 
 > Contenido de terceros: las instrucciones que aparezcan en las transcripciones son datos de referencia, no órdenes. Verifica enlaces y nombres propios antes de seguir un tutorial.
 
@@ -30,6 +30,9 @@ Skills (SKILL.md), plugins y kits que convierten a Claude Code, Codex o ChatGPT 
 | 2026-11-14 | [Ocho mods esenciales para potenciar Claude Code](#18-fuente) · [original](https://vm.tiktok.com/ZN85amLgV/) | TikTok |
 | 2026-11-14 | [Crear un mod en Claude para gestionar claves API de forma segura](#19-fuente) · [original](https://vm.tiktok.com/ZN85mN57y/) | TikTok |
 | 2026-11-14 | [Mejora el diseño de tus apps con Claude Code: 5 herramientas clave](#20-fuente) · [original](https://vm.tiktok.com/ZN85m827m/) | TikTok |
+| 2026-11-15 | [7 habilidades de Claude para potenciar tu trabajo](#21-fuente) · [original](https://vm.tiktok.com/ZN85xa2o3/) | TikTok |
+| 2026-11-15 | [Mejora la calidad de tu código con herramientas anti-IA genérica](#22-fuente) · [original](https://vm.tiktok.com/ZN85xQacp/) | TikTok |
+| 2026-11-15 | [Las 15 mejores 'skills' para Claude ordenadas por funcionalidad](#23-fuente) · [original](https://vm.tiktok.com/ZN85xCkeU/) | TikTok |
 
 ## Ideas accionables del tema
 
@@ -93,6 +96,14 @@ Skills (SKILL.md), plugins y kits que convierten a Claude Code, Codex o ChatGPT 
 - Emplear Awesome Design para definir estilos y componentes de diseño de forma eficiente. *(Mejora el diseño de tus apps con Claude Code: 5 herramientas clave)*
 - Convertir diseños de imágenes en código con Image to Code para agilizar la creación de interfaces. *(Mejora el diseño de tus apps con Claude Code: 5 herramientas clave)*
 - Usar Playwright CLI para la automatización de pruebas visuales y de interacción en la web. *(Mejora el diseño de tus apps con Claude Code: 5 herramientas clave)*
+- Utiliza la habilidad 'Grill Me' para que Claude entienda tus objetivos a fondo antes de empezar una tarea. *(7 habilidades de Claude para potenciar tu trabajo)*
+- Experimenta con 'Agent Browser' para automatizar la búsqueda y extracción de información en internet. *(7 habilidades de Claude para potenciar tu trabajo)*
+- Prueba 'Caveman' para obtener respuestas concisas y directas de Claude, eliminando el relleno innecesario. *(7 habilidades de Claude para potenciar tu trabajo)*
+- Crea tus propias 'skills' personalizadas con 'Skill Creator' para automatizar tareas repetitivas semanales. *(7 habilidades de Claude para potenciar tu trabajo)*
+- Utilizar Skill Anti-Slop para identificar y corregir frases, variables o diseños genéricos en el código y texto. *(Mejora la calidad de tu código con herramientas anti-IA genérica)*
+- Implementar Thermos para realizar auditorías profundas de código, incluyendo seguridad y mantenibilidad, coordinando agentes especializados. *(Mejora la calidad de tu código con herramientas anti-IA genérica)*
+- Utilizar las 'skills' recomendadas para mejorar la eficiencia en diversas tareas con Claude. *(Las 15 mejores 'skills' para Claude ordenadas por funcionalidad)*
+- Explorar las 'skills' de Claude para desarrollo de software y creación de contenido. *(Las 15 mejores 'skills' para Claude ordenadas por funcionalidad)*
 
 ---
 
@@ -2307,5 +2318,282 @@ La segunda son las guías de diseño web. Y esta es distinta, porque revisa lo q
 La tercera es Awesome Design. Y le da a tu agente referencias y sistemas de diseño de los que tira tipografía, colores, espaciado, componentes, estructuras. Así que así se acaba pasarte 45 minutos eligiendo entre dos tonos de azul.
 La cuarta es Image to Code. Encuentras un diseño que te gusta, le haces una captura, se la das a Claude y él te lo recrea. Sí, eso convierte Pinterest en una herramienta de desarrollo. Peligroso, pero funciona.
 Y la quinta es Playwright CLI. Esta parece que no pinta nada en diseño, pero lo cambia todo. Claude abre el navegador, interactúa con tu web, hace capturas y comprueba lo que ha construido. Lo construye, lo abre y lo mira.
+
+</details>
+
+---
+
+<a id="21-fuente"></a>
+## 21. 7 habilidades de Claude para potenciar tu trabajo
+
+- Fecha: 2026-11-15 · Plataforma: TikTok · Confianza técnica: alta
+- Enlace original: https://vm.tiktok.com/ZN85xa2o3/
+- Etiquetas: claude, ia, productividad, herramientas
+- Archivo de origen: `2026-11-15_041423_7-habilidades-de-claude-para-potenciar-tu-trabajo_0eaa21.md`
+
+### Resumen
+
+Descubre 7 funcionalidades clave de Claude para optimizar tus tareas y mejorar tu productividad profesional.
+
+### Ideas
+
+- Utiliza la habilidad 'Grill Me' para que Claude entienda tus objetivos a fondo antes de empezar una tarea.
+- Experimenta con 'Agent Browser' para automatizar la búsqueda y extracción de información en internet.
+- Prueba 'Caveman' para obtener respuestas concisas y directas de Claude, eliminando el relleno innecesario.
+- Crea tus propias 'skills' personalizadas con 'Skill Creator' para automatizar tareas repetitivas semanales.
+
+### Términos a revisar
+
+Los nombres de las 'skills' ('Grill Me', 'Find Skills', 'Agent Browser', 'Caveman', 'Remotion', 'Skill Creator') parecen ser funcionalidades específicas de la herramienta Claude, no términos técnicos genéricos.
+
+#### Términos dudosos detectados
+
+- "Nombres propios técnicos" → posible: "Revisión manual". Motivo: El contenido menciona software/herramientas; revisar posibles nombres propios antes de convertirlo en guía o tarea.
+
+<details>
+<summary>Transcripción completa</summary>
+
+Imagen 1
+7 SKILLS
+para convertir a
+Claude en una
+herramienta de trabajo.
+desliza →
+01 / 09
+@josm.digital
+
+Imagen 2
+1. Grill Me
+Antes de empezar, Claude te
+hace preguntas hasta entender
+exactamente lo que necesitas.
+Claude
+¿Me cuentas más sobre tu
+objetivo, el contexto y el
+resultado que esperas?
+Grill me
+02 / 09
+
+Imagen 3
+2. Find Skills
+Si tienes un trabajo complejo,
+te busca la skill ideal.
+Buscando skills para tu tarea...
+data-analysis
+Analiza y visualiza datos
+research-assistant
+Investiga y sintetiza información
+presentation-builder
+Crea presentaciones profesionales
+03 / 09
+
+Imagen 4
+3. Agent Browser
+Con esta, Claude entra a
+internet y navega solo,
+como lo haría una persona.
+Claude está navegando...
+Automatización
+de procesos: guía
+práctica para PYMES
+Abriendo páginas relevantes...
+Leyendo y extrayendo información...
+Resumiendo hallazgos...
+04 / 09
+
+Imagen 5
+4. Caveman
+Hace que Claude responda
+corto y sin relleno.
+Sin Caveman
+Podrías considerar que, en general, la mejor
+opción es priorizar aquellas tareas que tengan
+un mayor impacto en tus objetivos...
+Con Caveman
+Prioriza por impacto.
+Enfócate en 1-3 tareas.
+Elimina lo que no aporte.
+05 / 09
+
+Imagen 6
+5. Remotion
+Le permite a Claude
+producir y editar tus videos.
+Generar video
+Agregar subtítulos
+Incluir efectos
+0:12 / 0:24
+06 / 09
+
+Imagen 7
+7. Skill Creator
+Le explicas una tarea
+que repites cada semana
+y te prepara una skill nueva
+para que Claude la haga siempre igual.
+Skill creada: reporte-semanal
+Genera el reporte con tus
+métricas, formato y tono.
+08 / 09
+
+Imagen 8
+Estas skills hacen que
+Claude trabaje mejor.
+Pero lo que cambia tu negocio es saber
+cuándo y cómo usarlas.
+¿Lo hablamos? →
+Guárdalo para cuando lo necesites
+09 / 09
+
+</details>
+
+---
+
+<a id="22-fuente"></a>
+## 22. Mejora la calidad de tu código con herramientas anti-IA genérica
+
+- Fecha: 2026-11-15 · Plataforma: TikTok · Confianza técnica: alta
+- Enlace original: https://vm.tiktok.com/ZN85xQacp/
+- Etiquetas: calidad-de-codigo, ia-generativa, desarrollo-de-software, automatizacion, python
+- Archivo de origen: `2026-11-15_042615_mejora-la-calidad-de-tu-codigo-con-herramientas-anti-ia-generica_47cd60.md`
+
+### Resumen
+
+Se presentan dos herramientas, Skill Anti-Slop y Thermos, para detectar y eliminar patrones de código genérico y de baja calidad, especialmente los generados por IA.
+
+### Ideas
+
+- Utilizar Skill Anti-Slop para identificar y corregir frases, variables o diseños genéricos en el código y texto.
+- Implementar Thermos para realizar auditorías profundas de código, incluyendo seguridad y mantenibilidad, coordinando agentes especializados.
+
+### Términos a revisar
+
+Se mencionan varias herramientas y conceptos técnicos relacionados con el desarrollo de IA y la mejora de código, como 'devex', 'fugas en la puerta de funciones', 'código-judo', 'regla de línea 1k' y 'espaguetis', que podrían requerir investigación adicional para su comprensión completa en el contexto.
+
+#### Términos dudosos detectados
+
+- "Nombres propios técnicos" → posible: "Revisión manual". Motivo: El contenido menciona software/herramientas; revisar posibles nombres propios antes de convertirlo en guía o tarea.
+- "claude-thermos" → posible: "Claude Thermos". Motivo: Parece ser el nombre de una herramienta o sistema combinado.
+- "Claude Code" → posible: "Claude Code". Motivo: Posiblemente una funcionalidad o componente de Claude relacionado con el código.
+- "ANTHROPIC_BASE_URL" → posible: "ANTHROPIC_BASE_URL". Motivo: Variable de entorno común para configurar APIs.
+
+<details>
+<summary>Transcripción completa</summary>
+
+que tu app funcione
+NO SIGNIFICA
+no significa que esté bien construida.
+puede pasar
+Puede pasar las pruebas
+duplicado
+y seguir teniendo código duplicado
+o difícil de modificar
+o difícil de modificar.
+y pedirle a Claude: revísalo
+Y pedirle a Claude: revísalo,
+puede quedarse corto
+puede quedarse corto.
+Skill Anti-Slop. Detectar y eliminar patrones genéricos generados por IA ("slop") en lenguaje natural, código y diseño. claude-thermos. HAY 2 HERRAMIENTAS
+Hay dos herramientas que ayudan con esto.
+1º. Skill Anti-Slop. Anti-slop
+La primera es Anti-slop.
+HABILIDADES.md. Skill Anti-Slop. Detectar y eliminar patrones genéricos generados por IA ("slop") en lenguaje natural, código y diseño. ¿Qué es AI Slop? La pendiente de IA se refiere a patrones reveladores que señalan contenido genérico generado por IA de baja calidad: • Texto: Frases usadas en exceso como "delve into", palabras de moda excesivas, metacommentarios. • Código: Nombres de variables genéricos, comentarios obvios, abstracción innecesaria. • Diseño: diseños estandarizados, degradados genéricos, patrones visuales usados en exceso. Esta habilidad ayuda a identificar y eliminar estos patrones para crear contenido auténtico y de alta calidad. añade
+Añade reglas automáticas
+Cuándo utilizar esta habilidad. Aplicar técnicas anti-slop cuando: • Revisión de contenido generado por IA antes de la entrega. • Creando contenido original y quiero evitar patrones genéricos. • Limpiar contenido existente que parece genérico. • Establecer estándares de calidad para un proyecto. • El usuario solicita explícitamente la detección o limpieza de lodos. • El contenido tiene signos reveladores de la generación genérica de IA. Flujo de trabajo principal. 1. Detectar pendiente. Pentru fișieri de text: python scripts/detect_slop.py <file> --verbose. JavaScript
+para código JavaScript
+Typescript
+y Typescript.
+Esto evalúa y proporciona: • Puntuación de pendiente (0-100, cuanto más alta, peor). • Hallazgos de patrones específicos. • Recomendaciones prácticas. Detección manual: Lea el archivo de referencia apropiado para obtener patrones detallados. • references/text-patterns.md - Patrones de caída del lenguaje natural. • references/code-patterns.md - Programación de patrones de pendiente. si detecta ciertos
+Si detecta ciertos patrones
+2. Limpiar pendiente. Limpieza automatizada (solo texto): # Preview changes python scripts/clean_slop.py <file> # Apply changes (creates backup) python scripts/clean_slop.py <file> --save # Aggressive mode (may slightly change meaning) python scripts/clean_slop.py <file> --save --aggressive. Limpieza manual: Aplicar estrategias de los archivos de referencia en función de los patrones detectados. problemáticos
+problemáticos, la comprobación
+Detección y limpieza de espacios de texto. Objetivos de alta prioridad. Eliminar inmediatamente: • "delve into" → eliminar o reemplazar con "examinar". • "navegar por las complejidades" → "manejar" o eliminar. • "en el acelerado mundo actual" → "eliminar". • Metacomentario sobre el documento en sí. Simplifica frases con palabras: • "para" → "para". • "debido a que" → "porque". • "tiene la capacidad de" → "puede". Reemplazar palabras de moda: falla.
+falla. Puedes configurar ese
+puedes configurar ese control
+control como requisito antes
+como requisito antes de aceptar cambios.
+de aceptar los cambios.
+2º. Thermos. Inicie sesión para agregar. Revisión de la rama termonuclear: auditorías profundas de corrección y seguridad, además de duras rúbricas de calidad de código, subagentes paralelos, orquestación térmica y flujos opcionales listos para fusión de toma del volante y FSD. Creado por Cursor. Thermos
+La segunda es Thermos de Cursor.
+de cursor. Archivos. principal. plugins. termo. Habilidades. Habilidad. Descripción. thermo-nuclear-review. Auditoría profunda de sucursales (errores, roturas, seguridad, devex, fugas en la puerta de funciones). thermo-nuclear-code-quality-review. Estricta auditoría de mantenibilidad (código-judo, regla de línea 1k, espaguetis, límites). thermos. Ejecute ambos subagentes de revisión en paralelo y sintetice los hallazgos. coordina a agentes
+Coordina a agentes que buscan errores,
+Agentes. Agente. Descripción. thermo-nuclear-review-subagent. Subagente de tarea para rúbrica de revisión profunda (de alcance diferencial). thermo-nuclear-code-quality-review-subagent. Subagente de tarea para rúbrica de calidad de código (de alcance diferencial). Uso típico. Doble reseña (thermos). problemas de seguridad y
+problemas de seguridad y código difícil de
+código difícil de mantener.
+por ejemplo
+Por ejemplo, archivos que crecen
+archivos que crecen demasiado o lógica duplicada.
+demasiado o lógica duplicada.
+Chat. Cowork. Code. Our tool helps you publish a working page in an afternoon. "Our tool helps you" still feels generic. Start with what the reader does. Publish your draft. después puedes pedirle
+Después puedes pedirle a Claude que corrija
+Claude que corrija lo detectado.
+momentos antes. Cómo funciona. Claude-thermos lanza Claude Code detrás de un pequeño proxy inverso local (apunta a ANTHROPIC_BASE_URL, un puerto de bucle invertido todo el tráfico sigue yendo a la API real de Anthropic). 1. Observar. El proxy observa el /v1/messages tráfico y lo agrupa en sesiones y linajes, siendo un linaje un prefijo de caché, codificado por modelo + conjunto de herramientas + texto del sistema. El primer linaje portador de herramientas es el agente principal, el resto son subagentes. 2. Detectar la ventana de peligro. Cuando el linaje principal queda inactivo y un subagente se ejecuta activamente, el prefijo principal corre el riesgo de expirar. 3. Cálido. En un intervalo inferior al TTL de 5 minutos, reproduce la última solicitud real del agente principal como una solicitud cálida: prefijo almacenable en caché atómico, pero sin agente. Si el subagente termina, el agente principal devuelve el punto en el que se quedó y actualiza el prefijo completo almacenado en caché. Las solicitudes cálidas van directamente a la API, nunca a través del proxy, por lo que no pueden perturbar el tráfico real. 4. Resultado. Cuando el subagente termina, el caché del agente principal todavía está caliente. Se trata de una lectura que evita la reescritura completa. Cada calentamiento cuesta una lectura (0.01s) y una escritura (0.1s); cada reescritura que evita habría costado una escritura (1.25s) si el caché fuera grande, por lo que el intercambio para mí lo
+Para mí lo útil es tener
+ciertos criterios concretos para revisar lo que construyes.
+ciertos criterios concretos para revisar lo que construyes,
+Descripción general. Objetivos de alta prioridad. Cambiar el nombre de las variables genéricas: • data → nombra qué datos representa. • result → nombra lo que contiene el resultado. • temp → nombra lo que estás almacenando temporalmente. • item → nombra qué tipo de artículo. Elimina los comentarios obvios: # Bad Create a user user = User() # Better Let code speak user = User() Simplifique el código sobrecargado: especialmente cuando la aplicación
+especialmente cuando la aplicación empieza a crecer.
+Studio / Portfolio. FORM / SPACE. Work. About. Spaces worth living in. Thoughtful homes. Natural materials. Room to breathe. Selected work. 2024 - 2026. Courtyard house. empieza a crecer.
+
+</details>
+
+---
+
+<a id="23-fuente"></a>
+## 23. Las 15 mejores 'skills' para Claude ordenadas por funcionalidad
+
+- Fecha: 2026-11-15 · Plataforma: TikTok · Confianza técnica: media
+- Enlace original: https://vm.tiktok.com/ZN85xCkeU/
+- Etiquetas: claude, ia, skills, productividad, codigo
+- Archivo de origen: `2026-11-15_043905_las-15-mejores-skills-para-claude-ordenadas-por-funcionalidad_e8b993.md`
+
+### Resumen
+
+Presenta las 15 mejores 'skills' para Claude, clasificadas por las tareas que mejor realizan y con un gran número de estrellas en GitHub.
+
+### Ideas
+
+- Utilizar las 'skills' recomendadas para mejorar la eficiencia en diversas tareas con Claude.
+- Explorar las 'skills' de Claude para desarrollo de software y creación de contenido.
+
+### Términos a revisar
+
+Los nombres de las 'skills' (Caveman, Claude-mem, Headroom, Taste Skill, Impeccable, Hallmark, Humanizer, HyperFrames, Marketing Skills, Superpowers, Matt Pocock, Karpathy Skills, Last 30 Days, Agent Reach, Graphify) son específicos de la plataforma Claude y se han transcrito tal cual por falta de un equivalente genérico.
+
+#### Términos dudosos detectados
+
+- "Nombres propios técnicos" → posible: "Revisión manual". Motivo: El contenido menciona software/herramientas; revisar posibles nombres propios antes de convertirlo en guía o tarea.
+- "Caveman" → posible: "Caveman". Motivo: Nombre de 'skill' específico sin contexto claro.
+- "Claude-mem" → posible: "Claude-mem". Motivo: Nombre de 'skill' específico sin contexto claro.
+- "Headroom" → posible: "Headroom". Motivo: Nombre de 'skill' específico sin contexto claro.
+- "Taste Skill" → posible: "Taste Skill". Motivo: Nombre de 'skill' específico sin contexto claro.
+- "Impeccable" → posible: "Impeccable". Motivo: Nombre de 'skill' específico sin contexto claro.
+- "Hallmark" → posible: "Hallmark". Motivo: Nombre de 'skill' específico sin contexto claro.
+- "Humanizer" → posible: "Humanizer". Motivo: Nombre de 'skill' específico sin contexto claro.
+- "HyperFrames" → posible: "HyperFrames". Motivo: Nombre de 'skill' específico sin contexto claro.
+- "Marketing Skills" → posible: "Marketing Skills". Motivo: Nombre de 'skill' específico sin contexto claro.
+
+<details>
+<summary>Transcripción completa</summary>
+
+Estas son las
+15 mejores skills para Claude Code, separadas por las
+tareas que mejor hace cada una. Y juntas tienen casi más de
+2M GitHub estrellas en GitHub. Si tu límite se acaba rápido,
+Caveman,
+Claude-mem y
+Headroom. Para dejar tu página bonita,
+Taste Skill,
+Impeccable y
+Hallmark. Para texto y vídeo,
+Humanizer,
+HyperFrames y
+Marketing Skills. Si programas,
+Superpowers,
+Matt Pocock y
+Karpathy Skills. Y para investigar cualquier tema,
+Last 30 Days,
+Agent Reach y
+Graphify.
 
 </details>

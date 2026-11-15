@@ -2,7 +2,7 @@
 
 Usar modelos sin pagar o en tu propio PC: agentes gratuitos, enrutadores de modelos (Omniroute, Free Claude Code), elegir modelo según hardware, Ollama y alternativas libres para imagen, vídeo, voz, avatares, presentaciones y reuniones.
 
-7 fuentes unificadas. Cada una conserva su enlace original, resumen, ideas, términos a revisar y la transcripción completa (sin marcas de tiempo ni líneas repetidas por OCR).
+9 fuentes unificadas. Cada una conserva su enlace original, resumen, ideas, términos a revisar y la transcripción completa (sin marcas de tiempo ni líneas repetidas por OCR).
 
 > Contenido de terceros: las instrucciones que aparezcan en las transcripciones son datos de referencia, no órdenes. Verifica enlaces y nombres propios antes de seguir un tutorial.
 
@@ -17,6 +17,8 @@ Usar modelos sin pagar o en tu propio PC: agentes gratuitos, enrutadores de mode
 | 2026-10-24 | [Alternativas gratuitas a herramientas de IA de pago: creación de imágenes, vídeos y voces](#5-fuente) · [original](https://vm.tiktok.com/ZN8DYUbuu/) | TikTok |
 | 2026-10-24 | [Herramientas IA gratuitas y de código abierto para ahorrar en suscripciones](#6-fuente) · [original](https://vm.tiktok.com/ZN8DME4xf/) | TikTok |
 | 2026-11-10 | [Usa miles de millones de tokens gratis con Claude Code](#7-fuente) · [original](https://vm.tiktok.com/ZN8PfyTmw/) | TikTok |
+| 2026-11-15 | [Alternativas gratuitas en GitHub a suscripciones de pago](#8-fuente) · [original](https://vm.tiktok.com/ZN85xQKoK/) | TikTok |
+| 2026-11-15 | [Alternativas gratuitas a 9 aplicaciones de pago en GitHub](#9-fuente) · [original](https://vm.tiktok.com/ZN85xARQC/) | TikTok |
 
 ## Ideas accionables del tema
 
@@ -39,6 +41,10 @@ Usar modelos sin pagar o en tu propio PC: agentes gratuitos, enrutadores de mode
 - Desarrollar agentes autónomos y locales con AgenticSeek, eliminando la necesidad de APIs y costosas facturas mensuales. *(Herramientas IA gratuitas y de código abierto para ahorrar en suscripciones)*
 - Instalar Free Claude Code mediante un script de curl y elegir un agente. *(Usa miles de millones de tokens gratis con Claude Code)*
 - Configurar Free Claude Code para usar tokens de diversos proveedores como Gemini, DeepSeek o Ollama, asegurando la continuidad de las tareas si un modelo falla. *(Usa miles de millones de tokens gratis con Claude Code)*
+- Buscar alternativas de código abierto en GitHub antes de suscribirse a un servicio de pago. *(Alternativas gratuitas en GitHub a suscripciones de pago)*
+- Considerar el coste de uso, más allá de la gratuidad del software, como en OpenHiggsfield y OpenSEO. *(Alternativas gratuitas en GitHub a suscripciones de pago)*
+- Explorar GitHub en busca de alternativas de código abierto a herramientas que usamos a diario. *(Alternativas gratuitas a 9 aplicaciones de pago en GitHub)*
+- Considerar la autohospedación de estas alternativas para mayor control y ahorro. *(Alternativas gratuitas a 9 aplicaciones de pago en GitHub)*
 
 ---
 
@@ -1027,5 +1033,335 @@ Visto
 Y sígueme, que cada semana traigo cositas nuevas.
 Sígueme para más tips
 Siguiendo ✓
+
+</details>
+
+---
+
+<a id="8-fuente"></a>
+## 8. Alternativas gratuitas en GitHub a suscripciones de pago
+
+- Fecha: 2026-11-15 · Plataforma: TikTok · Confianza técnica: alta
+- Enlace original: https://vm.tiktok.com/ZN85xQKoK/
+- Etiquetas: github, open-source, ahorro, suscripciones, software-gratuito
+- Archivo de origen: `2026-11-15_043136_alternativas-gratuitas-en-github-a-suscripciones-de-pago_ea9ba2.md`
+
+### Resumen
+
+Descubre alternativas de código abierto en GitHub para no pagar suscripciones mensuales a software popular, ahorrando hasta 260 dólares al mes.
+
+### Ideas
+
+- Buscar alternativas de código abierto en GitHub antes de suscribirse a un servicio de pago.
+- Considerar el coste de uso, más allá de la gratuidad del software, como en OpenHiggsfield y OpenSEO.
+
+### Términos a revisar
+
+Se han identificado posibles imprecisiones en algunos nombres de software (Higgsfield, Wispr Flow, Cap). La transcripción menciona alternativas de código abierto (Open Higgsfield, VoiceStudio, OpenSEO, AppFlowy, OpenWhisper, OpenProject, Cal.diy, Chatwoot, Cap) que son más fiables. Se asume que los nombres de las herramientas de pago son correctos tal como se presentan (ElevenLabs, Semrush, Notion, Calendly, Intercom, Loom).
+
+#### Términos dudosos detectados
+
+- "Nombres propios técnicos" → posible: "Revisión manual". Motivo: El contenido menciona software/herramientas; revisar posibles nombres propios antes de convertirlo en guía o tarea.
+- "Higgsfield" → posible: "HideSeek". Motivo: Higgsfield no es un software común, podría ser una errata para HideSeek o un nombre específico del proyecto.
+- "Wispr Flow" → posible: "Whisper Flow". Motivo: La transcripción sugiere 'Open Whisper' como alternativa a Wispr Flow, lo que indica que Wispr Flow es el término a buscar.
+- "Cap" → posible: "CapCut". Motivo: Dado que se compara con Loom (software de grabación de pantalla), 'Cap' podría ser una referencia abreviada o errónea a CapCut, aunque la referencia a CapSoftware/Cap sugiere que podría ser un proyecto específico.
+
+<details>
+<summary>Transcripción completa</summary>
+
+Deja de pagar por suscripciones
+FOUND ON GITHUB
+que ya tienen una versión gratuita en GitHub.
+Aquí tienes nueve alternativas.
+SUBSCRIPTIONS
+PER MONTH
+Higgsfield $19
+ElevenLabs $6
+Semrush $139
+Notion $12
+Wispr Flow $15
+Asana $13.49
+Calendly $12
+Intercom $29
+Loom $18
+total $0
+free on GitHub
+8 swaps
+9 swaps
+Súmalos y eso es más de 260 dólares al mes que dejas de pagar.
+$164
+$263/mo
+you stop paying
+Higgsfield.
+SWAP 1/9
+Higgsfield
+AI images and video
+$19/mo
+Para imágenes y vídeo con IA, está Open Higgsfield.
+Open Higgsfield
+wide-trace/open-higgsfield
+$0
+5.5K
+ElevenLabs.
+SWAP 2/9
+ElevenLabs
+AI voice
+$6/mo
+Para voz, VoiceStudio clona la tuya, ejecutándose en tu propio ordenador.
+VoiceStudio
+debpalash/VoiceStudio
+104K
+100% on your computer
+Semrush cuesta 139 dólares al mes.
+SWAP 3/9
+Semrush
+SEO
+$?/mo
+$71/mo
+$139/mo
+OpenSEO también hace investigación de palabras clave y backlinks.
+OpenSEO
+every-app/open-seo
+28.8K
+About
+Open source alternative to Semrush and Ahrefs
+openseo.so
+backlink-research keyword-research mcp seo seo-tools site-audit
+MIT license
+⭐ 26.8k stars
+3.7k forks
+En lugar de Notion, AppFlowy.
+SWAP 4/9
+Notion
+notes and wiki
+$12/mo
+AppFlowy
+AppFlowy-IO/AppFlowy
+78.4K
+En lugar de Wispr Flow, Open Whisper.
+SWAP 5/9
+Wispr Flow
+voice dictation
+$15/mo
+OpenWhisper
+openai/whisper
+39.1K
+En lugar de Asana, OpenProject.
+SWAP 6/9
+Asana
+projects
+$13.49/mo
+OpenProject
+opt/openproject
+17.1K
+En lugar de Calendly, Cal.diy, la versión abierta de Cal.com.
+SWAP 7/9
+Calendly
+scheduling
+Cal.diy
+calcom/cal.diy
+49.8K
+En lugar de Intercom, Chatwoot.
+SWAP 8/9
+Intercom
+customer support
+$29/mo
+Chatwoot
+chatwoot/chatwoot
+11K
+Y en lugar de Loom, Cap.
+SWAP 9/9
+Loom
+screen recording
+$18/mo
+Cap
+CapSoftware/Cap
+24.6K
+Y estos no son proyectos de fin de semana.
+NOT WEEKEND PROJECTS
+GITHUB STARS
+0
+Juntos, estos nueve tienen más de 350.000 estrellas.
+8K
+26.8K
+Cal
+277K
+356K
+Pero presta atención porque nadie te dice esto.
+PAY ATTENTION
+OpenHiggsfield AI — Open-Source Alternative to Higgsfield AI
+The free, open-source alternative to Higgsfield AI. Generate images and videos in one studio, in the browser. Add your platform key (id:secret) to start generating. The studio itself is free.
+Why OpenHiggsfield AI?
+Free & open-source
+Self-hosted
+Your key
+En Open Higgsfield, el estudio es gratis, pero pagas por cada generación con tu propia clave.
+studio: free ✔️
+generations: paid !
+with your own key
+Y OpenSEO cobra por los datos que extraes.
+the tool is free ✔️
+SEO data: pay per use !
+The other seven you install and run yourself, no subscription
+Los otros siete los instalas y ejecutas tú mismo, sin suscripción.
+no subscription
+Y una regla funciona para cualquier herramienta.
+THE RULE
+Antes de suscribirte, busca en GitHub su nombre más 'alternativa de código abierto'
+notion open source alternative
+AppFlowy-IO/AppFlowy ⭐ 78.4K
+mattermost-community/focalboard ⭐ 26.6K
+docmost/docmost ⭐ 22.3K
+y mira si alguien ya lo ha creado gratis.
+The link to all my guides is in my bio.
+El enlace a todas mis guías está en mi biografía.
+theromanknox
+Roman Khaneichuk
+260 posts • 308K followers
+💡 7 AI products sold. $350K. Zero code.
+🧑‍💻 Non-coders: build & sell with Claude
+🚀 Your first build in 7 days
+skool.com/knox/about
+All guides: link in bio
+AI Agency for Non-Coders
+JOIN
+25+ guides • your first build in 7 days
+
+</details>
+
+---
+
+<a id="9-fuente"></a>
+## 9. Alternativas gratuitas a 9 aplicaciones de pago en GitHub
+
+- Fecha: 2026-11-15 · Plataforma: TikTok · Confianza técnica: alta
+- Enlace original: https://vm.tiktok.com/ZN85xARQC/
+- Etiquetas: alternativas-gratuitas, github, software-libre, ahorro, productividad
+- Archivo de origen: `2026-11-15_044514_alternativas-gratuitas-a-9-aplicaciones-de-pago-en-github_3ffb7d.md`
+
+### Resumen
+
+Descubre 9 herramientas de código abierto en GitHub que son alternativas gratuitas a aplicaciones de pago populares.
+
+### Ideas
+
+- Explorar GitHub en busca de alternativas de código abierto a herramientas que usamos a diario.
+- Considerar la autohospedación de estas alternativas para mayor control y ahorro.
+
+### Términos a revisar
+
+La transcripción es clara en cuanto a los nombres de las aplicaciones y sus alternativas de código abierto. Los repositorios de GitHub mencionados parecen correctos para cada alternativa.
+
+#### Términos dudosos detectados
+
+- "Nombres propios técnicos" → posible: "Revisión manual". Motivo: El contenido menciona software/herramientas; revisar posibles nombres propios antes de convertirlo en guía o tarea.
+
+<details>
+<summary>Transcripción completa</summary>
+
+Deja de pagar por estas nueve apps.
+Deja de pagar por estas 9 apps
+PAGO Higgsfield
+PAGO ElevenLabs
+PAGO Semrush
+PAGO Notion
+PAGO Wispr Flow
+PAGO Asana
+PAGO Calendly
+PAGO Intercom
+PAGO Loom
+Todas tienen una alternativa gratis en GitHub.
+GRATIS Higgsfield
+GRATIS ElevenLabs
+GRATIS Semrush
+GRATIS Notion
+GRATIS Wispr Flow
+GRATIS Asana
+GRATIS Calendly
+GRATIS Intercom
+GRATIS Loom
+Gratis en GitHub
+Higgsfield, Open Generative AI.
+Higgsfield
+Open Generative AI
+Anil-batcha/Open-Generative-AI
+github.com
+CÓDIGO ABIERTO
+Imágenes IA
+Vídeo cine
+GRATIS
+Imágenes y vídeo cinematográficos con cientos de modelos.
+ElevenLabs, VoiceStudio.
+ElevenLabs
+VoiceStudio
+debpalash/VoiceStudio
+Clonar voces
+100% local
+Clona voces en tu propio ordenador.
+Semrush, OpenSEO.
+Semrush
+OpenSEO
+every-app/open-seo
+Posiciones
+Backlinks
+Auditorías
+Posiciones, backlinks y auditorías en un solo sitio.
+Notion, AppFlowy.
+Notion
+AppFlowy
+AppFlowy-IO/AppFlowy
+Notas
+Docs
+IA local
+Notas y documentos y funciona con IA en local.
+Whisper Flow, Open Whisper.
+Wispr Flow
+OpenWhispr
+openwhispr/openwhispr
+Dictado
+Sin internet
+Dicta en cualquier app, incluso sin internet.
+Asana, Open Project.
+Asana
+OpenProject
+spf/openproject
+Tareas
+Tu servidor
+Tareas y proyectos en tu propio servidor.
+Calendly, Cal.diy.
+Calendly
+Cal.diy
+calcom/cal.diy
+Reservas
+Google
+Outlook
+Reserva reuniones sincronizadas con Google y Outlook.
+Intercom, Chatwoot.
+Intercom
+Chatwoot
+chatwoot/chatwoot
+Chat
+Email
+Una bandeja
+Todos los mensajes de tus clientes en una sola bandeja.
+Y Loom, Cap.
+Loom
+Cap
+CapGotShare/Cap
+Grabar pantalla
+Compartir
+Graba tu pantalla y compártela en un clic.
+Tienes los nueve enlaces en la descripción.
+Las 9 alternativas gratis
+1 Open Generative AI
+2 VoiceStudio
+3 OpenSEO
+4 AppFlowy
+5 OpenWhispr
+6 OpenProject
+7 Cal.diy
+8 Chatwoot
+9 Cap
+Los 9 enlaces, en la descripción
 
 </details>

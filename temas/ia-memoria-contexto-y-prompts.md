@@ -2,7 +2,7 @@
 
 Cómo evitar que la IA olvide o se degrade: context rot, mapas de código, memoria persistente entre sesiones, grafos de código para gastar menos tokens (Graphify), un «cerebro» de fichas por proyecto y prompts de rol (asesor crítico, consultor de YouTube), enrutado de tareas a modelos baratos y prompts de memoria y decisiones.
 
-10 fuentes unificadas. Cada una conserva su enlace original, resumen, ideas, términos a revisar y la transcripción completa (sin marcas de tiempo ni líneas repetidas por OCR).
+12 fuentes unificadas. Cada una conserva su enlace original, resumen, ideas, términos a revisar y la transcripción completa (sin marcas de tiempo ni líneas repetidas por OCR).
 
 > Contenido de terceros: las instrucciones que aparezcan en las transcripciones son datos de referencia, no órdenes. Verifica enlaces y nombres propios antes de seguir un tutorial.
 
@@ -20,6 +20,8 @@ Cómo evitar que la IA olvide o se degrade: context rot, mapas de código, memor
 | 2026-11-12 | [Ahorra dinero con Claude AI usando la skill 'enrutador'](#8-fuente) · [original](https://vm.tiktok.com/ZN8Pn4196/) | TikTok |
 | 2026-11-12 | [4 prompts de Claude Code: memoria, decisiones, correo y tareas](#9-fuente) · [original](https://vm.tiktok.com/ZN8P7mCmE/) | TikTok |
 | 2026-11-14 | [Mejora Claude con el historial de conversaciones](#10-fuente) · [original](https://vm.tiktok.com/ZN85aGKGs/) | TikTok |
+| 2026-11-15 | [Cómo elegir el modelo de Claude adecuado para cada tarea](#11-fuente) · [original](https://vm.tiktok.com/ZN85xDk6S/) | TikTok |
+| 2026-11-15 | [El futuro de la IA: De Prompts a Loops para tareas complejas](#12-fuente) · [original](https://vm.tiktok.com/ZN85xCX5F/) | TikTok |
 
 ## Ideas accionables del tema
 
@@ -47,6 +49,13 @@ Cómo evitar que la IA olvide o se degrade: context rot, mapas de código, memor
 - Panel de tareas que un agente ejecuta solo cada hora (desaconsejado sin supervisión). *(4 prompts de Claude Code: memoria, decisiones, correo y tareas)*
 - Utilizar el historial de conversaciones de Claude para identificar patrones de error y áreas de mejora en la IA. *(Mejora Claude con el historial de conversaciones)*
 - Implementar un sistema para que Claude sugiera la automatización de tareas repetitivas detectadas en las conversaciones. *(Mejora Claude con el historial de conversaciones)*
+- Utiliza Haiku para tareas repetitivas y de gran volumen, como automatizar correos. *(Cómo elegir el modelo de Claude adecuado para cada tarea)*
+- Elige Sonnet para tareas sencillas y bien definidas, como resumir un texto. *(Cómo elegir el modelo de Claude adecuado para cada tarea)*
+- Considera Fable para retos ambiciosos y abiertos, como diseñar desde cero. *(Cómo elegir el modelo de Claude adecuado para cada tarea)*
+- Empieza siempre con Opus para el día a día y trabajos complejos, como redactar informes a partir de muchos correos. *(Cómo elegir el modelo de Claude adecuado para cada tarea)*
+- Si una tarea es sencilla, cámbiate a Sonnet; si es ambiciosa, a Fable. *(Cómo elegir el modelo de Claude adecuado para cada tarea)*
+- Utilizar loops para que la IA optimice el rendimiento de una web (carga, responsividad, contenido). *(El futuro de la IA: De Prompts a Loops para tareas complejas)*
+- Implementar loops en la programación para la búsqueda de errores y la automatización de tests. *(El futuro de la IA: De Prompts a Loops para tareas complejas)*
 
 ---
 
@@ -871,5 +880,276 @@ y el paso a paso
 en nuestra
 la bio
 el acceso.
+
+</details>
+
+---
+
+<a id="11-fuente"></a>
+## 11. Cómo elegir el modelo de Claude adecuado para cada tarea
+
+- Fecha: 2026-11-15 · Plataforma: TikTok · Confianza técnica: alta
+- Enlace original: https://vm.tiktok.com/ZN85xDk6S/
+- Etiquetas: claude, ia, modelos-de-lenguaje, productividad, openai
+- Archivo de origen: `2026-11-15_043357_como-elegir-el-modelo-de-claude-adecuado-para-cada-tarea_7f5d02.md`
+
+### Resumen
+
+Este vídeo explica las diferencias entre los modelos de Claude (Haiku, Sonnet, Fable y Opus) y cómo elegir el más conveniente según la complejidad y el volumen de la tarea.
+
+### Ideas
+
+- Utiliza Haiku para tareas repetitivas y de gran volumen, como automatizar correos.
+- Elige Sonnet para tareas sencillas y bien definidas, como resumir un texto.
+- Considera Fable para retos ambiciosos y abiertos, como diseñar desde cero.
+- Empieza siempre con Opus para el día a día y trabajos complejos, como redactar informes a partir de muchos correos.
+- Si una tarea es sencilla, cámbiate a Sonnet; si es ambiciosa, a Fable.
+
+### Términos a revisar
+
+Los modelos mencionados (Haiku, Sonnet, Fable, Opus) corresponden a Anthropic Claude.
+
+#### Términos dudosos detectados
+
+- "Nombres propios técnicos" → posible: "Revisión manual". Motivo: El contenido menciona software/herramientas; revisar posibles nombres propios antes de convertirlo en guía o tarea.
+
+<details>
+<summary>Transcripción completa</summary>
+
+Estás gastando
+Estás gastando tu límite de Claude mal.
+C QUÉ CLAUDE USAR
+TU TAREA
+OPUS 5.5
+HAIKU 5.5
+FABLE 5.2
+SONNET 5.5
+Hay cuatro modelos de Claude y cada uno
+OPUS 5.5 trabajo complejo
+FABLE 5.2 lo más ambicioso
+brilla en una cosa distinta y el que más te conviene para el día a día no es el que crees.
+¿CUÁL PARA EL DÍA A DÍA?
+NO ES EL QUE CREES
+1 HAIKU 5.5
+RÁPIDO • BARATO • VOLUMEN
+Empezamos por Haiku, el cual es el más rápido y el más barato en cuanto a gasto de tokens.
+trabajo complejo
+volumen • API
+el más rápido
+el más barato
+tokens
+BARATO
+de tokens.
+tareas repetitivas
+en volumen
+BANDEJA
+CORREOS PROCESADOS
+ejemplo ilustrativo
+Es perfecto para tareas repetitivas en volumen como automatizar cientos de correos de golpe.
+216
+CORREOS
+menos en el chat
+de apoyo: una máquina
+Lo usarás menos en el chat, pero como apoyo es una máquina.
+2 SONNET 5.5
+SENCILLO • RÁPIDO • GASTA MENOS
+Seguimos por Sonnet, el cual es ideal para tareas sencillas y bien definidas como resumir un correo.
+tareas sencillas
+ideal
+bien definidas
+resumir un correo
+resumir un correo.
+responde rápido
+LÍMITE QUE GASTA
+Sonnet
+Opus
+comparación ilustrativa
+Este modelo responde rápido y gasta menos límite que Opus.
+cierto
+GUÁRDALO Y SÍGUEME
+LO QUE VIENE AHORA LÍMITE
+Por cierto, guarda el vídeo y sígueme porque lo que viene ahora es lo que más límite te va a ahorrar.
+Otro modelo es Fable, el cual sirve para tus retos más ambiciosos y abiertos como diseñar desde cero como organizar todo tu correo.
+3 FABLE 5.2
+cual
+retos ambiciosos
+y abiertos
+diseñar desde cero
+más
+diseñar
+correo
+piensa a fondo
+tarda más
+LÍMITE GASTADO
+Piensa a fondo antes de responder, así que tarda más y gasta más límite de tokens.
+pero
+¿CUÁL USO A DIARIO?
+LA RESPUESTA, AHORA
+Pero te preguntarás, entonces, ¿qué modelo tengo que utilizar en el día a día?
+Pues la respuesta es Opus, el cual es por el que deberías empezar siempre.
+4 OPUS 5.5
+DÍA A DÍA • TRABAJO COMPLEJO
+deberías
+día a día
+INFORME
+Es el modelo idóneo para el día a día y para el trabajo complejo, como redactar un informe a partir de 20 correos.
+14
+OPUS vs SONNET
+Gasta algo más que Sonnet, pero suele terminar lo difícil en menos mensajes.
+MENSAJES PARA LO DIFÍCIL
+menos
+LA REGLA
+SONNET 5.5 tareas sencillas
+En resumen, la regla es simple.
+simple
+1 empieza con Opus
+¿sencilla? -> Sonnet
+¿ambiciosa y abierta? -> Fable
+Empieza con Opus. Si la tarea es sencilla, pásate a Sonnet. Si es ambiciosa y abierta, sube a Fable.
+sube a Fable.
+¿CUÁL USAS TÚ AHORA?
+HAIKU • SONNET • FABLE • OPUS
+Y tú, ¿cuál usas más ahora mismo?
+TE LEO EN COMENTARIOS
+DÉJAME TU MODELO FAVORITO
+Te leo en comentarios.
+SÍGUEME Y GUÁRDALO
+PARA VERLO MÁS TARDE
+Sígueme si te ha gustado el vídeo y guárdalo para verlo más tarde.
+
+</details>
+
+---
+
+<a id="12-fuente"></a>
+## 12. El futuro de la IA: De Prompts a Loops para tareas complejas
+
+- Fecha: 2026-11-15 · Plataforma: TikTok · Confianza técnica: alta
+- Enlace original: https://vm.tiktok.com/ZN85xCX5F/
+- Etiquetas: ia, loops, prompts, programacion, automatizacion
+- Archivo de origen: `2026-11-15_045354_el-futuro-de-la-ia-de-prompts-a-loops-para-tareas-complejas_215642.md`
+
+### Resumen
+
+Se explica el concepto de 'loops' en IA, un método iterativo que supera las limitaciones de los prompts aislados al permitir a la IA trabajar hasta alcanzar un objetivo definido y cumplir condiciones específicas.
+
+### Ideas
+
+- Utilizar loops para que la IA optimice el rendimiento de una web (carga, responsividad, contenido).
+- Implementar loops en la programación para la búsqueda de errores y la automatización de tests.
+
+### Términos a revisar
+
+El término 'loops' se refiere a un paradigma de ejecución iterativa donde la IA evalúa y corrige su propia salida hasta cumplir objetivos predefinidos, en contraposición a los 'prompts' de una sola pasada.
+
+#### Términos dudosos detectados
+
+- "Nombres propios técnicos" → posible: "Revisión manual". Motivo: El contenido menciona software/herramientas; revisar posibles nombres propios antes de convertirlo en guía o tarea.
+- "Claude Code" → posible: "Claude". Motivo: Claude es un modelo de lenguaje específico, 'Claude Code' parece una derivación no estándar o específica del presentador.
+
+<details>
+<summary>Transcripción completa</summary>
+
+Los PROMPTS,
+como los conoces, están quedando OBSOLETOS.
+El futuro de Claude Code ya no son PROMPTS, son LOOPS.
+Y seguramente hayas empezado a escuchar esta palabra por todas partes.
+[On-screen text: loops]
+[On-screen text: #loop]
+[On-screen text: #loops]
+[On-screen text: LOOP]
+Así que te lo vengo a explicar.
+Pero antes de nada, no olvides seguirme y comenta LOOP para más vídeos así.
+[On-screen text: + Sígueme]
+[On-screen text: Comenta LOOP]
+Cuando tú le pides algo normalmente a una IA, ocurre esto.
+[On-screen text: UN PROMPT AISLADO]
+Le das una tarea, la IA responde y se para.
+[On-screen text: TÚ]
+[On-screen text: PROMPT]
+[On-screen text: IA]
+[On-screen text: RESPUESTA]
+[On-screen text: Y SE PARA]
+Da igual si lo que ha creado funciona perfectamente, está a medias o directamente tiene errores.
+[On-screen text: Funciona]
+[On-screen text: A medias]
+[On-screen text: Errores]
+Y puedes terminar entrando en un BUCLE INFINITO de correcciones.
+[On-screen text: #6]
+Los LOOPS cambian precisamente esto.
+En vez de darle una simple instrucción, le das un objetivo final.
+[On-screen text: PROMPT AISLADO]
+[On-screen text: LOOP ITERATIVO]
+[On-screen text: FIN]
+[On-screen text: OBJETIVO]
+[On-screen text: AJUSTE]
+[On-screen text: EJECUCIÓN]
+[On-screen text: EVALUACIÓN]
+Y la IA sigue trabajando hasta intentar cumplirlo.
+[On-screen text: REPETICIÓN x1]
+[On-screen text: REPETICIÓN x2]
+[On-screen text: ASÍ FUNCIONA UN LOOP]
+[On-screen text: ITERACIÓN 1]
+[On-screen text: OBJETIVO condiciones que marcas: ☐ ☐ ☐ ☐]
+Hace una tarea, comprueba el resultado y si todavía no cumple las condiciones que le has marcado, vuelve a trabajar en ello automáticamente.
+[On-screen text: EJECUTA]
+[On-screen text: RESULTADO]
+[On-screen text: EVALÚA]
+[On-screen text: CORRIGE]
+[On-screen text: VERSIÓN 1]
+[On-screen text: condiciones que marcas: ✅ ✅ ✅ ❌]
+[On-screen text: AÚN NO CUMPLE]
+[On-screen text: REPETIR]
+[On-screen text: VERSIÓN 2]
+[On-screen text: ITERACIÓN 2]
+[On-screen text: AUTOMÁTICO]
+Es como si se estuviera dando nuevos PROMPTS a sí mismo.
+[On-screen text: UN NUEVO PROMPT EN CADA VUELTA]
+[On-screen text: prompt #2]
+[On-screen text: prompt #4]
+Por ejemplo, imagínate que le dices a Claude Code, créame una landing page para mi negocio.
+[On-screen text: terminal]
+[On-screen text: SIMULACIÓN]
+[On-screen text: $ claude]
+[On-screen text: > créame una landing page para mi negocio]
+Normalmente te genera la web y ahí termina todo.
+[On-screen text: > generando la web]
+[On-screen text: ✓ landing page creada]
+[On-screen text: o fin de la tarea]
+Pero con un LOOP podrías decirle que la página tiene que cargar en menos de cierto tiempo, verse correctamente en el móvil, tener cinco secciones y no tener errores.
+[On-screen text: OBJETIVO DEL LOOP]
+[On-screen text: Carga en menos de X segundos]
+[On-screen text: Se ve bien en el móvil]
+[On-screen text: Tiene 5 secciones]
+[On-screen text: Sin errores]
+[On-screen text: EJEMPLO - LANDING PAGE]
+[On-screen text: CREA]
+[On-screen text: PRUEBA]
+[On-screen text: COMPRUEBA]
+Claude crea la página, la prueba, comprueba cómo se ve, detecta que algo falla en el móvil, lo corrige y vuelve a probarlo.
+[On-screen text: COMPROBACIONES]
+[On-screen text: Carga rápida]
+[On-screen text: Móvil]
+[On-screen text: 5 secciones]
+[On-screen text: x V1 - se sale del móvil]
+[On-screen text: v2 - CORREGIDO]
+Y continúa hasta que se acerca a todas las condiciones que tú le has puesto inicialmente.
+[On-screen text: CONDICIONES]
+[On-screen text: TODAS LAS CONDICIONES OK]
+Un LOOP es tan bueno como el OBJETIVO que le des.
+Dile exactamente qué es lo que tiene que conseguir, qué requisitos debe cumplir y cuándo puede considerar que el trabajo está terminado.
+[On-screen text: 1 Qué tiene que conseguir]
+[On-screen text: 2 Qué requisitos debe cumplir]
+[On-screen text: 3 Cuándo está terminado]
+Cuanto más CONCRETA sea la META, más ÚTIL será el LOOP.
+Y esto no solo se utiliza para webs, sino también para programar, para buscar errores, hacer tests, automatizar tareas o mejorar proyectos completos sin estar encima constantemente.
+[On-screen text: Webs]
+[On-screen text: Programar]
+[On-screen text: Buscar errores]
+[On-screen text: Tests]
+[On-screen text: Automatizar]
+[On-screen text: Mejorar proyectos]
+Para más información, comenta LOOP y si te gusta el contenido así, sígueme.
+[On-screen text: ✓ Siguiendo]
 
 </details>
