@@ -1,10 +1,16 @@
 {
   "id": "20261115-192924-p9lnwh",
   "url": "https://vm.tiktok.com/ZN85bbWEq/",
-  "status": "pendiente",
+  "status": "hecho",
   "createdAt": "2026-11-15T18:29:24.926Z",
-  "updatedAt": "2026-11-15T18:29:24.926Z",
-  "attempts": 0,
+  "updatedAt": "2026-11-15T18:32:22.379Z",
+  "attempts": 1,
   "error": null,
-  "result": null
+  "result": {
+    "path": "Skills y Claude Code/2026-11-15 · Claude controla tus apps y trabaja en varias sesiones a la vez.md",
+    "url": "https://github.com/GUSL1GHT/AETERNA-TRANSCRIPTS/blob/main/Skills%20y%20Claude%20Code/2026-11-15%20%C2%B7%20Claude%20controla%20tus%20apps%20y%20trabaja%20en%20varias%20sesiones%20a%20la%20vez.md",
+    "title": "Claude controla tus apps y trabaja en varias sesiones a la vez",
+    "topic": "Skills y Claude Code",
+    "review": false
+  }
 }
