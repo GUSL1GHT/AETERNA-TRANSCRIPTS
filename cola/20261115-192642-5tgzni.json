@@ -1,10 +1,16 @@
 {
   "id": "20261115-192642-5tgzni",
   "url": "https://vm.tiktok.com/ZN85bc915/",
-  "status": "pendiente",
+  "status": "hecho",
   "createdAt": "2026-11-15T18:26:42.826Z",
-  "updatedAt": "2026-11-15T18:26:42.826Z",
-  "attempts": 0,
+  "updatedAt": "2026-11-15T18:31:43.124Z",
+  "attempts": 1,
   "error": null,
-  "result": null
+  "result": {
+    "path": "Skills y Claude Code/2026-11-15 · Cuatro conectores para Claude que aumentan tu productividad.md",
+    "url": "https://github.com/GUSL1GHT/AETERNA-TRANSCRIPTS/blob/main/Skills%20y%20Claude%20Code/2026-11-15%20%C2%B7%20Cuatro%20conectores%20para%20Claude%20que%20aumentan%20tu%20productividad.md",
+    "title": "Cuatro conectores para Claude que aumentan tu productividad",
+    "topic": "Skills y Claude Code",
+    "review": false
+  }
 }
