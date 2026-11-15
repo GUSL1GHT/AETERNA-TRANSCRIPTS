@@ -2,10 +2,11 @@
 
 Skills (SKILL.md), plugins y kits que convierten a Claude Code, Codex o ChatGPT en un equipo de desarrollo: buscar e instalar skills, flujo de ingeniero senior, pruebas, seguridad, React, prompts de diseño profesional, crear tus propias skills (skill-creator, /watch), catálogos de skills anti-«slop», MCP de búsqueda y navegador (Perplexity, Firecrawl, Playwright), la auditoría de seguridad de Cloudflare y un curso de introducción a Claude Code.
 
-29 vídeos, del más reciente al más antiguo.
+30 vídeos, del más reciente al más antiguo.
 
 | Fecha | Vídeo | Plataforma |
 | --- | --- | --- |
+| 15/11/2026 | [Claude Code Audita tus prompts con prompt-audit](2026-11-15%20%C2%B7%20Claude%20Code%20Audita%20tus%20prompts%20con%20prompt-audit.md) | TikTok |
 | 15/11/2026 | [Mejora Claude Opus 5.5 con Fable 5.1 en Claude Code](2026-11-15%20%C2%B7%20Mejora%20Claude%20Opus%205.5%20con%20Fable%205.1%20en%20Claude%20Code.md) | TikTok |
 | 15/11/2026 | [Descubre los 6 mods que revolucionan Claude Code](2026-11-15%20%C2%B7%20Descubre%20los%206%20mods%20que%20revolucionan%20Claude%20Code.md) | TikTok |
 | 15/11/2026 | [Top 10 skills de Claude Code por estrellas en GitHub (octubre 2026)](2026-11-15%20%C2%B7%20Top%2010%20skills%20de%20Claude%20Code%20por%20estrellas%20en%20GitHub%20%28octubre%202026%29.md) | TikTok |
