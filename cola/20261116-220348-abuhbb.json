@@ -1,10 +1,16 @@
 {
   "id": "20261116-220348-abuhbb",
   "url": "https://vm.tiktok.com/ZN8aeyc63/",
-  "status": "pendiente",
+  "status": "hecho",
   "createdAt": "2026-11-16T21:03:48.839Z",
-  "updatedAt": "2026-11-16T21:03:48.839Z",
-  "attempts": 0,
+  "updatedAt": "2026-11-16T21:04:12.705Z",
+  "attempts": 1,
   "error": null,
-  "result": null
+  "result": {
+    "path": "Skills y Claude Code/2026-11-16 · Tier list de Skills para instalar en Claude AI.md",
+    "url": "https://github.com/GUSL1GHT/AETERNA-TRANSCRIPTS/blob/main/Skills%20y%20Claude%20Code/2026-11-16%20%C2%B7%20Tier%20list%20de%20Skills%20para%20instalar%20en%20Claude%20AI.md",
+    "title": "Tier list de Skills para instalar en Claude AI",
+    "topic": "Skills y Claude Code",
+    "review": false
+  }
 }
