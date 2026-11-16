@@ -1,10 +1,16 @@
 {
   "id": "20261116-215859-copwsb",
   "url": "https://vm.tiktok.com/ZN8aefDD2/",
-  "status": "pendiente",
+  "status": "hecho",
   "createdAt": "2026-11-16T20:59:00.371Z",
-  "updatedAt": "2026-11-16T20:59:00.371Z",
-  "attempts": 0,
+  "updatedAt": "2026-11-16T20:59:42.769Z",
+  "attempts": 1,
   "error": null,
-  "result": null
+  "result": {
+    "path": "Skills y Claude Code/2026-11-16 · Evita código frontend obsoleto en tu inteligencia artificial.md",
+    "url": "https://github.com/GUSL1GHT/AETERNA-TRANSCRIPTS/blob/main/Skills%20y%20Claude%20Code/2026-11-16%20%C2%B7%20Evita%20c%C3%B3digo%20frontend%20obsoleto%20en%20tu%20inteligencia%20artificial.md",
+    "title": "Evita código frontend obsoleto en tu inteligencia artificial",
+    "topic": "Skills y Claude Code",
+    "review": false
+  }
 }
