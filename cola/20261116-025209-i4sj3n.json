@@ -1,10 +1,16 @@
 {
   "id": "20261116-025209-i4sj3n",
   "url": "https://vm.tiktok.com/ZN85sCgbs/",
-  "status": "pendiente",
+  "status": "hecho",
   "createdAt": "2026-11-16T01:52:32.762Z",
-  "updatedAt": "2026-11-16T01:52:32.762Z",
-  "attempts": 0,
+  "updatedAt": "2026-11-16T01:53:09.112Z",
+  "attempts": 1,
   "error": null,
-  "result": null
+  "result": {
+    "path": "Skills y Claude Code/2026-11-16 · Plugin de Google para mejorar la programación de IA.md",
+    "url": "https://github.com/GUSL1GHT/AETERNA-TRANSCRIPTS/blob/main/Skills%20y%20Claude%20Code/2026-11-16%20%C2%B7%20Plugin%20de%20Google%20para%20mejorar%20la%20programaci%C3%B3n%20de%20IA.md",
+    "title": "Plugin de Google para mejorar la programación de IA",
+    "topic": "Skills y Claude Code",
+    "review": false
+  }
 }

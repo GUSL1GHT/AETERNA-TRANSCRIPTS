@@ -2,10 +2,11 @@
 
 Skills (SKILL.md), plugins y kits que convierten a Claude Code, Codex o ChatGPT en un equipo de desarrollo: buscar e instalar skills, flujo de ingeniero senior, pruebas, seguridad, React, prompts de diseño profesional, crear tus propias skills (skill-creator, /watch), catálogos de skills anti-«slop», MCP de búsqueda y navegador (Perplexity, Firecrawl, Playwright), la auditoría de seguridad de Cloudflare y un curso de introducción a Claude Code.
 
-42 vídeos, del más reciente al más antiguo.
+43 vídeos, del más reciente al más antiguo.
 
 | Fecha | Vídeo | Plataforma |
 | --- | --- | --- |
+| 16/11/2026 | [Plugin de Google para mejorar la programación de IA](2026-11-16%20%C2%B7%20Plugin%20de%20Google%20para%20mejorar%20la%20programaci%C3%B3n%20de%20IA.md) | TikTok |
 | 16/11/2026 | [Claude genera código de calidad con anti-slop y Thermos](2026-11-16%20%C2%B7%20Claude%20genera%20c%C3%B3digo%20de%20calidad%20con%20anti-slop%20y%20Thermos.md) | TikTok |
 | 16/11/2026 | [Claude LLM Council 5 asesores para tomar decisiones difíciles](2026-11-16%20%C2%B7%20Claude%20LLM%20Council%205%20asesores%20para%20tomar%20decisiones%20dif%C3%ADciles.md) | TikTok |
 | 16/11/2026 | [Orquestación de agentes con Claude Code para optimizar tareas](2026-11-16%20%C2%B7%20Orquestaci%C3%B3n%20de%20agentes%20con%20Claude%20Code%20para%20optimizar%20tareas.md) | TikTok |
