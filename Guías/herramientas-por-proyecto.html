@@ -58,7 +58,7 @@ code{font:12px var(--f-mono)}
 <div class="wrap">
 <header>
   <h1>Qué herramienta encaja con cada proyecto</h1>
-  <p class="sub">91 fuentes de AETERNA cruzadas con tus 16 proyectos de <code>F:\Github</code>: apps Windows en C#, Python con modelos de probabilidad (ComboLab), asistentes de voz, PWAs en JavaScript y la ingeniería inversa de REA. Estrellas y licencias comprobadas en GitHub el 14/11; actualizado el 15/11. Pulsa una herramienta para ver el detalle.</p>
+  <p class="sub">99 fuentes de AETERNA cruzadas con tus 16 proyectos de <code>F:\Github</code>: apps Windows en C#, Python con modelos de probabilidad (ComboLab), asistentes de voz, PWAs en JavaScript y la ingeniería inversa de REA. Estrellas y licencias comprobadas en GitHub el 14/11; actualizado el 15/11. Pulsa una herramienta para ver el detalle.</p>
   <div class="legend">
     <span class="pill p-ok">Instalar como skill</span>
     <span class="pill p-lib">Usar dentro de un proyecto</span>
@@ -155,6 +155,12 @@ code{font:12px var(--f-mono)}
       <div class="det"><span class="meta">función de Claude Code · fuente del 15/11 · documentación oficial comprobada</span>
       <p>Interviene antes de elegir enfoque, ante errores repetidos y antes de dar algo por terminado; lo decide Claude. Con suscripción cuenta para tu límite (Fable puede ir a créditos de uso y pedir un consentimiento). <code>/advisor off</code> lo quita.</p>
       <p><b>Para:</b> la auditoría matemática de ComboLab, en vez de cambiar todo el chat a Fable.</p></div></details>
+    <details><summary><b>Elephant-Goldfish Model</b><span class="pill p-opt">Opcional · pendiente de tu sí</span><span class="one">Google: uno redacta el plan con todo el contexto y revisores «sin memoria» lo critican.</span></summary>
+      <div class="det"><span class="meta">google/elephant-goldfish-model · 20 k★ · Apache-2.0 · fuente del 16/11</span>
+      <p>El «elefante» guarda el contexto y escribe la especificación; los «peces» revisan el borrador y el código sin la conversación previa, para sacar supuestos no dichos. Funciona en Claude Code y Codex. Cada revisión lanza agentes: gasta uso. Lleva scripts: revisarlos antes de instalar.</p>
+      <p><b>Para:</b> revisar planes y cambios grandes de ComboLab con ojos frescos; es la idea del AUDITOR COMBOLAB, pero automática y dentro del mismo chat.</p></div></details>
+    <details><summary><b>LLM Council</b><span class="pill p-opt">Opcional</span><span class="one">Cinco asesores con enfoques distintos analizan una decisión y dan veredicto.</span></summary>
+      <div class="det"><span class="meta">aiwithremy/claude-skills-llm-council · 3 k★ · sin licencia · fuente del 16/11</span><p>Para decisiones difíciles, no para programar. Lanza cinco asesores: gasta bastante. Sin licencia: usar, no copiar su código.</p></div></details>
     <details><summary><b>AnyDoc</b><span class="pill p-opt">Alternativa</span><span class="one">Como MarkItDown: Excel, Word, PDF… a Markdown.</span></summary>
       <div class="det"><span class="meta">firecrawl/anydoc · 23,5 k★ · MIT · fuente del 15/11</span><p>Hecho en Rust. Con una de las dos basta para que otras IAs lean el Excel de ComboLab.</p></div></details>
     <details><summary><b>React Doctor</b><span class="pill p-opt">Si usas React</span><span class="one">Solo si COMBOLAB-WEB se hace con React.</span></summary>
@@ -212,6 +218,7 @@ code{font:12px var(--f-mono)}
         <li><b>Vídeo de los 6 mods:</b> Mission Control lo cubre la barra lateral de la app; Prompt Enhancer y Aprendiz rehechos para gastar solo al pedirlos (mejora-prompt y aprendiz).</li>
         <li><b>Fuentes del 15/11:</b> Grill Me, Find Skills y Skill Creator ya los tienes; Agent Browser lo cubre el navegador integrado; Superpowers, Matt Pocock y Karpathy duplican tus skills de desarrollo; Anti-Slop y claude-thermos tienen poco uso o se solapan con code-review y security-audit; Headroom y Hallmark no aparecen en GitHub.</li>
         <li><b>Fuentes nuevas del 15/11:</b> agent-desktop (Vercel, 24 k★) duplica el control del ordenador que ya tienes; Composio conecta cientos de servicios pasando tus datos por un tercero; Ralph Loop repite la tarea en bucle y dispara el gasto; frontend-design se solapa con Impeccable y unslop; Supabase no lo usa ningún proyecto; FreeLLMAPI, Strix, claude-mem, Superpowers, Playwright MCP, Firecrawl y Context7 ya estaban evaluadas.</li>
+        <li><b>Fuentes del 16/11:</b> Everything Claude Code (ECC, 304 k★, 68 agentes y 292 skills) carga demasiado y duplica lo que tienes; anti-slop y Thermos ya estaban descartadas; la orquestación con subagentes ya la hace la skill enrutador. Dos ideas gratis sin instalar nada: la «técnica del canario» (la barra de contexto de uso-y-contexto ya da esa señal) y el prompt de profundidad de Felix Rieseberg, que encaja con <code>/mejora</code>.</li>
         <li><b>/watch (vídeos de YouTube):</b> necesita una clave de Gemini; AETERNA ya transcribe vídeos.</li>
       </ul></div></details>
   </div>
