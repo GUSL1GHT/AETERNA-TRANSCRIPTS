@@ -105,10 +105,11 @@ code{font:12px var(--f-mono)}
       <p>Complementa a unslop: unslop limpia lo genérico, Impeccable da vocabulario para decidir.</p>
       <p>Instalada sin <code>scripts/</code>: su lanzador descarga y ejecuta un binario precompilado de GitHub. La skill funciona igual en su modo sin lanzador, leyendo PRODUCT.md y DESIGN.md directamente.</p>
       <p><b>Para:</b> COMBOLAB-WEB, que se diseña desde cero. Alternativas parecidas: UI/UX Pro Max (149 k★) y Taste Skill (115 k★); con una basta.</p></div></details>
-    <details><summary><b>Claude Security</b><span class="pill p-ok">Recomendada · sin instalar</span><span class="one">Plugin oficial de Anthropic: auditoría de seguridad con agentes y parches.</span></summary>
+    <details><summary><b>Claude Security</b><span class="pill p-ok">Instalada 16/11</span><span class="one">Plugin oficial de Anthropic: auditoría de seguridad con agentes y parches.</span></summary>
       <div class="det"><span class="meta">anthropics/claude-plugins-official · 47 k★ · Apache-2.0 · fuente del 15/11</span>
       <p>Mapea la arquitectura, hace un modelo de amenazas, busca fallos por componente y verifica cada hallazgo antes del informe; también propone parches. Tres modos: todo el repositorio, solo los cambios de una rama o sugerir parches. Corre en tu sesión con tus permisos (sin aislamiento propio), así que solo para código tuyo. Recomiendan Opus 5.5 o Fable 5.1; gasta bastante.</p>
-      <p><b>Para:</b> AETERNA-PRO (pública) y COMBOLAB-WEB antes de publicar. Se solapa con security-audit: usar una de las dos, no ambas. Lleva hooks y scripts en Python: revisarlos antes de instalar.</p></div></details>
+      <p><b>Para:</b> AETERNA-PRO (pública) y COMBOLAB-WEB antes de publicar. Se solapa con security-audit: usar una de las dos, no ambas.</p>
+      <p><b>Revisión 16/11:</b> sin llamadas de red; sus hooks solo leen git, guardan estado local y, si no contestas en 60 s a la pregunta de inicio, la deniegan (nunca aprueban nada); solo borra sus carpetas <code>CLAUDE-SECURITY-*</code>. Instalada desde la copia revisada (commit b5b01ac) en <code>~/.claude/plugins-revisados</code>, sin actualizaciones automáticas. Se usa con <code>/claude-security</code>. Necesitaba <code>python3</code>: creado junto a Python 3.11.</p></div></details>
     <details><summary><b>Validación de modelos</b><span class="pill p-ok">Creada 14/11</span><span class="one">Comprueba si las probabilidades de ComboLab aciertan lo que dicen.</span></summary>
       <div class="det"><span class="meta">skill propia · no viene de las fuentes</span>
       <p>Ninguna fuente trata algoritmos matemáticos. Skill propia: backtesting sin fuga de datos, calibración (Brier, log-loss, curva de fiabilidad), tamaño de muestra y comparación con la cuota del mercado.</p>
@@ -144,7 +145,7 @@ code{font:12px var(--f-mono)}
 <section>
   <h2>Opcionales</h2>
   <div class="list">
-    <details><summary><b>SkillUI</b><span class="pill p-opt">Opcional · pendiente de tu sí</span><span class="one">Saca colores, tipografías y espaciados de una web para usarlos de referencia.</span></summary>
+    <details><summary><b>SkillUI</b><span class="pill p-opt">No necesaria por ahora</span><span class="one">Saca colores, tipografías y espaciados de una web para usarlos de referencia.</span></summary>
       <div class="det"><span class="meta">amaancoderx/npxskillui · 2,5 k★ · README dice MIT pero el repositorio no incluye archivo de licencia · fuente del 15/11</span>
       <p>Análisis estático, sin IA ni claves. Se instala con npm (sin scripts de instalación; dependencias normales). Su «modo ultra» necesita Playwright. Uso privado sin problema; no copiar la marca de otra web en algo que publiques.</p>
       <p><b>Para:</b> COMBOLAB-WEB o el rediseño de ComboLab tomando una web de referencia. Alternativa sin instalar nada: Claude puede leer el diseño de la web con el navegador integrado.</p></div></details>
@@ -155,9 +156,10 @@ code{font:12px var(--f-mono)}
       <div class="det"><span class="meta">función de Claude Code · fuente del 15/11 · documentación oficial comprobada</span>
       <p>Interviene antes de elegir enfoque, ante errores repetidos y antes de dar algo por terminado; lo decide Claude. Con suscripción cuenta para tu límite (Fable puede ir a créditos de uso y pedir un consentimiento). <code>/advisor off</code> lo quita.</p>
       <p><b>Para:</b> la auditoría matemática de ComboLab, en vez de cambiar todo el chat a Fable.</p></div></details>
-    <details><summary><b>Elephant-Goldfish Model</b><span class="pill p-opt">Opcional · pendiente de tu sí</span><span class="one">Google: uno redacta el plan con todo el contexto y revisores «sin memoria» lo critican.</span></summary>
+    <details><summary><b>Elephant-Goldfish Model</b><span class="pill p-ok">Instalado 16/11</span><span class="one">Google: uno redacta el plan con todo el contexto y revisores «sin memoria» lo critican.</span></summary>
       <div class="det"><span class="meta">google/elephant-goldfish-model · 20 k★ · Apache-2.0 · fuente del 16/11</span>
-      <p>El «elefante» guarda el contexto y escribe la especificación; los «peces» revisan el borrador y el código sin la conversación previa, para sacar supuestos no dichos. Funciona en Claude Code y Codex. Cada revisión lanza agentes: gasta uso. Lleva scripts: revisarlos antes de instalar.</p>
+      <p>El «elefante» guarda el contexto y escribe la especificación; los «peces» revisan el borrador y el código sin la conversación previa, para sacar supuestos no dichos. Funciona en Claude Code y Codex. Cada revisión lanza agentes: gasta uso.</p>
+      <p><b>Revisión 16/11:</b> solo skills y agentes en texto, sin hooks ni código que se ejecute. Instalado desde la copia revisada (commit 72d06f5), sin actualizaciones automáticas. Para empezar: <code>/egm:egm-review docs/…</code> sobre un plan o documento existente.</p>
       <p><b>Para:</b> revisar planes y cambios grandes de ComboLab con ojos frescos; es la idea del AUDITOR COMBOLAB, pero automática y dentro del mismo chat.</p></div></details>
     <details><summary><b>LLM Council</b><span class="pill p-opt">Opcional</span><span class="one">Cinco asesores con enfoques distintos analizan una decisión y dan veredicto.</span></summary>
       <div class="det"><span class="meta">aiwithremy/claude-skills-llm-council · 3 k★ · sin licencia · fuente del 16/11</span><p>Para decisiones difíciles, no para programar. Lanza cinco asesores: gasta bastante. Sin licencia: usar, no copiar su código.</p></div></details>
