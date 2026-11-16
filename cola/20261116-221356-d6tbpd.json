@@ -1,10 +1,16 @@
 {
   "id": "20261116-221356-d6tbpd",
   "url": "https://vm.tiktok.com/ZN8aeYu9D/",
-  "status": "pendiente",
+  "status": "hecho",
   "createdAt": "2026-11-16T21:13:57.110Z",
-  "updatedAt": "2026-11-16T21:13:57.110Z",
-  "attempts": 0,
+  "updatedAt": "2026-11-16T21:14:27.525Z",
+  "attempts": 1,
   "error": null,
-  "result": null
+  "result": {
+    "path": "Memoria, contexto y prompts/2026-11-16 · 7 trucos para reducir el uso de tokens de Claude hasta un 80.md",
+    "url": "https://github.com/GUSL1GHT/AETERNA-TRANSCRIPTS/blob/main/Memoria%2C%20contexto%20y%20prompts/2026-11-16%20%C2%B7%207%20trucos%20para%20reducir%20el%20uso%20de%20tokens%20de%20Claude%20hasta%20un%2080.md",
+    "title": "7 trucos para reducir el uso de tokens de Claude hasta un 80",
+    "topic": "Memoria, contexto y prompts",
+    "review": false
+  }
 }

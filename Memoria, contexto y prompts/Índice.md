@@ -2,10 +2,11 @@
 
 Cómo evitar que la IA olvide o se degrade: context rot, mapas de código, memoria persistente entre sesiones, grafos de código para gastar menos tokens (Graphify), un «cerebro» de fichas por proyecto y prompts de rol (asesor crítico, consultor de YouTube), enrutado de tareas a modelos baratos y prompts de memoria y decisiones.
 
-16 vídeos, del más reciente al más antiguo.
+17 vídeos, del más reciente al más antiguo.
 
 | Fecha | Vídeo | Plataforma |
 | --- | --- | --- |
+| 16/11/2026 | [7 trucos para reducir el uso de tokens de Claude hasta un 80](2026-11-16%20%C2%B7%207%20trucos%20para%20reducir%20el%20uso%20de%20tokens%20de%20Claude%20hasta%20un%2080.md) | TikTok |
 | 16/11/2026 | [Detecta la degradación de Claude con la técnica del canario](2026-11-16%20%C2%B7%20Detecta%20la%20degradaci%C3%B3n%20de%20Claude%20con%20la%20t%C3%A9cnica%20del%20canario.md) | TikTok |
 | 16/11/2026 | [Prompt avanzado de un ingeniero de Anthropic para obtener mayor profundidad](2026-11-16%20%C2%B7%20Prompt%20avanzado%20de%20un%20ingeniero%20de%20Anthropic%20para%20obtener%20mayor%20profundidad.md) | TikTok |
 | 15/11/2026 | [Optimiza Claude.md con Prompt Audit para mejores respuestas](2026-11-15%20%C2%B7%20Optimiza%20Claude.md%20con%20Prompt%20Audit%20para%20mejores%20respuestas.md) | TikTok |
