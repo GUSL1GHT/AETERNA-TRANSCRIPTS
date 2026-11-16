@@ -1,0 +1,16 @@
+{
+  "id": "20261116-025905-4ybsjv",
+  "url": "https://vm.tiktok.com/ZN85sxRPx/",
+  "status": "hecho",
+  "createdAt": "2026-11-16T01:59:06.033Z",
+  "updatedAt": "2026-11-16T02:00:01.607Z",
+  "attempts": 1,
+  "error": null,
+  "result": {
+    "path": "Memoria, contexto y prompts/2026-11-16 · Detecta la degradación de Claude con la técnica del canario.md",
+    "url": "https://github.com/GUSL1GHT/AETERNA-TRANSCRIPTS/blob/main/Memoria%2C%20contexto%20y%20prompts/2026-11-16%20%C2%B7%20Detecta%20la%20degradaci%C3%B3n%20de%20Claude%20con%20la%20t%C3%A9cnica%20del%20canario.md",
+    "title": "Detecta la degradación de Claude con la técnica del canario",
+    "topic": "Memoria, contexto y prompts",
+    "review": false
+  }
+}
