@@ -1,10 +1,10 @@
 {
   "id": "20261116-022332-hnzqql",
   "url": "https://vm.tiktok.com/ZN85stmAP/",
-  "status": "error",
+  "status": "pendiente",
   "createdAt": "2026-11-16T01:23:33.453Z",
-  "updatedAt": "2026-11-16T01:24:27.366Z",
+  "updatedAt": "2026-11-16T01:26:38.886Z",
   "attempts": 4,
-  "error": "La plataforma ha rechazado este enlace. Comprueba que la publicación sea pública e inténtalo de nuevo.",
+  "error": null,
   "result": null
 }
