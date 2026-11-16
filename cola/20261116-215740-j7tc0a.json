@@ -1,10 +1,16 @@
 {
   "id": "20261116-215740-j7tc0a",
   "url": "https://vm.tiktok.com/ZN8aeABYL/",
-  "status": "pendiente",
+  "status": "hecho",
   "createdAt": "2026-11-16T20:58:19.973Z",
-  "updatedAt": "2026-11-16T20:58:19.973Z",
-  "attempts": 0,
+  "updatedAt": "2026-11-16T20:59:04.442Z",
+  "attempts": 1,
   "error": null,
-  "result": null
+  "result": {
+    "path": "Skills y Claude Code/2026-11-16 · Agent Rules Books aplica 14 libros de programación a tu IA.md",
+    "url": "https://github.com/GUSL1GHT/AETERNA-TRANSCRIPTS/blob/main/Skills%20y%20Claude%20Code/2026-11-16%20%C2%B7%20Agent%20Rules%20Books%20aplica%2014%20libros%20de%20programaci%C3%B3n%20a%20tu%20IA.md",
+    "title": "Agent Rules Books aplica 14 libros de programación a tu IA",
+    "topic": "Skills y Claude Code",
+    "review": false
+  }
 }
