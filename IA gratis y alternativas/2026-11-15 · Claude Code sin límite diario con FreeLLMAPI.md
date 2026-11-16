@@ -118,7 +118,7 @@ Publicado por [edso.systems](https://www.tiktok.com/@edso.systems).
 - Etiquetas: claude code, freellmapi, ia gratis, opensource, programacion
 - Calidad de la transcripción automática: alta
 - Procesado por AETERNA en segundo plano con gemini-2.5-flash.
-- El texto limpio no conserva estas fichas del original: 01, 02, 05, 06, 07, 08, 09. Revisar con el texto original de abajo.
+- Revisado el 15/11/2026: las fichas que faltaban son solo números de lista del vídeo. FreeLLMAPI ya estaba descartada: tu código y tus claves pasarían por proveedores de terceros.
 
 ## Texto original
 

@@ -2,10 +2,11 @@
 
 Usar modelos sin pagar o en tu propio PC: agentes gratuitos, enrutadores de modelos (Omniroute, Free Claude Code), elegir modelo según hardware, Ollama y alternativas libres para imagen, vídeo, voz, avatares, presentaciones y reuniones.
 
-9 vídeos, del más reciente al más antiguo.
+10 vídeos, del más reciente al más antiguo.
 
 | Fecha | Vídeo | Plataforma |
 | --- | --- | --- |
+| 15/11/2026 | [Claude Code sin límite diario con FreeLLMAPI](2026-11-15%20%C2%B7%20Claude%20Code%20sin%20l%C3%ADmite%20diario%20con%20FreeLLMAPI.md) | TikTok |
 | 15/11/2026 | [Alternativas gratuitas a 9 aplicaciones de pago en GitHub](2026-11-15%20%C2%B7%20Alternativas%20gratuitas%20a%209%20aplicaciones%20de%20pago%20en%20GitHub.md) | TikTok |
 | 15/11/2026 | [Alternativas gratuitas en GitHub a suscripciones de pago](2026-11-15%20%C2%B7%20Alternativas%20gratuitas%20en%20GitHub%20a%20suscripciones%20de%20pago.md) | TikTok |
 | 10/11/2026 | [Usa miles de millones de tokens gratis con Claude Code](2026-11-10%20%C2%B7%20Usa%20miles%20de%20millones%20de%20tokens%20gratis%20con%20Claude%20Code.md) | TikTok |

@@ -3,7 +3,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&family=Space+Grotesk:wght@500;600&display=swap">
 <style>
-/* Layout: informe de una columna; resumen arriba, matriz proyecto→herramienta, fichas por veredicto, acciones al final */
+/* Layout: informe compacto de una columna; matriz proyecto→herramienta arriba y, debajo, una línea por herramienta con el detalle plegado */
 :root{
   --bg:#f6f7f9; --surface:#ffffff; --fg:#17202b; --muted:#5b6673; --line:#dfe3e8; --accent:#1f5fbf;
   --ok:#1d7a46; --ok-bg:#e3f3ea; --lib:#1f5fbf; --lib-bg:#e6eefb; --opt:#8a5a00; --opt-bg:#fbf0d9; --no:#8b2c2c; --no-bg:#f8e4e4;
@@ -15,47 +15,50 @@
 :root[data-theme="dark"]{
   --bg:#0f141a; --surface:#161d26; --fg:#e6ebf1; --muted:#97a3b1; --line:#283341; --accent:#7aa7ef;
   --ok:#6fd39b; --ok-bg:#163326; --lib:#8fb6f5; --lib-bg:#17263d; --opt:#e9bf6a; --opt-bg:#352a12; --no:#ef9a9a; --no-bg:#3a1c1c; color-scheme:dark}
-body{background:var(--bg);color:var(--fg);font:15px/1.55 var(--f-body)}
-.wrap{max-width:980px;margin:0 auto;padding-block:32px 56px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:36px}
-h1,h2,h3{font-family:var(--f-display);text-wrap:balance;margin:0}
-h1{font-size:30px;line-height:1.15}
-h2{font-size:21px}
-h3{font-size:16px}
-p{margin:0;max-width:68ch}
-.lead{color:var(--muted)}
-header{display:grid;gap:10px}
-.eyebrow{font:500 12px var(--f-mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
-section{display:grid;gap:14px}
-.legend{display:flex;flex-wrap:wrap;gap:8px}
-.pill{display:inline-block;font:500 12px/1 var(--f-mono);padding:5px 8px;border-radius:4px;white-space:nowrap}
+body{background:var(--bg);color:var(--fg);font:14px/1.45 var(--f-body)}
+.wrap{max-width:900px;margin:0 auto;padding-block:20px 40px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:22px}
+h1,h2{font-family:var(--f-display);text-wrap:balance;margin:0}
+h1{font-size:20px;line-height:1.2}
+h2{font-size:15px}
+p{margin:0;max-width:72ch}
+header{display:grid;gap:6px}
+.sub{color:var(--muted);font-size:13px}
+.legend{display:flex;flex-wrap:wrap;gap:6px}
+section{display:grid;gap:8px}
+.pill{display:inline-block;font:500 11px/1 var(--f-mono);padding:4px 6px;border-radius:4px;white-space:nowrap}
 .p-ok{color:var(--ok);background:var(--ok-bg)} .p-lib{color:var(--lib);background:var(--lib-bg)} .p-opt{color:var(--opt);background:var(--opt-bg)} .p-no{color:var(--no);background:var(--no-bg)}
 .scroll{overflow-x:auto;border:1px solid var(--line);border-radius:6px;background:var(--surface)}
-table{border-collapse:collapse;width:100%;min-width:720px;font-size:14px}
-th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top}
-th{font:500 12px var(--f-mono);color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
+table{border-collapse:collapse;width:100%;min-width:620px;font-size:13px}
+th,td{text-align:left;padding:6px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font:500 11px var(--f-mono);color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
 tr:last-child td{border-bottom:0}
-td .pill{margin:0 4px 4px 0}
-.stack{font:12px var(--f-mono);color:var(--muted)}
-.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:12px}
-.card{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:14px 16px;display:grid;gap:8px;align-content:start;min-width:0}
-.card .top{display:flex;justify-content:space-between;gap:10px;align-items:baseline}
-.meta{font:12px var(--f-mono);color:var(--muted)}
-.card p{font-size:14px}
-.fit{font-size:13px;color:var(--muted)}
-.fit b{color:var(--fg);font-weight:500}
-ul.plain{margin:0;padding-left:18px;display:grid;gap:6px;max-width:72ch}
-.have{display:flex;flex-wrap:wrap;gap:6px}
-.have span{font:12px var(--f-mono);border:1px solid var(--line);border-radius:4px;padding:4px 7px;background:var(--surface)}
-.todo{background:var(--surface);border:1px solid var(--line);border-left:3px solid var(--accent);border-radius:6px;padding:16px 18px;display:grid;gap:10px}
+td .pill{margin:0 3px 3px 0}
+.stack{font:11px var(--f-mono);color:var(--muted)}
+.list{border:1px solid var(--line);border-radius:6px;background:var(--surface)}
+details{border-bottom:1px solid var(--line)}
+details:last-child{border-bottom:0}
+summary{list-style:none;cursor:pointer;padding:7px 12px;display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px}
+summary::-webkit-details-marker{display:none}
+summary::before{content:"+";font:500 12px var(--f-mono);color:var(--muted);width:10px}
+details[open]>summary::before{content:"–"}
+summary:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+summary b{font-weight:600}
+.one{color:var(--muted);font-size:13px;flex:1 1 260px;min-width:0}
+.det{padding:0 12px 10px 32px;display:grid;gap:6px;font-size:13px}
+.meta{font:11px var(--f-mono);color:var(--muted)}
+.det b{font-weight:500}
+.have{font-size:13px;color:var(--muted)}
+.have span{color:var(--fg)}
+ul.plain{margin:0;padding-left:18px;display:grid;gap:4px;font-size:13px;max-width:76ch}
+.todo{border-left:3px solid var(--accent);padding-left:12px}
 a{color:var(--accent)}
-code{font:13px var(--f-mono)}
+code{font:12px var(--f-mono)}
 </style>
 
 <div class="wrap">
 <header>
-  <span class="eyebrow">Transcripciones de AETERNA · 62 fuentes · 14/11/2026</span>
   <h1>Qué herramienta encaja con cada proyecto</h1>
-  <p class="lead">Repaso de todas las skills, MCP y repositorios citados en las transcripciones, cruzado con tus 16 proyectos de <code>F:\Github</code>: apps Windows en C#, Python con modelos de probabilidad (ComboLab), asistentes de voz, PWAs en JavaScript y la ingeniería inversa de REA. Estrellas y licencias comprobadas hoy en GitHub.</p>
+  <p class="sub">91 fuentes de AETERNA cruzadas con tus 16 proyectos de <code>F:\Github</code>: apps Windows en C#, Python con modelos de probabilidad (ComboLab), asistentes de voz, PWAs en JavaScript y la ingeniería inversa de REA. Estrellas y licencias comprobadas en GitHub el 14/11; actualizado el 15/11. Pulsa una herramienta para ver el detalle.</p>
   <div class="legend">
     <span class="pill p-ok">Instalar como skill</span>
     <span class="pill p-lib">Usar dentro de un proyecto</span>
@@ -63,13 +66,6 @@ code{font:13px var(--f-mono)}
     <span class="pill p-no">Descartada</span>
   </div>
 </header>
-
-<section>
-  <h2>Ya lo tienes instalado</h2>
-  <div class="have">
-    <span>Agent Skills (28: TDD, especificación, rendimiento, seguridad…)</span><span>find-skills</span><span>unslop</span><span>socratic-tutor</span><span>ponytail</span><span>enrutador</span><span>skill-creator</span><span>Codebase Memory</span><span>Context7</span><span>navegador integrado</span><span>Claude en Chrome</span>
-  </div>
-</section>
 
 <section>
   <h2>Por proyecto</h2>
@@ -83,142 +79,152 @@ code{font:13px var(--f-mono)}
       <tr><td>AURIN</td><td class="stack">C# · radar web</td><td><span class="pill p-lib">Scrapling</span><span class="pill p-opt">browser-use</span></td></tr>
       <tr><td>NORA · NORA-MARK · HOME-HUB</td><td class="stack">Python · PowerShell · voz</td><td><span class="pill p-lib">VoiceStudio</span><span class="pill p-ok">security-audit (puente Alexa)</span><span class="pill p-opt">MCP Builder</span></td></tr>
       <tr><td>REA · RESEARCH-KIT</td><td class="stack">TypeScript · CLI/MCP</td><td><span class="pill p-opt">Understand-Anything</span><span class="pill p-ok">security-audit</span></td></tr>
-      <tr><td>GAME-CONFIG-TOOL · NEXORA · Krevn</td><td class="stack">C# · Windows</td><td>Nada nuevo de las transcripciones; ya cubren lo suyo TDD y las pruebas que tienen.</td></tr>
+      <tr><td>GAME-CONFIG-TOOL · NEXORA · Krevn</td><td class="stack">C# · Windows</td><td>Nada nuevo de las fuentes; ya cubren lo suyo TDD y las pruebas que tienen.</td></tr>
       <tr><td>GTA-VI-Short</td><td class="stack">Vídeo corto</td><td><span class="pill p-lib">HyperFrames</span></td></tr>
       <tr><td>Documentación de las tres IAs</td><td class="stack">Markdown</td><td><span class="pill p-opt">Diagram Design</span><span class="pill p-lib">MarkItDown</span></td></tr>
+      <tr><td>Todos (Claude Code)</td><td class="stack">mods propios</td><td><span class="pill p-ok">uso-y-contexto</span><span class="pill p-ok">claves-api</span><span class="pill p-ok">selector-modelo</span><span class="pill p-ok">mejora-prompt</span><span class="pill p-ok">aprendiz</span></td></tr>
     </tbody>
   </table>
   </div>
+  <p class="have"><b>Ya instalado:</b> <span>Agent Skills (28: TDD, especificación, rendimiento, seguridad…), find-skills, unslop, socratic-tutor, ponytail, enrutador, skill-creator, Codebase Memory, Context7, navegador integrado, Claude en Chrome.</span></p>
 </section>
 
 <section>
   <h2>Instalar como skill</h2>
-  <div class="cards">
-    <article class="card">
-      <div class="top"><h3>security-audit</h3><span class="pill p-ok">Instalada 14/11</span></div>
-      <span class="meta">cloudflare/security-audit-skill · 72 k★ · MIT</span>
-      <p>Auditoría por fases: unos agentes buscan fallos y otros los verifican para descartar falsas alarmas. Ejecuta el código de la app solo en un entorno aislado y nunca contra servicios reales. Sus scripts solo validan JSON.</p>
-      <p class="fit"><b>Para:</b> COMBOLAB-WEB y AETERNA-PRO antes de publicar, el puente Alexa de HOME-HUB y REA. Gasta bastante: úsala antes de publicar y pásala 2-3 veces.</p>
-    </article>
-    <article class="card">
-      <div class="top"><h3>webapp-testing</h3><span class="pill p-ok">Instalada 14/11</span></div>
-      <span class="meta">anthropics/skills · oficial de Anthropic</span>
+  <div class="list">
+    <details><summary><b>security-audit</b><span class="pill p-ok">Instalada 14/11</span><span class="one">Auditoría de seguridad por fases antes de publicar.</span></summary>
+      <div class="det"><span class="meta">cloudflare/security-audit-skill · 72 k★ · MIT</span>
+      <p>Unos agentes buscan fallos y otros los verifican para descartar falsas alarmas. Ejecuta el código de la app solo en un entorno aislado y nunca contra servicios reales. Sus scripts solo validan JSON.</p>
+      <p><b>Para:</b> COMBOLAB-WEB y AETERNA-PRO antes de publicar, el puente Alexa de HOME-HUB y REA. Gasta bastante: úsala antes de publicar y pásala 2-3 veces.</p></div></details>
+    <details><summary><b>webapp-testing</b><span class="pill p-ok">Instalada 14/11</span><span class="one">Pruebas repetibles de apps web con Playwright.</span></summary>
+      <div class="det"><span class="meta">anthropics/skills · oficial de Anthropic</span>
       <p>Scripts de Playwright en Python que arrancan el servidor, abren la app, pulsan botones, hacen capturas y leen la consola.</p>
-      <p class="fit"><b>Para:</b> tus reglas exigen probar las apps con interfaz de verdad. Con esto esas pruebas quedan como scripts repetibles en COMBOLAB-WEB y AETERNA-PRO, en vez de repetirse a mano.</p>
-    </article>
-    <article class="card">
-      <div class="top"><h3>Impeccable</h3><span class="pill p-ok">Instalada 14/11 (sin scripts)</span></div>
-      <span class="meta">pbakaus/impeccable · 110 k★ · Apache-2.0</span>
-      <p>Órdenes de diseño para pulir, revisar y dar carácter a una interfaz. Complementa a unslop: unslop limpia lo genérico, Impeccable da vocabulario para decidir.</p>
+      <p><b>Para:</b> tus reglas exigen probar las apps con interfaz de verdad. Con esto esas pruebas quedan como scripts repetibles en COMBOLAB-WEB y AETERNA-PRO, en vez de repetirse a mano.</p></div></details>
+    <details><summary><b>Impeccable</b><span class="pill p-ok">Instalada 14/11 (sin scripts)</span><span class="one">Órdenes de diseño para pulir y revisar interfaces.</span></summary>
+      <div class="det"><span class="meta">pbakaus/impeccable · 110 k★ · Apache-2.0</span>
+      <p>Complementa a unslop: unslop limpia lo genérico, Impeccable da vocabulario para decidir.</p>
       <p>Instalada sin <code>scripts/</code>: su lanzador descarga y ejecuta un binario precompilado de GitHub. La skill funciona igual en su modo sin lanzador, leyendo PRODUCT.md y DESIGN.md directamente.</p>
-      <p class="fit"><b>Para:</b> COMBOLAB-WEB, que se diseña desde cero. Alternativas parecidas: UI/UX Pro Max (149 k★) y Taste Skill (115 k★); con una basta.</p>
-    </article>
-    <article class="card">
-      <div class="top"><h3>Validación de modelos</h3><span class="pill p-ok">Creada 14/11</span></div>
-      <span class="meta">skill propia · no viene de las transcripciones</span>
-      <p>Ninguna transcripción trata algoritmos matemáticos. Para ComboLab propongo una skill propia: backtesting sin fuga de datos, calibración (Brier, log-loss, curva de fiabilidad), tamaño de muestra y comparación con la cuota del mercado.</p>
-      <p class="fit"><b>Para:</b> comprobar que las probabilidades que da ComboLab aciertan lo que dicen, no solo que el código funciona.</p>
-      <p class="fit"><b>Primera pasada con los 410 casos reales</b> (123 fuera de muestra, desde el 01/11): el modelo gana a la tasa base con un margen demostrado (BSS 0,14; IC de la diferencia de Brier entero por debajo de 0) y está calibrado en conjunto. El corte del 47 % acierta el 76 % fuera de muestra (n = 21, IC 55–89 %). Pero en Serie A, Champions y Premier apenas mejora a la tasa base, y para demostrar que una combinada al 46 % supera la cuota de 2,30 harían falta unas 1.700 combinadas liquidadas. Falta la cuota de cada selección para medir frente al mercado.</p>
-    </article>
+      <p><b>Para:</b> COMBOLAB-WEB, que se diseña desde cero. Alternativas parecidas: UI/UX Pro Max (149 k★) y Taste Skill (115 k★); con una basta.</p></div></details>
+    <details><summary><b>Claude Security</b><span class="pill p-ok">Recomendada · sin instalar</span><span class="one">Plugin oficial de Anthropic: auditoría de seguridad con agentes y parches.</span></summary>
+      <div class="det"><span class="meta">anthropics/claude-plugins-official · 47 k★ · Apache-2.0 · fuente del 15/11</span>
+      <p>Mapea la arquitectura, hace un modelo de amenazas, busca fallos por componente y verifica cada hallazgo antes del informe; también propone parches. Tres modos: todo el repositorio, solo los cambios de una rama o sugerir parches. Corre en tu sesión con tus permisos (sin aislamiento propio), así que solo para código tuyo. Recomiendan Opus 5.5 o Fable 5.1; gasta bastante.</p>
+      <p><b>Para:</b> AETERNA-PRO (pública) y COMBOLAB-WEB antes de publicar. Se solapa con security-audit: usar una de las dos, no ambas. Lleva hooks y scripts en Python: revisarlos antes de instalar.</p></div></details>
+    <details><summary><b>Validación de modelos</b><span class="pill p-ok">Creada 14/11</span><span class="one">Comprueba si las probabilidades de ComboLab aciertan lo que dicen.</span></summary>
+      <div class="det"><span class="meta">skill propia · no viene de las fuentes</span>
+      <p>Ninguna fuente trata algoritmos matemáticos. Skill propia: backtesting sin fuga de datos, calibración (Brier, log-loss, curva de fiabilidad), tamaño de muestra y comparación con la cuota del mercado.</p>
+      <p><b>Primera pasada con los 410 casos reales</b> (123 fuera de muestra, desde el 01/11): el modelo gana a la tasa base con un margen demostrado (BSS 0,14; IC de la diferencia de Brier entero por debajo de 0) y está calibrado en conjunto. El corte del 47 % acierta el 76 % fuera de muestra (n = 21, IC 55–89 %). Pero en Serie A, Champions y Premier apenas mejora a la tasa base, y para demostrar que una combinada al 46 % supera la cuota de 2,30 harían falta unas 1.700 combinadas liquidadas. Falta la cuota de cada selección para medir frente al mercado.</p></div></details>
   </div>
 </section>
 
 <section>
   <h2>Usar dentro de un proyecto</h2>
-  <div class="cards">
-    <article class="card">
-      <div class="top"><h3>Scrapling</h3><span class="pill p-lib">Librería</span></div>
-      <span class="meta">D4Vinci/Scrapling · 103 k★ · BSD-3</span>
+  <div class="list">
+    <details><summary><b>Scrapling</b><span class="pill p-lib">Librería</span><span class="one">Extracción web que aguanta cambios de la página.</span></summary>
+      <div class="det"><span class="meta">D4Vinci/Scrapling · 103 k★ · BSD-3</span>
       <p>Extracción web en Python con selectores que se adaptan cuando la página cambia.</p>
-      <p class="fit"><b>Para:</b> ComboLab (FotMob, Winamax) y el radar de AURIN, si las webs cambian y rompen los selectores. Respeta las condiciones de uso de cada web.</p>
-    </article>
-    <article class="card">
-      <div class="top"><h3>MarkItDown</h3><span class="pill p-lib">Herramienta</span></div>
-      <span class="meta">microsoft/markitdown · 195 k★ · MIT</span>
-      <p>Convierte Excel, PDF, Word y PowerPoint a Markdown que cualquier IA lee bien.</p>
-      <p class="fit"><b>Para:</b> que Gemini y ChatGPT lean el Excel de apuestas de ComboLab, o PDF largos junto con la skill enrutador.</p>
-    </article>
-    <article class="card">
-      <div class="top"><h3>VoiceStudio</h3><span class="pill p-lib">Librería</span></div>
-      <span class="meta">debpalash/VoiceStudio · 110 k★ · AGPL-3.0</span>
-      <p>Alternativa local a ElevenLabs: clonación y síntesis de voz en tu PC.</p>
-      <p class="fit"><b>Para:</b> NORA, NORA-MARK y el Jarvis de HOME-HUB sin depender de APIs de pago. AGPL: sin problema para uso privado; no la distribuyas en un programa cerrado.</p>
-    </article>
-    <article class="card">
-      <div class="top"><h3>OpenWhispr</h3><span class="pill p-lib">Herramienta</span></div>
-      <span class="meta">OpenWhispr/openwhispr · 12 k★ · MIT</span>
-      <p>Dictado por voz en cualquier aplicación, con Whisper en tu PC y sin internet.</p>
-      <p class="fit"><b>Para:</b> dictarle a Claude con menos errores en nombres propios (ComboLab, skill) y como pieza de voz para NORA. Probar solo en local.</p>
-    </article>
-    <article class="card">
-      <div class="top"><h3>HyperFrames</h3><span class="pill p-lib">Herramienta</span></div>
-      <span class="meta">heygen-com/hyperframes · 84 k★ · Apache-2.0</span>
-      <p>Escribe HTML y lo convierte en vídeo; pensado para que lo maneje un agente.</p>
-      <p class="fit"><b>Para:</b> GTA-VI-Short. Mejor que Remotion, cuya licencia tiene condiciones para empresas.</p>
-    </article>
+      <p><b>Para:</b> ComboLab (FotMob, Winamax) y el radar de AURIN, si las webs cambian y rompen los selectores. Respeta las condiciones de uso de cada web.</p></div></details>
+    <details><summary><b>MarkItDown</b><span class="pill p-lib">Herramienta</span><span class="one">Excel, PDF, Word y PowerPoint a Markdown.</span></summary>
+      <div class="det"><span class="meta">microsoft/markitdown · 195 k★ · MIT</span>
+      <p>Convierte esos formatos a Markdown que cualquier IA lee bien.</p>
+      <p><b>Para:</b> que Gemini y ChatGPT lean el Excel de apuestas de ComboLab, o PDF largos junto con la skill enrutador.</p></div></details>
+    <details><summary><b>VoiceStudio</b><span class="pill p-lib">Librería</span><span class="one">Voz local, alternativa a ElevenLabs.</span></summary>
+      <div class="det"><span class="meta">debpalash/VoiceStudio · 110 k★ · AGPL-3.0</span>
+      <p>Clonación y síntesis de voz en tu PC.</p>
+      <p><b>Para:</b> NORA, NORA-MARK y el Jarvis de HOME-HUB sin depender de APIs de pago. AGPL: sin problema para uso privado; no la distribuyas en un programa cerrado.</p></div></details>
+    <details><summary><b>OpenWhispr</b><span class="pill p-lib">Herramienta</span><span class="one">Dictado por voz sin internet.</span></summary>
+      <div class="det"><span class="meta">OpenWhispr/openwhispr · 12 k★ · MIT</span>
+      <p>Dictado en cualquier aplicación, con Whisper en tu PC.</p>
+      <p><b>Para:</b> dictarle a Claude con menos errores en nombres propios (ComboLab, skill) y como pieza de voz para NORA. Probar solo en local.</p></div></details>
+    <details><summary><b>HyperFrames</b><span class="pill p-lib">Herramienta</span><span class="one">De HTML a vídeo, manejable por un agente.</span></summary>
+      <div class="det"><span class="meta">heygen-com/hyperframes · 84 k★ · Apache-2.0</span>
+      <p><b>Para:</b> GTA-VI-Short. Mejor que Remotion, cuya licencia tiene condiciones para empresas.</p></div></details>
   </div>
 </section>
 
 <section>
   <h2>Opcionales</h2>
-  <div class="cards">
-    <article class="card"><div class="top"><h3>React Doctor</h3><span class="pill p-opt">Si usas React</span></div><span class="meta">millionco/react-doctor · 15 k★</span><p class="fit">Solo si COMBOLAB-WEB se hace con React. Revisa su licencia antes, figura sin declarar.</p></article>
-    <article class="card"><div class="top"><h3>MCP Builder</h3><span class="pill p-opt">Si lo necesitas</span></div><span class="meta">anthropics/skills · oficial</span><p class="fit">Para exponer ComboLab o HOME-HUB como herramienta que las tres IAs puedan usar directamente.</p></article>
-    <article class="card"><div class="top"><h3>Understand-Anything</h3><span class="pill p-opt">Opcional</span></div><span class="meta">Egonex-AI/Understand-Anything · 93 k★ · MIT</span><p class="fit">Mapa interactivo para entender código heredado (NORA viene de Wyzer, REA de morluto). Se solapa con Codebase Memory.</p></article>
-    <article class="card"><div class="top"><h3>Diagram Design</h3><span class="pill p-opt">Opcional</span></div><span class="meta">cathrynlavery/diagram-design · 67 k★ · MIT</span><p class="fit">Diagramas de arquitectura claros para la documentación que leen las tres IAs.</p></article>
-    <article class="card"><div class="top"><h3>browser-use</h3><span class="pill p-opt">Opcional</span></div><span class="meta">browser-use/browser-use · 121 k★ · MIT</span><p class="fit">Agente que navega webs. Solo para AURIN si una tienda exige interacción compleja; empuja hacia su servicio de pago.</p></article>
-    <article class="card"><div class="top"><h3>SkillSpector</h3><span class="pill p-opt">Opcional</span></div><span class="meta">NVIDIA/SkillSpector · 25 k★ · Apache-2.0</span><p class="fit">Analiza skills de terceros antes de instalarlas. Útil si vas a instalar muchas.</p></article>
+  <div class="list">
+    <details><summary><b>SkillUI</b><span class="pill p-opt">Opcional · pendiente de tu sí</span><span class="one">Saca colores, tipografías y espaciados de una web para usarlos de referencia.</span></summary>
+      <div class="det"><span class="meta">amaancoderx/npxskillui · 2,5 k★ · README dice MIT pero el repositorio no incluye archivo de licencia · fuente del 15/11</span>
+      <p>Análisis estático, sin IA ni claves. Se instala con npm (sin scripts de instalación; dependencias normales). Su «modo ultra» necesita Playwright. Uso privado sin problema; no copiar la marca de otra web en algo que publiques.</p>
+      <p><b>Para:</b> COMBOLAB-WEB o el rediseño de ComboLab tomando una web de referencia. Alternativa sin instalar nada: Claude puede leer el diseño de la web con el navegador integrado.</p></div></details>
+    <details><summary><b>prompt-audit</b><span class="pill p-opt">Ya disponible</span><span class="one"><code>/claude-api prompt-audit</code> revisa CLAUDE.md, reglas y skills con la guía oficial.</span></summary>
+      <div class="det"><span class="meta">incluido en la skill claude-api · fuentes del 15/11</span>
+      <p>Genera un informe y un diff que apruebas antes de aplicarlo. Útil para REGLAS-AGENTES.md e índices: instrucciones antiguas pueden empeorar a los modelos nuevos. Gasta una pasada.</p></div></details>
+    <details><summary><b>/advisor fable</b><span class="pill p-opt">Experimental</span><span class="one">Fable revisa a Opus en momentos clave de una tarea.</span></summary>
+      <div class="det"><span class="meta">función de Claude Code · fuente del 15/11 · documentación oficial comprobada</span>
+      <p>Interviene antes de elegir enfoque, ante errores repetidos y antes de dar algo por terminado; lo decide Claude. Con suscripción cuenta para tu límite (Fable puede ir a créditos de uso y pedir un consentimiento). <code>/advisor off</code> lo quita.</p>
+      <p><b>Para:</b> la auditoría matemática de ComboLab, en vez de cambiar todo el chat a Fable.</p></div></details>
+    <details><summary><b>AnyDoc</b><span class="pill p-opt">Alternativa</span><span class="one">Como MarkItDown: Excel, Word, PDF… a Markdown.</span></summary>
+      <div class="det"><span class="meta">firecrawl/anydoc · 23,5 k★ · MIT · fuente del 15/11</span><p>Hecho en Rust. Con una de las dos basta para que otras IAs lean el Excel de ComboLab.</p></div></details>
+    <details><summary><b>React Doctor</b><span class="pill p-opt">Si usas React</span><span class="one">Solo si COMBOLAB-WEB se hace con React.</span></summary>
+      <div class="det"><span class="meta">millionco/react-doctor · 15 k★</span><p>Revisa su licencia antes: figura sin declarar.</p></div></details>
+    <details><summary><b>MCP Builder</b><span class="pill p-opt">Si lo necesitas</span><span class="one">Exponer ComboLab o HOME-HUB como herramienta para las tres IAs.</span></summary>
+      <div class="det"><span class="meta">anthropics/skills · oficial</span><p>Para que las tres IAs puedan usarlos directamente.</p></div></details>
+    <details><summary><b>Understand-Anything</b><span class="pill p-opt">Opcional</span><span class="one">Mapa interactivo para entender código heredado.</span></summary>
+      <div class="det"><span class="meta">Egonex-AI/Understand-Anything · 93 k★ · MIT</span><p>NORA viene de Wyzer y REA de morluto. Se solapa con Codebase Memory.</p></div></details>
+    <details><summary><b>Diagram Design</b><span class="pill p-opt">Opcional</span><span class="one">Diagramas de arquitectura para la documentación.</span></summary>
+      <div class="det"><span class="meta">cathrynlavery/diagram-design · 67 k★ · MIT</span><p>Diagramas claros para la documentación que leen las tres IAs.</p></div></details>
+    <details><summary><b>browser-use</b><span class="pill p-opt">Opcional</span><span class="one">Agente que navega webs; solo para AURIN si hace falta.</span></summary>
+      <div class="det"><span class="meta">browser-use/browser-use · 121 k★ · MIT</span><p>Solo si una tienda exige interacción compleja; empuja hacia su servicio de pago.</p></div></details>
+    <details><summary><b>SkillSpector</b><span class="pill p-opt">Opcional</span><span class="one">Analiza skills de terceros antes de instalarlas.</span></summary>
+      <div class="det"><span class="meta">NVIDIA/SkillSpector · 25 k★ · Apache-2.0</span><p>Útil si vas a instalar muchas.</p></div></details>
   </div>
 </section>
 
 <section>
-  <h2>Crear nuestras (vídeos del 14/11)</h2>
-  <div class="cards">
-    <article class="card">
-      <div class="top"><h3>Mod de claves API</h3><span class="pill p-ok">Creado 15/11</span></div>
-      <span class="meta">mod propio · idea del podcast «Más allá del prompt»</span>
-      <p>Un panel donde pegas la clave; se guarda en el <code>.env</code> del proyecto sin pasar por el chat ni quedar en el historial. Comprueba que <code>.env</code> está en <code>.gitignore</code> y nunca muestra la clave.</p>
-      <p class="fit"><b>Para:</b> ComboLab (clave de Gemini), AETERNA-PRO, NORA y HOME-HUB. Cumple tu regla de no tocar secretos.</p>
-      <p class="fit"><b>Estado:</b> mod <code>claves-api</code> con <code>/clave NOMBRE</code> y la herramienta <code>pedir_clave_api</code> para Claude. Vacía el campo en cuanto pegas, se niega si el <code>.env</code> ya está en Git y bloquea que Claude lea los <code>.env</code>. 8 pruebas OK y validado por el motor; falta probarlo de verdad en la app.</p>
-    </article>
-    <article class="card">
-      <div class="top"><h3>Mejora del sistema</h3><span class="pill p-ok">Propuesta</span></div>
-      <span class="meta">skill propia · inspirada en «Improve System»</span>
-      <p>Lee en local el historial de conversaciones (<code>~/.claude/projects/*.jsonl</code>) y propone: correcciones que repites → reglas o memoria; tareas que repites → skills o scripts.</p>
-      <p class="fit"><b>Para:</b> todos los proyectos. Ningún dato sale del PC; las propuestas se aplican solo si las apruebas.</p>
-    </article>
-    <article class="card">
-      <div class="top"><h3>Barra de estado y aviso de riesgo</h3><span class="pill p-ok">Propuesta</span></div>
-      <span class="meta">equivale a Usage Meter, Token Weather y Blast Radius</span>
-      <p>Barra con % de contexto y modelo, y un aviso antes de comandos destructivos (<code>reset --hard</code>, <code>clean</code>, borrados masivos, <code>push --force</code>) que enseña qué afectaría.</p>
-      <p class="fit"><b>Para:</b> todos los proyectos. Los 8 mods del vídeo no están publicados y un mod de origen desconocido corre con tus permisos: mejor hacer los nuestros.</p>
-    </article>
+  <h2>Hechas por nosotros</h2>
+  <div class="list">
+    <details><summary><b>Mod de claves API</b><span class="pill p-ok">Activo en todos los chats</span><span class="one">Pegas la clave en un panel y va al <code>.env</code> sin pasar por el chat.</span></summary>
+      <div class="det"><span class="meta">mod propio · idea del podcast «Más allá del prompt»</span>
+      <p>Comprueba que <code>.env</code> está en <code>.gitignore</code> y nunca muestra la clave. <code>/clave NOMBRE</code> y la herramienta <code>pedir_clave_api</code> para Claude. Vacía el campo en cuanto pegas, se niega si el <code>.env</code> ya está en Git y bloquea que Claude lea los <code>.env</code>. 8 pruebas OK.</p>
+      <p><b>Para:</b> ComboLab (clave de Gemini), AETERNA-PRO, NORA y HOME-HUB. Cumple tu regla de no tocar secretos.</p></div></details>
+    <details><summary><b>uso-y-contexto</b><span class="pill p-ok">Activo en todos los chats</span><span class="one">Barra con % de sesión, semana y contexto, en verde, amarillo o rojo.</span></summary>
+      <div class="det"><span class="meta">mod propio · idea del vídeo de los 6 mods (@avidoos)</span>
+      <p>Solo el número va en color. Avisa al 90 % de uso y al 60 % de contexto. Se actualiza con cada respuesta de esa conversación («leído HH:MM»). No gasta uso. Hay un archivo para compartirlo en <code>F:\Github\Compartir</code>.</p></div></details>
+    <details><summary><b>selector-modelo</b><span class="pill p-ok">Activo en todos los chats</span><span class="one">Avisa si para tu mensaje basta Haiku o Sonnet, o hace falta Fable.</span></summary>
+      <div class="det"><p>Reglas fijas, sin llamar a ningún modelo. No cambia el modelo por ti ni repite el aviso.</p></div></details>
+    <details><summary><b>mejora-prompt</b><span class="pill p-ok">Activo en todos los chats</span><span class="one"><code>/mejora</code> ordena tu encargo gratis; <code>/mejora-ia</code> con Haiku.</span></summary>
+      <div class="det"><p>Deja en el cuadro Objetivo, Contexto, No tocar y Hecho cuando para que lo revises. Haiku solo gasta cuando usas <code>/mejora-ia</code>.</p></div></details>
+    <details><summary><b>aprendiz</b><span class="pill p-ok">Activo en todos los chats</span><span class="one"><code>/aprende</code> explica en un panel lo último que hizo Claude.</span></summary>
+      <div class="det"><p>Microlección de 120 palabras con Haiku, solo al pedirla; <code>/aprende &lt;tema&gt;</code> para un tema concreto. Entre medias solo anota herramientas, sin gastar.</p></div></details>
+    <details><summary><b>Mejora del sistema</b><span class="pill p-opt">Propuesta</span><span class="one">Revisa el historial y propone reglas o skills.</span></summary>
+      <div class="det"><span class="meta">skill propia · inspirada en «Improve System»</span>
+      <p>Lee en local el historial de conversaciones (<code>~/.claude/projects/*.jsonl</code>) y propone: correcciones que repites → reglas o memoria; tareas que repites → skills o scripts. Ningún dato sale del PC; las propuestas se aplican solo si las apruebas.</p></div></details>
+    <details><summary><b>Aviso de riesgo</b><span class="pill p-opt">Propuesta</span><span class="one">Aviso antes de comandos destructivos.</span></summary>
+      <div class="det"><span class="meta">equivale a Blast Radius</span>
+      <p>Avisa antes de <code>reset --hard</code>, <code>clean</code>, borrados masivos o <code>push --force</code> y enseña qué afectaría. La parte de barra de estado ya la hace uso-y-contexto. Los mods del vídeo no están publicados y un mod de origen desconocido corre con tus permisos: mejor hacer los nuestros.</p></div></details>
   </div>
 </section>
 
 <section>
   <h2>Descartadas y por qué</h2>
-  <ul class="plain">
-    <li><b>MCP de Playwright, Firecrawl y Perplexity:</b> el navegador integrado, Claude en Chrome y la búsqueda web ya lo cubren; cada MCP extra carga herramientas en todas las sesiones y dos piden clave de pago.</li>
-    <li><b>Strix:</b> lanza ataques reales en Docker; security-audit cubre lo mismo con menos riesgo.</li>
-    <li><b>Free Claude Code, FreeLLMAPI, OmniRoute:</b> tu código y tus claves pasarían por terceros.</li>
-    <li><b>Graphify, Memanto, claude-mem:</b> duplican Codebase Memory o tu memoria en archivos.</li>
-    <li><b>Agent Reach, last30days, Humanizer, Stop Slop, Lemo Opuscar, CLI-Anything:</b> no encajan con ninguno de tus proyectos actuales.</li>
-    <li><b>Taste Skill, Screenshot to Code, Playwright CLI:</b> Impeccable, la lectura de capturas de Claude y webapp-testing ya cubren lo mismo. Awesome Design MD sirve solo como consulta para el DESIGN.md de COMBOLAB-WEB.</li>
-    <li><b>Los otros mods del vídeo «8 mods»</b> (Mission Control, Context Keeper, Reflect, Replay Theater, Next Steps): ya los tienes con la lista de tareas de la app, ESTADO_ACTUAL y «Guarda X», la memoria y el panel de cambios.</li>
-    <li><b>Vídeos del 15/11:</b> Grill Me, Find Skills y Skill Creator ya los tienes; Agent Browser lo cubre el navegador integrado; Superpowers, Matt Pocock y Karpathy duplican tus skills de desarrollo; Anti-Slop y claude-thermos tienen poco uso o se solapan con code-review y security-audit; Headroom y Hallmark no aparecen en GitHub.</li>
-    <li><b>/watch (vídeos de YouTube):</b> necesita una clave de Gemini; AETERNA ya transcribe vídeos.</li>
-  </ul>
+  <div class="list">
+    <details><summary><b>Ver las descartadas</b><span class="pill p-no">11 grupos</span><span class="one">MCP duplicados, proxies de terceros, mods que gastan uso…</span></summary>
+      <div class="det"><ul class="plain">
+        <li><b>MCP de Playwright, Firecrawl y Perplexity:</b> el navegador integrado, Claude en Chrome y la búsqueda web ya lo cubren; cada MCP extra carga herramientas en todas las sesiones y dos piden clave de pago.</li>
+        <li><b>Strix:</b> lanza ataques reales en Docker; security-audit cubre lo mismo con menos riesgo.</li>
+        <li><b>Free Claude Code, FreeLLMAPI, OmniRoute:</b> tu código y tus claves pasarían por terceros.</li>
+        <li><b>Graphify, Memanto, claude-mem:</b> duplican Codebase Memory o tu memoria en archivos.</li>
+        <li><b>Agent Reach, last30days, Humanizer, Stop Slop, Lemo Opuscar, CLI-Anything:</b> no encajan con ninguno de tus proyectos actuales.</li>
+        <li><b>Taste Skill, Screenshot to Code, Playwright CLI:</b> Impeccable, la lectura de capturas de Claude y webapp-testing ya cubren lo mismo. Awesome Design MD sirve solo como consulta para el DESIGN.md de COMBOLAB-WEB.</li>
+        <li><b>Los otros mods del vídeo «8 mods»</b> (Mission Control, Context Keeper, Reflect, Replay Theater, Next Steps): ya los tienes con la lista de tareas de la app, ESTADO_ACTUAL y «Guarda X», la memoria y el panel de cambios.</li>
+        <li><b>Vídeo de los 6 mods:</b> Mission Control lo cubre la barra lateral de la app; Prompt Enhancer y Aprendiz rehechos para gastar solo al pedirlos (mejora-prompt y aprendiz).</li>
+        <li><b>Fuentes del 15/11:</b> Grill Me, Find Skills y Skill Creator ya los tienes; Agent Browser lo cubre el navegador integrado; Superpowers, Matt Pocock y Karpathy duplican tus skills de desarrollo; Anti-Slop y claude-thermos tienen poco uso o se solapan con code-review y security-audit; Headroom y Hallmark no aparecen en GitHub.</li>
+        <li><b>Fuentes nuevas del 15/11:</b> agent-desktop (Vercel, 24 k★) duplica el control del ordenador que ya tienes; Composio conecta cientos de servicios pasando tus datos por un tercero; Ralph Loop repite la tarea en bucle y dispara el gasto; frontend-design se solapa con Impeccable y unslop; Supabase no lo usa ningún proyecto; FreeLLMAPI, Strix, claude-mem, Superpowers, Playwright MCP, Firecrawl y Context7 ya estaban evaluadas.</li>
+        <li><b>/watch (vídeos de YouTube):</b> necesita una clave de Gemini; AETERNA ya transcribe vídeos.</li>
+      </ul></div></details>
+  </div>
 </section>
 
 <section class="todo">
   <h2>Lo que depende de ti</h2>
   <ul class="plain">
-    <li>Hecho: las 3 skills están en <code>~/.claude/skills</code>, fijadas al commit revisado (ver <code>ORIGEN.txt</code> de cada una). Aparecen al abrir una sesión nueva.</li>
-    <li>webapp-testing necesita Playwright para Python, que no está instalado: <code>pip install playwright</code> y <code>python -m playwright install chromium</code> (descarga unos 150 MB). Se instala cuando la usemos por primera vez, con tu permiso.</li>
-    <li>Hecho: skill <code>validacion-modelos</code> creada en Claude Code y copiada a Codex. Se activa sola al tocar un modelo o un umbral, o con <code>/validacion-modelos</code>.</li>
-    <li>Decir cuáles de las tres piezas nuevas creo: mod de claves API, skill de mejora del sistema, barra de estado y aviso de riesgo.</li>
+    <li>Reinicia la app cuando no haya chats trabajando: así los 5 mods se cargan en todas las conversaciones.</li>
+    <li>webapp-testing necesita Playwright para Python, que no está instalado: <code>pip install playwright</code> y <code>python -m playwright install chromium</code> (unos 150 MB). Se instala la primera vez que la usemos, con tu permiso.</li>
+    <li>Decide si hago las dos propuestas: mejora del sistema y aviso de riesgo.</li>
     <li>Las librerías (Scrapling, MarkItDown, VoiceStudio, HyperFrames) se añaden cuando trabajemos en cada proyecto, no ahora.</li>
   </ul>
+  <p class="sub">Hecho: las 3 skills están en <code>~/.claude/skills</code>, fijadas al commit revisado (ver <code>ORIGEN.txt</code> de cada una); <code>validacion-modelos</code> está en Claude Code y Codex, y se activa sola al tocar un modelo o un umbral, o con <code>/validacion-modelos</code>.</p>
 </section>
 </div>
