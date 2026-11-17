@@ -1,10 +1,16 @@
 {
   "id": "20261117-101219-38935z",
   "url": "https://vm.tiktok.com/ZN8aLqJVa/",
-  "status": "pendiente",
+  "status": "hecho",
   "createdAt": "2026-11-17T09:12:21.292Z",
-  "updatedAt": "2026-11-17T09:12:21.292Z",
-  "attempts": 0,
+  "updatedAt": "2026-11-17T09:12:44.053Z",
+  "attempts": 1,
   "error": null,
-  "result": null
+  "result": {
+    "path": "Skills y Claude Code/2026-11-17 · 15 Combinaciones de Claude Code para potenciar tu equipo tecnológico.md",
+    "url": "https://github.com/GUSL1GHT/AETERNA-TRANSCRIPTS/blob/main/Skills%20y%20Claude%20Code/2026-11-17%20%C2%B7%2015%20Combinaciones%20de%20Claude%20Code%20para%20potenciar%20tu%20equipo%20tecnol%C3%B3gico.md",
+    "title": "15 Combinaciones de Claude Code para potenciar tu equipo tecnológico",
+    "topic": "Skills y Claude Code",
+    "review": false
+  }
 }
