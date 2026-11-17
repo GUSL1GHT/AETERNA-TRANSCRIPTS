@@ -1,10 +1,16 @@
 {
   "id": "20261117-100433-leb3v2",
   "url": "https://vm.tiktok.com/ZN8aLqB5U/",
-  "status": "pendiente",
+  "status": "hecho",
   "createdAt": "2026-11-17T09:05:02.555Z",
-  "updatedAt": "2026-11-17T09:05:02.555Z",
-  "attempts": 0,
+  "updatedAt": "2026-11-17T09:06:11.541Z",
+  "attempts": 1,
   "error": null,
-  "result": null
+  "result": {
+    "path": "Skills y Claude Code/2026-11-17 · Configuración avanzada y gratuita de Claude Code en GitHub.md",
+    "url": "https://github.com/GUSL1GHT/AETERNA-TRANSCRIPTS/blob/main/Skills%20y%20Claude%20Code/2026-11-17%20%C2%B7%20Configuraci%C3%B3n%20avanzada%20y%20gratuita%20de%20Claude%20Code%20en%20GitHub.md",
+    "title": "Configuración avanzada y gratuita de Claude Code en GitHub",
+    "topic": "Skills y Claude Code",
+    "review": false
+  }
 }
