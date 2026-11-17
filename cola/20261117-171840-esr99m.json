@@ -1,10 +1,16 @@
 {
   "id": "20261117-171840-esr99m",
   "url": "https://vm.tiktok.com/ZN8ahLuyT/",
-  "status": "pendiente",
+  "status": "hecho",
   "createdAt": "2026-11-17T16:19:03.363Z",
-  "updatedAt": "2026-11-17T16:19:03.363Z",
-  "attempts": 0,
+  "updatedAt": "2026-11-17T16:19:56.907Z",
+  "attempts": 1,
   "error": null,
-  "result": null
+  "result": {
+    "path": "Skills y Claude Code/2026-11-17 · Automatiza tus flujos de trabajo con Claude Code y hooks.md",
+    "url": "https://github.com/GUSL1GHT/AETERNA-TRANSCRIPTS/blob/main/Skills%20y%20Claude%20Code/2026-11-17%20%C2%B7%20Automatiza%20tus%20flujos%20de%20trabajo%20con%20Claude%20Code%20y%20hooks.md",
+    "title": "Automatiza tus flujos de trabajo con Claude Code y hooks",
+    "topic": "Skills y Claude Code",
+    "review": false
+  }
 }
