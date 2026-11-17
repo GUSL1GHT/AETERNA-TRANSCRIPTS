@@ -1,10 +1,16 @@
 {
   "id": "20261117-101402-s3nkbm",
   "url": "https://vm.tiktok.com/ZN8aLn9Kp/",
-  "status": "pendiente",
+  "status": "hecho",
   "createdAt": "2026-11-17T09:14:04.132Z",
-  "updatedAt": "2026-11-17T09:14:04.132Z",
-  "attempts": 0,
+  "updatedAt": "2026-11-17T09:14:34.659Z",
+  "attempts": 1,
   "error": null,
-  "result": null
+  "result": {
+    "path": "Skills y Claude Code/2026-11-17 · Herramientas y habilidades para potenciar Claude Code.md",
+    "url": "https://github.com/GUSL1GHT/AETERNA-TRANSCRIPTS/blob/main/Skills%20y%20Claude%20Code/2026-11-17%20%C2%B7%20Herramientas%20y%20habilidades%20para%20potenciar%20Claude%20Code.md",
+    "title": "Herramientas y habilidades para potenciar Claude Code",
+    "topic": "Skills y Claude Code",
+    "review": false
+  }
 }
